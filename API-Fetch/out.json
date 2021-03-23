@@ -2,277 +2,15 @@
     "status": "OK",
     "data": [
         {
-            "id": "201000780",
+            "id": "186287285",
             "authors": [
-                "Bano, Aalia",
-                "Pera Rojas, Alejandra",
-                "Almoukayed, Ahmad",
-                "Clarke, Thomas H S",
-                "Kirmani, Sukaina",
-                "Davies, Kevin A",
-                "Kern, Florian"
+                "Martorano III, Robert Frank"
             ],
             "contributors": [],
-            "datePublished": "2019-03-25T00:00:00",
-            "description": "Immunosenescence is thought to contribute to the increase of autoimmune diseases in older people. Immunosenescence is often associated with the presence of an expanded population of CD4 T cells lacking expression of CD28 (CD28null). These highly cytotoxic CD4 T cells were isolated from disease-affected tissues in patients with rheumatoid arthritis, systemic lupus erythematosus, multiple sclerosis, or other chronic inflammatory diseases and their numbers appeared to be linked to disease severity. However, we recently demonstrated that the common herpes virus, cytomegalovirus (CMV), not ageing, is the major driver of this subset of cytotoxic T cells. In this review, we discuss how CMV might potentiate and exacerbate autoimmune disease through the expansion of CD28null CD4 T cells",
+            "datePublished": "2018-11-06T00:00:00",
+            "description": "The abundance of text data being produced in the modern age makes it\nincreasingly important to intuitively group, categorize, or classify text data\nby theme for efficient retrieval and search. Yet, the high dimensionality and\nimprecision of text data, or more generally language as a whole, prove to be\nchallenging when attempting to perform unsupervised document clustering. In\nthis thesis, we present two novel methods for improving unsupervised document\nclustering/classification by theme. The first is to improve document\nrepresentations. We look to exploit \"term neighborhoods\" and \"blur\" semantic\nweight across neighboring terms. These neighborhoods are located in the\nsemantic space afforded by \"word embeddings.\" The second method is for cluster\nrevision, based on what we deem as \"stochastic barcoding\", or \"S- Barcode\"\npatterns. Text data is inherently high dimensional, yet clustering typically\ntakes place in a low dimensional representation space. Our method utilizes\nlower dimension clustering results as initial cluster configurations, and\niteratively revises the configuration in the high dimensional space. We show\nwith experimental results how both of the two methods improve the quality of\ndocument clustering. While this thesis elaborates on the two new conceptual\ncontributions, a joint thesis by David Yan details the feature transformation\nand software architecture we developed for unsupervised document\nclassification",
             "identifiers": [
-                "oai:sro.sussex.ac.uk:82824",
-                "10.12688/f1000research.17119.1"
-            ],
-            "publisher": "'F1000 Research Ltd'",
-            "relations": [],
-            "repositories": [
-                {
-                    "id": "109",
-                    "openDoarId": 0,
-                    "name": "Sussex Research Online",
-                    "urlHomepage": null,
-                    "urlOaipmh": null,
-                    "uriJournals": null,
-                    "physicalName": "noname",
-                    "source": null,
-                    "software": null,
-                    "metadataFormat": null,
-                    "description": null,
-                    "journal": null,
-                    "roarId": 0,
-                    "baseId": 0,
-                    "pdfStatus": null,
-                    "nrUpdates": 0,
-                    "disabled": false,
-                    "lastUpdateTime": null,
-                    "repositoryLocation": null
-                }
-            ],
-            "repositoryDocument": {
-                "pdfStatus": 1,
-                "metadataAdded": 1559574373000,
-                "metadataUpdated": 1615988677000,
-                "depositedDate": 1553679832000
-            },
-            "subjects": [
-                "R",
-                "R1",
-                "R852"
-            ],
-            "title": "CD28null CD4 T-cell expansions in autoimmune disease suggest a link with cytomegalovirus infection",
-            "topics": [
-                "R",
-                "R1",
-                "R852"
-            ],
-            "types": [],
-            "year": 2019,
-            "fulltextIdentifier": "https://core.ac.uk/download/201000780.pdf",
-            "doi": "10.12688/f1000research.17119.1",
-            "oai": "oai:sro.sussex.ac.uk:82824",
-            "downloadUrl": "https://core.ac.uk/download/201000780.pdf"
-        },
-        {
-            "id": "154259244",
-            "authors": [
-                "M\u00fcnz, Christian",
-                "Chijioke, Obinna"
-            ],
-            "contributors": [],
-            "datePublished": "2017",
-            "description": "Natural killer (NK) cells are potent innate cytotoxic lymphocytes for the destruction of infected and transformed cells. Although they were originally considered to be ready-made assassins after their hematopoietic development, it has recently become clear that their activity is regulated by mechanisms such as repertoire composition, licensing, priming, and adaptive memory-like differentiation. Some of these mechanisms are influenced by infectious disease agents, including herpesviruses. In this review, we will compare expansion, stimulation, and effector functions of NK cell populations after infections with \u03b2- and \u03b3 1-herpesviruses because, though closely related, these pathogens seem to drive completely opposite NK cell responses. The discussed findings suggest that different NK cell subsets expand and perform protective functions during infectious diseases and might be used diagnostically to predict resistance to the causative pathogens as well as treat them by adoptive transfer of the respective populations",
-            "identifiers": [
-                "oai:www.zora.uzh.ch:147980",
-                "10.12688/f1000research.11197.1"
-            ],
-            "publisher": "Faculty of 1000 Ltd.",
-            "relations": [
-                "https://www.zora.uzh.ch/id/eprint/147980/"
-            ],
-            "repositories": [
-                {
-                    "id": "345",
-                    "openDoarId": 0,
-                    "name": "ZORA",
-                    "uri": null,
-                    "urlHomepage": null,
-                    "urlOaipmh": null,
-                    "uriJournals": null,
-                    "physicalName": "noname",
-                    "source": null,
-                    "software": null,
-                    "metadataFormat": null,
-                    "description": null,
-                    "journal": null,
-                    "roarId": 0,
-                    "baseId": 0,
-                    "pdfStatus": null,
-                    "nrUpdates": 0,
-                    "disabled": false,
-                    "lastUpdateTime": null,
-                    "repositoryLocation": null
-                }
-            ],
-            "repositoryDocument": {
-                "pdfStatus": 1,
-                "metadataAdded": 1523331059000,
-                "metadataUpdated": 1586250737000,
-                "depositedDate": 1519257600000
-            },
-            "subjects": [
-                "Journal Article",
-                "PeerReviewed"
-            ],
-            "title": "Natural killer cells in herpesvirus infections",
-            "topics": [
-                "Institute of Experimental Immunology",
-                "570 Life sciences; biology",
-                "610 Medicine & health"
-            ],
-            "types": [],
-            "year": 2017,
-            "fulltextIdentifier": "http://www.zora.uzh.ch/id/eprint/147980/1/Munz_and_Chijioke%2C_F1000Research_2017.pdf",
-            "doi": "10.12688/f1000research.11197.1",
-            "oai": "oai:www.zora.uzh.ch:147980",
-            "downloadUrl": "http://www.zora.uzh.ch/id/eprint/147980/1/Munz_and_Chijioke%2C_F1000Research_2017.pdf"
-        },
-        {
-            "id": "85124355",
-            "authors": [
-                "Kartini, Kartini",
-                "Piyaviriyakul, Suratsawadee",
-                "Thongpraditchote, Suchitra",
-                "Siripong, Pongpun",
-                "Vallisuta, Omboon"
-            ],
-            "contributors": [],
-            "datePublished": "2017-07-19T00:00:00",
-            "description": "Background: Plantago major has been reported to have anticancer and anti-inflammatory properties. However, its antiproliferative and anti-inflammatory mechanisms have not elucidated. Moreover, which plant parts are more suitable as starting materials has not been explored. Objectives: To investigate the antiproliferative activity of P. major\n\nMCF-7, MDA-MB-231, HeLaS3, A549, and KB cancer cell lines as well as their effects on inflammatory cytokines (tumor necrosis factor [TNF]-a, interleukin [IL]-1\u03b2, IL-6, an\n\n[IFN]-g) production by lipopolysaccharide (LPS)-stimulated THP-1 macrophages. Materials and Methods: The methanol and aqueous extracts of P. major from different plant its chemical compounds, i.e., ursolic acid (UA), oleanolic acid (OA), and aucubin were tested in this experiment. Results: Methanol and aqueous extracts of P. major\n\ngreatest antiproliferative activity. The methanol extracts of seeds also demonstrated the highest inhibition of TNF-a, IL-1\u03b2, IL-6, and IFN-g production. Interestingly, t\n\ncommonly discarded, exhibited comparable activities to those of leaves and petioles. Furthermore, UA exhibited stronger activities than OA and aucubin. Conclusions:\n\nbeing proposed as the main source for further development of anticancer and anti-inflammatory products, whereas the roots could be included in the preparation of\n\nproducts with respect to anti-inflammatory",
-            "identifiers": [
-                "oai:repository.ubaya.ac.id:30401",
-                null
-            ],
-            "publisher": "Wolters Kluwer - Medknow Publications and Media Pvt. Ltd, Mumbai, INDIA.",
-            "relations": [
-                "http://www.phcog.com/",
-                "http://repository.ubaya.ac.id/30401/"
-            ],
-            "repositories": [
-                {
-                    "id": "428",
-                    "openDoarId": 0,
-                    "name": "University of Surabaya Institutional Repository",
-                    "urlHomepage": null,
-                    "urlOaipmh": null,
-                    "uriJournals": null,
-                    "physicalName": "noname",
-                    "source": null,
-                    "software": null,
-                    "metadataFormat": null,
-                    "description": null,
-                    "journal": null,
-                    "roarId": 0,
-                    "baseId": 0,
-                    "pdfStatus": null,
-                    "nrUpdates": 0,
-                    "disabled": false,
-                    "lastUpdateTime": null,
-                    "repositoryLocation": null
-                }
-            ],
-            "repositoryDocument": {
-                "pdfStatus": 1,
-                "metadataAdded": 1503166653000,
-                "metadataUpdated": 1608336410000,
-                "depositedDate": 1500850800000
-            },
-            "subjects": [
-                "Article",
-                "PeerReviewed"
-            ],
-            "title": "Effects of Plantago major extracts and its chemical compounds on proliferation of cancer cells and cytokines\n\nproduction of lipopolysaccharide-activated THP-1 macrophages",
-            "topics": [
-                "RS Pharmacy and materia medica"
-            ],
-            "types": [],
-            "year": 2017,
-            "fulltextIdentifier": "https://core.ac.uk/download/85124355.pdf",
-            "oai": "oai:repository.ubaya.ac.id:30401",
-            "downloadUrl": "https://core.ac.uk/download/85124355.pdf"
-        },
-        {
-            "id": "153211941",
-            "authors": [
-                "Hanan, Nurul Akma"
-            ],
-            "contributors": [],
-            "datePublished": "2017-08-01T00:00:00",
-            "description": "Nanoteknologi menawarkan kegunaan yang meluas dalam pelbagai bidang seperti kejuruteraan, telekomunikasi, pengiklanan, tekstil, kosmetik, dan juga perubatan\n\n\n\nNanotechnology has undeniably offered a variety of applications, ranging from engineering, telecommunication, advertising, textile, cosmetics and even medicin",
-            "identifiers": [
-                "oai:generic.eprints.org:39245/core423",
-                null
-            ],
-            "relations": [
-                "http://eprints.usm.my/39245/"
-            ],
-            "repositories": [
-                {
-                    "id": "423",
-                    "openDoarId": 0,
-                    "name": "Repository@USM",
-                    "urlHomepage": null,
-                    "urlOaipmh": null,
-                    "uriJournals": null,
-                    "physicalName": "noname",
-                    "source": null,
-                    "software": null,
-                    "metadataFormat": null,
-                    "description": null,
-                    "journal": null,
-                    "roarId": 0,
-                    "baseId": 0,
-                    "pdfStatus": null,
-                    "nrUpdates": 0,
-                    "disabled": false,
-                    "lastUpdateTime": null,
-                    "repositoryLocation": null
-                }
-            ],
-            "repositoryDocument": {
-                "pdfStatus": 1,
-                "metadataAdded": 1521336212000,
-                "metadataUpdated": 1608338459000,
-                "depositedDate": 1526511600000
-            },
-            "subjects": [
-                "Thesis",
-                "NonPeerReviewed"
-            ],
-            "title": "A Systematic Review On Cytotoxicity Of Plant-Mediated Metallic Nanoparticles",
-            "topics": [
-                "RK1-715 Dentistry"
-            ],
-            "types": [],
-            "year": 2017,
-            "fulltextIdentifier": "https://core.ac.uk/download/153211941.pdf",
-            "oai": "oai:generic.eprints.org:39245/core423",
-            "downloadUrl": "https://core.ac.uk/download/153211941.pdf"
-        },
-        {
-            "id": "363910527",
-            "authors": [
-                "Ortega, Sterling B.",
-                "Pandiyan, Poornima",
-                "Windsor, Jana",
-                "Torres, Vanessa O.",
-                "Selvaraj, Uma M.",
-                "Lee, Amy",
-                "Morriss, Michael",
-                "Tian, Fenghua",
-                "Raman, Lakshmi",
-                "Stowe, Ann M."
-            ],
-            "contributors": [],
-            "datePublished": "2019-03-01T08:00:00",
-            "description": "OBJECTIVES: Extracorporeal membrane oxygenation provides short-term cardiopulmonary life support, but is associated with peripheral innate inflammation, disruptions in cerebral autoregulation, and acquired brain injury. We tested the hypothesis that extracorporeal membrane oxygenation also induces CNS-directed adaptive immune responses which may exacerbate extracorporeal membrane oxygenation-associated brain injury.\nDESIGN: A single center prospective observational study.\nSETTING: Pediatric and cardiac ICUs at a single tertiary care, academic center.\nPATIENTS: Twenty pediatric extracorporeal membrane oxygenation patients (0-14 yr; 13 females, 7 males) and five nonextracorporeal membrane oxygenation Pediatric Logistic Organ Dysfunction score matched patients.\nINTERVENTIONS: None.\nMEASUREMENTS AND MAIN RESULTS: Venous blood samples were collected from the extracorporeal membrane oxygenation circuit at day 1 (10-23\u2009hr), day 3, and day 7 of extracorporeal membrane oxygenation. Flow cytometry quantified circulating innate and adaptive immune cells, and CNS-directed autoreactivity was detected using an in vitro recall response assay. Disruption of cerebral autoregulation was determined using continuous bedside near-infrared spectroscopy and acquired brain injury confirmed by MRI. Extracorporeal membrane oxygenation patients with acquired brain injury (n = 9) presented with a 10-fold increase in interleukin-8 over extracorporeal membrane oxygenation patients without brain injury (p \\u3c 0.01). Furthermore, brain injury within extracorporeal membrane oxygenation patients potentiated an inflammatory phenotype in adaptive immune cells and selective autoreactivity to brain peptides in circulating B cell and cytotoxic T cell populations. Correlation analysis revealed a significant relationship between adaptive immune responses of extracorporeal membrane oxygenation patients with acquired brain injury and loss of cerebral autoregulation.\nCONCLUSIONS: We show that pediatric extracorporeal membrane oxygenation patients with acquired brain injury exhibit an induction of pro-inflammatory cell signaling, a robust activation of adaptive immune cells, and CNS-targeting adaptive immune responses. As these patients experience developmental delays for years after extracorporeal membrane oxygenation, it is critical to identify and characterize adaptive immune cell mechanisms that target the developing CNS",
-            "identifiers": [
-                "oai:uknowledge.uky.edu:neurology_facpub-1061",
+                "oai:arXiv.org:1811.02456",
                 null
             ],
             "language": {
@@ -280,13 +18,12 @@
                 "id": 9,
                 "name": "English"
             },
-            "publisher": "UKnowledge",
             "relations": [],
             "repositories": [
                 {
-                    "id": "3479",
+                    "id": "144",
                     "openDoarId": 0,
-                    "name": "University of Kentucky",
+                    "name": "arXiv.org e-Print Archive",
                     "urlHomepage": null,
                     "urlOaipmh": null,
                     "uriJournals": null,
@@ -307,90 +44,47 @@
             ],
             "repositoryDocument": {
                 "pdfStatus": 1,
-                "metadataAdded": 1608554461000,
-                "metadataUpdated": 1614392557000,
-                "depositedDate": 1606802558000
+                "metadataAdded": 1549435615000,
+                "metadataUpdated": 1608820892000,
+                "depositedDate": 1541548800000
             },
             "subjects": [
                 "text"
             ],
-            "title": "A Pilot Study Identifying Brain-Targeting Adaptive Immunity in Pediatric Extracorporeal Membrane Oxygenation Patients with Acquired Brain Injury",
+            "title": "Semantic Term \"Blurring\" and Stochastic \"Barcoding\" for Improved\n  Unsupervised Text Classification",
             "topics": [
-                "Adaptive Immunity",
-                "Adolescent",
-                "B-Lymphocytes",
-                "Brain",
-                "Brain Injuries",
-                "Case-Control Studies",
-                "Child",
-                "Child",
-                "Preschool",
-                "Drug Discovery",
-                "Extracorporeal Membrane Oxygenation",
-                "Female",
-                "Flow Cytometry",
-                "Humans",
-                "Infant",
-                "Infant",
-                "Newborn",
-                "Inflammation",
-                "Male",
-                "Organ Dysfunction Scores",
-                "Pilot Projects",
-                "T-Lymphocytes",
-                "Cytotoxic",
-                "autoreactivity",
-                "B cells",
-                "cerebral autoregulation",
-                "cytotoxic T cells",
-                "extracorporeal membrane oxygenation",
-                "helper T cells",
-                "Child, Preschool",
-                "Infant, Newborn",
-                "T-Lymphocytes, Cytotoxic",
-                "Biomedical Engineering and Bioengineering",
-                "Neurology",
-                "Pediatrics"
+                "Computer Science - Computation and Language",
+                "Computer Science - Machine Learning"
             ],
             "types": [],
-            "year": 2019,
-            "fulltextIdentifier": "https://core.ac.uk/download/363910527.pdf",
-            "oai": "oai:uknowledge.uky.edu:neurology_facpub-1061",
-            "downloadUrl": "https://core.ac.uk/download/363910527.pdf"
+            "year": 2018,
+            "fulltextIdentifier": "http://arxiv.org/abs/1811.02456",
+            "oai": "oai:arXiv.org:1811.02456",
+            "downloadUrl": "http://arxiv.org/abs/1811.02456"
         },
         {
-            "id": "161874969",
+            "id": "199241181",
             "authors": [
-                "Allison, S.J.",
-                "Cooke, D.",
-                "Davidson, F.S.",
-                "Elliott, P.I.P.",
-                "Faulkner, R.A.",
-                "Griffiths, H.B.S.",
-                "Harper, O.J.",
-                "Hussain, O.",
-                "Owen-Lynch, P.J.",
-                "Phillips, Roger M.",
-                "Rice, C.R.",
-                "Shepherd, S.L.",
-                "Wheelhouse, Richard T."
+                "Alghamdi, H. M.",
+                "Selamat, A."
             ],
             "contributors": [],
-            "datePublished": "2018-06-04T00:00:00",
-            "description": "YesThe ligands L1 and L2 both form separable dinuclear double\u2010stranded helicate and mesocate complexes with RuII. In contrast to clinically approved platinates, the helicate isomer of [Ru2(L1)2]4+ was preferentially cytotoxic to isogenic cells (HCT116 p53\u2212/\u2212), which lack the critical tumour suppressor gene. The mesocate isomer shows the reverse selectivity, with the achiral isomer being preferentially cytotoxic towards HCT116 p53+/+. Other structurally similar RuII\u2010containing dinuclear complexes showed very little cytotoxic activity. This study demonstrates that alterations in ligand or isomer can have profound effects on cytotoxicity towards cancer cells of different p53 status and suggests that selectivity can be \u201ctuned\u201d to either genotype. In the search for compounds that can target difficult\u2010to\u2010treat tumours that lack the p53 tumour suppressor gene, [Ru2(L1)2]4+ is a promising compound for further development",
+            "datePublished": "2017-01-01T00:00:00",
+            "description": "Clustering is the method employed to group Web pages containing related information into clusters, which facilitates the allocation of relevant information. Clustering performance is mostly dependent on the text features' characteristics. The Arabic language has a complex morphology and is highly inflected. Thus, selecting appropriate features affects clustering performance positively. Many studies have addressed the clustering problem in Web pages with Arabic content. There are three main challenges in applying text clustering to Arabic Web page content. The first challenge concerns difficulty with identifying significant term features to represent original content by considering the hidden knowledge. The second challenge is related to reducing data dimensionality without losing essential information. The third challenge regards how to design a suitable model for clustering Arabic text that is capable of improving clustering performance. This paper presents an overview of existing Arabic Web page clustering methods, with the goals of clarifying existing problems and examining feature selection and reduction techniques for solving clustering difficulties. In line with the objectives and scope of this study, the present research is a joint effort to improve feature selection and vectorization frameworks in order to enhance current text analysis techniques that can be applied to Arabic Web pages",
             "identifiers": [
-                "oai:bradscholars.brad.ac.uk:10454/16548",
-                "10.1002/anie.201805510"
+                "oai:generic.eprints.org:77231/core392",
+                "10.1016/j.jksuci.2017.06.002"
             ],
-            "publisher": "'Wiley'",
+            "publisher": "'Elsevier BV'",
             "relations": [
-                "https://doi.org/10.1002/anie.201805510"
+                "http://eprints.utm.my/id/eprint/77231/",
+                "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85021224854&doi=10.1016%2fj.jksuci.2017.06.002&partnerID=40&md5=8ef41df32ef52c5a8531f4017d77b52d"
             ],
             "repositories": [
                 {
-                    "id": "10",
+                    "id": "392",
                     "openDoarId": 0,
-                    "name": "Bradford Scholars",
+                    "name": "Universiti Teknologi Malaysia Institutional Repository",
                     "urlHomepage": null,
                     "urlOaipmh": null,
                     "uriJournals": null,
@@ -411,119 +105,49 @@
             ],
             "repositoryDocument": {
                 "pdfStatus": 1,
-                "metadataAdded": 1546429557000,
-                "metadataUpdated": 1613813660000,
-                "depositedDate": 1535017538000
+                "metadataAdded": 1557867217000,
+                "metadataUpdated": 1608333516000,
+                "depositedDate": 1527756806000
             },
             "subjects": [
                 "Article",
-                "Accepted Manuscript"
-            ],
-            "title": "Ruthenium-containing linear helicates and mesocates with tuneable p53 selective cytotoxicity in colorectal cancer cells",
-            "topics": [
-                "Cancer",
-                "Cytotoxicity",
-                "Helicate",
-                "Mesocate",
-                "Ruthenium"
-            ],
-            "types": [],
-            "year": 2018,
-            "fulltextIdentifier": "https://core.ac.uk/download/161874969.pdf",
-            "doi": "10.1002/anie.201805510",
-            "oai": "oai:bradscholars.brad.ac.uk:10454/16548",
-            "downloadUrl": "https://core.ac.uk/download/161874969.pdf"
-        },
-        {
-            "id": "159176612",
-            "authors": [
-                "Mutiah, Roihatul",
-                "Sukardiman, Sukardiman",
-                "Widyawaruyanti, Aty"
-            ],
-            "contributors": [],
-            "datePublished": "2018-06-01T00:00:00",
-            "description": "Objective: This study aims to isolate the active anticancer compound from ethyl acetate fraction extracted from the roots of Calotropis gigantea and to determine the operating mechanism of the isolates towards WiDr colon cancer cells. Methods: the isolation was conducted by using bioassay guided isolation approach method. The cytotoxic potential was determined by using MTT method. The chemical structure was identified by using UPLCMS/MS and NMR-1H spectroscopy. The cell cycle arrest and apoptosis induction were determined by flow cytometry method. The expression of caspase-8 was determined by immunocytochemistry method. Results: The results showed that the active compounds are obtained calotroposid A compound which is glycosides terpenoids. Calotroposide A is capable of inhibiting the growth of WiDr colon cancer cells at IC50 17.23\u03bcg/ml. Cell apoptosis induction took place and was indicated by cell apoptosis increase, S and G2/M accumulation and by caspase-8 expression. Conclusion: Calotroposide A induces anticancer activity against WiDr colon cancer cells by means of apoptosis induction mechanism through extrinsic pathway with increased expression of caspase-8",
-            "identifiers": [
-                "oai:repository.uin-malang.ac.id:3665",
-                "10.22034/APJCP.2018.19.6.1457"
-            ],
-            "publisher": "'International Dose-Response Society'",
-            "relations": [
-                "http://repository.uin-malang.ac.id/3665/",
-                "http://journal.waocp.org/article_63270.html"
-            ],
-            "repositories": [
-                {
-                    "id": "889",
-                    "openDoarId": 0,
-                    "name": "UIN Maliki Malang Repository",
-                    "urlHomepage": null,
-                    "urlOaipmh": null,
-                    "uriJournals": null,
-                    "physicalName": "noname",
-                    "source": null,
-                    "software": null,
-                    "metadataFormat": null,
-                    "description": null,
-                    "journal": null,
-                    "roarId": 0,
-                    "baseId": 0,
-                    "pdfStatus": null,
-                    "nrUpdates": 0,
-                    "disabled": false,
-                    "lastUpdateTime": null,
-                    "repositoryLocation": null
-                }
-            ],
-            "repositoryDocument": {
-                "pdfStatus": 1,
-                "metadataAdded": 1531042874000,
-                "metadataUpdated": 1608059352000,
-                "depositedDate": 1530140400000
-            },
-            "subjects": [
-                "Journal Article",
                 "PeerReviewed"
             ],
-            "title": "Calotroposid A: a Glycosides Terpenoids from Calotropis gigantea Induces Apoptosis of Colon Cancer WiDr Cells through Cell Cycle Arrest G2/M and Caspase 8 Expression",
+            "title": "Arabic web page clustering: a review",
             "topics": [
-                "111201 Cancer Cell Biology",
-                "111204 Cancer Therapy (excl. Chemotherapy and Radiation Therapy)",
-                "111502 Clinical Pharmacology and Therapeutics"
+                "QA75 Electronic computers. Computer science"
             ],
             "types": [],
-            "year": 2018,
-            "fulltextIdentifier": "https://core.ac.uk/download/159176612.pdf",
-            "doi": "10.22034/APJCP.2018.19.6.1457",
-            "oai": "oai:repository.uin-malang.ac.id:3665",
-            "downloadUrl": "https://core.ac.uk/download/159176612.pdf"
+            "year": 2017,
+            "fulltextIdentifier": "https://core.ac.uk/download/199241181.pdf",
+            "doi": "10.1016/j.jksuci.2017.06.002",
+            "oai": "oai:generic.eprints.org:77231/core392",
+            "downloadUrl": "https://core.ac.uk/download/199241181.pdf"
         },
         {
-            "id": "160494288",
+            "id": "162543708",
             "authors": [
-                "Chovanec, Michal",
-                "Taza, Fadi",
-                "Kalra, Maitri",
-                "Hah, Noah",
-                "Nephew, Kenneth P.",
-                "Spinella, Michael J.",
-                "Albany, Costantine"
+                "Luo, Xiao",
+                "Shah, Setu"
             ],
             "contributors": [
-                "Medicine, School of Medicine"
+                "Computer Information and Graphics Technology, School of Engineering and Technology"
             ],
-            "datePublished": "2018-02-01T00:00:00",
-            "description": "Inhibition of DNA methyltransferases (DNMTs) has emerged as a novel treatment strategy in solid tumors. Aberrant hypermethylation in promoters of critical tumor suppressor genes is the basis for the idea that treatment with hypomethylating agents may lead to the restoration of a \u201cnormal\u201d epigenome and produce clinically meaningful therapeutic outcomes. The aim of this review article is to summarize the current state of knowledge of DNMT inhibitors in the treatment of genitourinary malignancies. The efficacy of these agents in genitourinary malignancies was reported in a number of studies and suggests a role of induced DNA hypomethylation in overcoming resistance to conventional cytotoxic treatments. The clinical significance of these findings should be further investigated",
+            "datePublished": "2018-11-01T00:00:00",
+            "description": "Biomedical text clustering is a text mining technique used to provide better document search, browsing, and retrieval in biomedical and clinical text collections. In this research, the document representation based on the concept embedding along with the proposed weighting scheme is explored. The concept embedding is learned through the neural networks to capture the associations between the concepts. The proposed weighting scheme makes use of the concept associations to build document vectors for clustering. We evaluate two types of concept embedding and new weighting scheme for text clustering and visualization on two different biomedical text collections. The returned results demonstrate that the concept embedding along with the new weighting scheme performs better than the baseline tf\u2013idf for clustering and visualization. Based on the internal clustering evaluation metric-Davies\u2013Bouldin index and the visualization, the concept embedding generated from aggregated word embedding can form well-separated clusters, whereas the intact concept embedding can better identify more clusters of specific diseases and gain better F-measure",
             "identifiers": [
-                "oai:scholarworks.iupui.edu:1805/17100",
-                "10.1007/s11523-017-0546-x"
+                "oai:scholarworks.iupui.edu:1805/18062",
+                "10.1186/s40535-018-0055-8"
             ],
-            "language": {
-                "code": "en",
-                "id": 9,
-                "name": "English"
-            },
+            "journals": [
+                {
+                    "title": "Applied Informatics",
+                    "identifiers": [
+                        "2196-0089",
+                        "issn:2196-0089"
+                    ]
+                }
+            ],
             "publisher": "'Springer Science and Business Media LLC'",
             "relations": [],
             "repositories": [
@@ -551,135 +175,49 @@
             ],
             "repositoryDocument": {
                 "pdfStatus": 1,
-                "metadataAdded": 1534571049000,
-                "metadataUpdated": 1611509021000,
-                "depositedDate": 1533942000000
+                "metadataAdded": 1546898245000,
+                "metadataUpdated": 1611509029000,
+                "depositedDate": 1546499047000
             },
             "subjects": [
                 "Article"
             ],
-            "title": "Incorporating DNA Methyltransferase Inhibitors (DNMTis) in the Treatment of Genitourinary Malignancies: A Systematic Review",
+            "title": "Concept embedding-based weighting scheme for biomedical text clustering and visualization",
             "topics": [
-                "DNA methyltransferase inhibitors",
-                "genitourinary malignancies",
-                "DNMTis"
+                "Biomedical text clustering",
+                "Visualization",
+                "Concept embedding",
+                "Neural networks"
             ],
             "types": [],
             "year": 2018,
-            "fulltextIdentifier": "https://core.ac.uk/download/160494288.pdf",
-            "doi": "10.1007/s11523-017-0546-x",
-            "oai": "oai:scholarworks.iupui.edu:1805/17100",
-            "downloadUrl": "https://core.ac.uk/download/160494288.pdf"
+            "fulltextIdentifier": "https://core.ac.uk/download/162543708.pdf",
+            "doi": "10.1186/s40535-018-0055-8",
+            "oai": "oai:scholarworks.iupui.edu:1805/18062",
+            "downloadUrl": "https://core.ac.uk/download/162543708.pdf"
         },
         {
-            "id": "185703269",
+            "id": "229655940",
             "authors": [
-                "Clarke, Laura",
-                "Broadley, Simon",
-                "Nguyen, Thao",
-                "Johnston, Samantha",
-                "Eaton, Natalie",
-                "Staines, Donald",
-                "Marshall-Gradisnik, Sonya"
+                "Zandieh, Parisa",
+                "Shakibapoor, Elham"
             ],
             "contributors": [],
-            "datePublished": "2018",
-            "description": "Background: Natural killer (NK) cell phenotypes have reported to be implicated in the pathomechanism of Multiple Sclerosis (MS). Several investigators have observed reduced peripheral numbers, reduced cytotoxic activity, and altered CD56Dim and CD56Bright NK cell phenotypes. This current project, for the first time, investigates the NK cell cytotoxicity, calcium mobilisation and transient receptor potential melastatin 3 (TRPM3) surface expression. Methods: NK cell cytotoxic activity and calcium signaling were examined in CD56Dim and CD56Bright NK cells before and after stimulation using Ionomycin, Pregnenolone sulphate, 2-Aminoethoxydiphenyl borate and Thapsigargin. Purified NK cells were labelled with antibodies to determine TRPM3, CD69 and CD107a surface expression using flow cytometry. Results: Twenty-two MS patients and 22 healthy controls were recruited for this project. Twelve of the 22 previously received Alemtuzumab (Lemtrada\u00d2) and the remaining ten reported nil medication. We report TRPM3 was significantly increased in untreated MS patients compared with healthy controls and treated MS patients (p-value 0.034). There was a significant decrease in CD69 surface expression on CD56Dim NK cell phenotype for untreated MS patients (p-value 0.031) and treated MS patients (p-value 0.036). We report altered calcium mobilisation in CD56Bright NK cells and to a lesser extent CD56Dim NK cells between healthy controls, treated and untreated MS patients. Conclusion: This investigation suggests variations in TRPM3 expression and calcium mobilisation of NK cells may be implicated in the pathogenesis of MS. Further investigation is required to determine the mechanism by which alemtuzumab alters calcium signaling in NK cells.Griffith Health, School of Medical ScienceFull Tex",
+            "datePublished": "2017-08-27T00:00:00",
+            "description": "Clustering is one of the most important data mining techniques which categorize a large number of unordered text documents into meaningful and coherent clusters. Most of text clustering algorithms do not consider the semantic relationships between words and do not have the ability to recognize and use the semantic concepts.In this paper, a new algorithm has been presented to cluster texts based on meanings of the words. First, a new method has been presented to find semantic relationship between words based on Wordnet ontology then, text data is clustered using the proposed method and hierarchical clustering algorithm. Documents are preprocessed, converted to vector space model, and then are clustered using the proposed algorithm semantically. The experimental results show that the quality and accuracy of the proposed algorithm are more reliable than the existing hierarchical clustering algorithms",
             "identifiers": [
-                "oai:research-repository.griffith.edu.au:10072/382204",
-                "10.4236/ijcm.2018.97047"
-            ],
-            "journals": [
-                {
-                    "title": null,
-                    "identifiers": [
-                        "2158-284x",
-                        "issn:2158-284X"
-                    ]
-                }
-            ],
-            "publisher": "Scientific Research Publishing",
-            "relations": [],
-            "repositories": [
-                {
-                    "id": "4083",
-                    "openDoarId": 0,
-                    "name": "Griffith Research Online",
-                    "uri": null,
-                    "urlHomepage": null,
-                    "urlOaipmh": null,
-                    "uriJournals": null,
-                    "physicalName": "noname",
-                    "source": null,
-                    "software": null,
-                    "metadataFormat": null,
-                    "description": null,
-                    "journal": null,
-                    "roarId": 0,
-                    "pdfStatus": null,
-                    "nrUpdates": 0,
-                    "disabled": false,
-                    "lastUpdateTime": null,
-                    "repositoryLocation": null
-                }
-            ],
-            "repositoryDocument": {
-                "pdfStatus": 1,
-                "metadataAdded": 1549256466000,
-                "metadataUpdated": 1562995288000,
-                "depositedDate": 1548932454000
-            },
-            "subjects": [
-                "Journal article"
-            ],
-            "title": "Transient Receptor Potential Melastatin 3 and Intracellular Calcium in Natural Killer Cells in Multiple Sclerosis",
-            "topics": [
-                "Cellular Immunology",
-                "Immunology not elsewhere classified",
-                "Medical and Health Sciences not elsewhere classified"
-            ],
-            "types": [],
-            "year": 2018,
-            "fulltextIdentifier": "https://core.ac.uk/download/pdf/185703269.pdf",
-            "doi": "10.4236/ijcm.2018.97047",
-            "oai": "oai:research-repository.griffith.edu.au:10072/382204",
-            "downloadUrl": "https://core.ac.uk/download/pdf/185703269.pdf"
-        },
-        {
-            "id": "200974362",
-            "authors": [
-                "Fisch, Katja M.",
-                "Hertzer, Cora",
-                "B\u00f6hringer, Nils",
-                "Wuisan, Zerlina G.",
-                "Schillo, Dorothee",
-                "Bara, Robert",
-                "Kaligis, Fontje",
-                "W\u00e4gele, Heike",
-                "K\u00f6nig, Gabriele M.",
-                "Sch\u00e4berle, Till F."
-            ],
-            "contributors": [
-                "Institute for Insect Biotechnology"
-            ],
-            "datePublished": "2017-01-01T00:00:00",
-            "description": "The species diversity of marine heterobranch sea slugs found on field trips around Bunaken Island (North Sulawesi, Indonesia) and adjacent islands of the Bunaken National Marine Park forms the basis of this review. In a survey performed in 2015, 80 species from 23 families were collected, including 17 new species. Only three of these have been investigated previously in studies from Indonesia. Combining species diversity with a former study from 2003 reveals in total 140 species from this locality. The diversity of bioactive compounds known and yet to be discovered from these organisms is summarized and related to the producer if known or suspected (might it be down the food chain, de novo synthesised from the slug or an associated bacterium). Additionally, the collection of microorganisms for the discovery of natural products of pharmacological interest from this hotspot of biodiversity that is presented here contains more than 50 species that have never been investigated before in regard to bioactive secondary metabolites. This highlights the great potential of the sea slugs and the associated microorganisms for the discovery of natural products of pharmacological interest from this hotspot of biodiversity",
-            "identifiers": [
-                "oai:geb.uni-giessen.de:14656",
+                "oai:ojs.ijcjournal.org:article/1032",
                 null
             ],
-            "language": {
-                "code": "en",
-                "id": 9,
-                "name": "English"
-            },
-            "publisher": "FB 09 - Agrarwissenschaften, \u00d6kotrophologie und Umweltmanagement. Agrarwissenschaften und Umweltmanagement",
-            "relations": [],
+            "publisher": "International Scientific Research and Researchers Association (ISRRA)",
+            "relations": [
+                "https://ijcjournal.org/index.php/InternationalJournalOfComputer/article/view/1032/458"
+            ],
             "repositories": [
                 {
-                    "id": "1494",
+                    "id": "13268",
                     "openDoarId": 0,
-                    "name": "Giessener Elektronische Bibliothek",
+                    "name": "International Journal of Computer (IJC - Global Society of Scientific Research and Researchers, GSSRR)",
                     "urlHomepage": null,
                     "urlOaipmh": null,
                     "uriJournals": null,
@@ -700,26 +238,400 @@
             ],
             "repositoryDocument": {
                 "pdfStatus": 1,
-                "metadataAdded": 1559476752000,
-                "metadataUpdated": 1611436549000,
-                "depositedDate": 1558517300000
+                "metadataAdded": 1571341802000,
+                "metadataUpdated": 1613886220000,
+                "depositedDate": 1504117104000
             },
             "subjects": [
-                "Article"
+                "info:eu-repo/semantics/article",
+                "info:eu-repo/semantics/publishedVersion",
+                "Peer-reviewed Article"
             ],
-            "title": "The Potential of Indonesian Heterobranchs Found around Bunaken Island for the Production of Bioactive Compounds",
+            "title": "Clustering Data Text Based on Semantic",
             "topics": [
-                "bioactivity",
-                "biodiversity",
-                "natural products",
-                "sea slug",
-                "Agriculture"
+                "Text mining",
+                "Text clustering",
+                "Hierarchical clustering",
+                "Ontology",
+                "Semantic relationship."
             ],
             "types": [],
             "year": 2017,
-            "fulltextIdentifier": "https://core.ac.uk/download/200974362.pdf",
-            "oai": "oai:geb.uni-giessen.de:14656",
-            "downloadUrl": "https://core.ac.uk/download/200974362.pdf"
+            "fulltextIdentifier": "https://core.ac.uk/download/229655940.pdf",
+            "oai": "oai:ojs.ijcjournal.org:article/1032",
+            "downloadUrl": "https://core.ac.uk/download/229655940.pdf"
+        },
+        {
+            "id": "189720909",
+            "authors": [
+                "Kingston, Charlie",
+                "Nurse, Jason R. C.",
+                "Agrafiotis, Ioannis",
+                "Milich, Andrew"
+            ],
+            "contributors": [],
+            "datePublished": "2018-07-30T00:00:00",
+            "description": "In recent years, situation awareness has been recognised as a critical part of effective decision making, in particular for crisis management. One way to extract value and allow for better situation awareness is to develop a system capable of analysing a dataset of multiple posts, and clustering consistent posts into different views or stories (or, world views). However, this can be challenging as it requires an understanding of the data, including determining what is consistent data, and what data corroborates other data. Attempting to address these problems, this article proposes Subject-Verb-Object Semantic Suffix Tree Clustering (SVOSSTC) and a system to support it, with a special focus on Twitter content. The novelty and value of SVOSSTC is its emphasis on utilising the Subject-Verb-Object (SVO) typology in order to construct semantically consistent world views, in which individuals---particularly those involved in crisis response---might achieve an enhanced picture of a situation from social media data. To evaluate our system and its ability to provide enhanced situation awareness, we tested it against existing approaches, including human data analysis, using a variety of real-world scenarios. The results indicated a noteworthy degree of evidence (e.g., in cluster granularity and meaningfulness) to affirm the suitability and rigour of our approach. Moreover, these results highlight this article's proposals as innovative and practical system contributions to the research field",
+            "identifiers": [
+                "oai:kar.kent.ac.uk:67656",
+                "10.1186/s13673-018-0145-6"
+            ],
+            "publisher": "'Springer Science and Business Media LLC'",
+            "relations": [],
+            "repositories": [
+                {
+                    "id": "57",
+                    "openDoarId": 0,
+                    "name": "Kent Academic Repository",
+                    "urlHomepage": null,
+                    "urlOaipmh": null,
+                    "uriJournals": null,
+                    "physicalName": "noname",
+                    "source": null,
+                    "software": null,
+                    "metadataFormat": null,
+                    "description": null,
+                    "journal": null,
+                    "roarId": 0,
+                    "baseId": 0,
+                    "pdfStatus": null,
+                    "nrUpdates": 0,
+                    "disabled": false,
+                    "lastUpdateTime": null,
+                    "repositoryLocation": null
+                }
+            ],
+            "repositoryDocument": {
+                "pdfStatus": 1,
+                "metadataAdded": 1553607990000,
+                "metadataUpdated": 1613807033000,
+                "depositedDate": 1547200636000
+            },
+            "subjects": [
+                "H1",
+                "QA",
+                "T"
+            ],
+            "title": "Using semantic clustering to support situation awareness on Twitter: The case of World Views",
+            "topics": [
+                "H1",
+                "QA",
+                "T"
+            ],
+            "types": [],
+            "year": 2018,
+            "fulltextIdentifier": "https://core.ac.uk/download/189720909.pdf",
+            "doi": "10.1186/s13673-018-0145-6",
+            "oai": "oai:kar.kent.ac.uk:67656",
+            "downloadUrl": "https://core.ac.uk/download/189720909.pdf"
+        },
+        {
+            "id": "186273962",
+            "authors": [
+                "Zhu, Qijun",
+                "Li, Dandan",
+                "Lee, Dik Lun"
+            ],
+            "contributors": [],
+            "datePublished": "2018-10-05T00:00:00",
+            "description": "As the web expands in data volume and in geographical distribution,\ncentralized search methods become inefficient, leading to increasing interest\nin cooperative information retrieval, e.g., federated text retrieval (FTR).\nDifferent from existing centralized information retrieval (IR) methods, in\nwhich search is done on a logically centralized document collection, FTR is\ncomposed of a number of peers, each of which is a complete search engine by\nitself. To process a query, FTR requires firstly the identification of\npromising peers that host the relevant documents and secondly the retrieval of\nthe most relevant documents from the selected peers. Most of the existing\nmethods only apply traditional IR techniques that treat each text collection as\na single large document and utilize term matching to rank the collections. In\nthis paper, we formalize the problem and identify the properties of FTR, and\nanalyze the feasibility of extending LSI with clustering to adapt to FTR, based\non which a novel approach called Cluster-based Distributed Latent Semantic\nIndexing (C-DLSI) is proposed. C-DLSI distinguishes the topics of a peer with\nclustering, captures the local LSI spaces within the clusters, and consider the\nrelations among these LSI spaces, thus providing more precise characterization\nof the peer. Accordingly, novel descriptors of the peers and a compatible local\ntext retrieval are proposed. The experimental results show that C-DLSI\noutperforms existing methods",
+            "identifiers": [
+                "oai:arXiv.org:1810.02579",
+                null
+            ],
+            "language": {
+                "code": "en",
+                "id": 9,
+                "name": "English"
+            },
+            "relations": [],
+            "repositories": [
+                {
+                    "id": "144",
+                    "openDoarId": 0,
+                    "name": "arXiv.org e-Print Archive",
+                    "urlHomepage": null,
+                    "urlOaipmh": null,
+                    "uriJournals": null,
+                    "physicalName": "noname",
+                    "source": null,
+                    "software": null,
+                    "metadataFormat": null,
+                    "description": null,
+                    "journal": null,
+                    "roarId": 0,
+                    "baseId": 0,
+                    "pdfStatus": null,
+                    "nrUpdates": 0,
+                    "disabled": false,
+                    "lastUpdateTime": null,
+                    "repositoryLocation": null
+                }
+            ],
+            "repositoryDocument": {
+                "pdfStatus": 1,
+                "metadataAdded": 1549435441000,
+                "metadataUpdated": 1608820782000,
+                "depositedDate": 1538953200000
+            },
+            "subjects": [
+                "text"
+            ],
+            "title": "C-DLSI: An Extended LSI Tailored for Federated Text Retrieval",
+            "topics": [
+                "Computer Science - Information Retrieval"
+            ],
+            "types": [],
+            "year": 2018,
+            "fulltextIdentifier": "http://arxiv.org/abs/1810.02579",
+            "oai": "oai:arXiv.org:1810.02579",
+            "downloadUrl": "http://arxiv.org/abs/1810.02579"
+        },
+        {
+            "id": "160773361",
+            "authors": [
+                "Kingston, Charlie",
+                "Nurse, Jason R. C.",
+                "Agrafiotis, Ioannis",
+                "Milich, Andrew"
+            ],
+            "contributors": [],
+            "datePublished": "2018-07-17T00:00:00",
+            "description": "In recent years, situation awareness has been recognised as a critical part\nof effective decision making, in particular for crisis management. One way to\nextract value and allow for better situation awareness is to develop a system\ncapable of analysing a dataset of multiple posts, and clustering consistent\nposts into different views or stories (or, world views). However, this can be\nchallenging as it requires an understanding of the data, including determining\nwhat is consistent data, and what data corroborates other data. Attempting to\naddress these problems, this article proposes Subject-Verb-Object Semantic\nSuffix Tree Clustering (SVOSSTC) and a system to support it, with a special\nfocus on Twitter content. The novelty and value of SVOSSTC is its emphasis on\nutilising the Subject-Verb-Object (SVO) typology in order to construct\nsemantically consistent world views, in which individuals---particularly those\ninvolved in crisis response---might achieve an enhanced picture of a situation\nfrom social media data. To evaluate our system and its ability to provide\nenhanced situation awareness, we tested it against existing approaches,\nincluding human data analysis, using a variety of real-world scenarios. The\nresults indicated a noteworthy degree of evidence (e.g., in cluster granularity\nand meaningfulness) to affirm the suitability and rigour of our approach.\nMoreover, these results highlight this article's proposals as innovative and\npractical system contributions to the research field",
+            "identifiers": [
+                "oai:arXiv.org:1807.06588",
+                null
+            ],
+            "language": {
+                "code": "en",
+                "id": 9,
+                "name": "English"
+            },
+            "relations": [],
+            "repositories": [
+                {
+                    "id": "144",
+                    "openDoarId": 0,
+                    "name": "arXiv.org e-Print Archive",
+                    "urlHomepage": null,
+                    "urlOaipmh": null,
+                    "uriJournals": null,
+                    "physicalName": "noname",
+                    "source": null,
+                    "software": null,
+                    "metadataFormat": null,
+                    "description": null,
+                    "journal": null,
+                    "roarId": 0,
+                    "baseId": 0,
+                    "pdfStatus": null,
+                    "nrUpdates": 0,
+                    "disabled": false,
+                    "lastUpdateTime": null,
+                    "repositoryLocation": null
+                }
+            ],
+            "repositoryDocument": {
+                "pdfStatus": 1,
+                "metadataAdded": 1536390583000,
+                "metadataUpdated": 1608820508000,
+                "depositedDate": 1531868400000
+            },
+            "subjects": [
+                "text"
+            ],
+            "title": "Using semantic clustering to support situation awareness on Twitter: The\n  case of World Views",
+            "topics": [
+                "Computer Science - Computation and Language"
+            ],
+            "types": [],
+            "year": 2018,
+            "fulltextIdentifier": "http://arxiv.org/abs/1807.06588",
+            "oai": "oai:arXiv.org:1807.06588",
+            "downloadUrl": "http://arxiv.org/abs/1807.06588"
+        },
+        {
+            "id": "196581376",
+            "authors": [
+                "Alnajran, Noufa Abdulaziz"
+            ],
+            "contributors": [],
+            "datePublished": "2019-03-01T00:00:00",
+            "description": "Twitter, the most popular microblogging platform, is gaining rapid prominence as a source of\n\ninformation sharing and social awareness due to its popularity and massive user generated\n\ncontent. These include applications such as tailoring advertisement campaigns, event\n\ndetection, trends analysis, and prediction of micro-populations. The aforementioned\n\napplications are generally conducted through cluster analysis of tweets to generate a more\n\nconcise and organized representation of the massive raw tweets. However, current approaches\n\nperform traditional cluster analysis using conventional proximity measures, such as Euclidean\n\ndistance. However, the sheer volume, noise, and dynamism of Twitter, impose challenges that\n\nhinder the efficacy of traditional clustering algorithms in detecting meaningful clusters within\n\nmicroblogging posts. The research presented in this thesis sets out to design and develop a\n\nnovel short text semantic similarity (STSS) measure, named TREASURE, which captures the\n\nsemantic and structural features of microblogging posts for intelligently predicting the\n\nsimilarities. TREASURE is utilised in the development of an innovative semantic-based\n\ncluster analysis algorithm (SBCA) that contributes in generating more accurate and\n\nmeaningful granularities within microblogging posts. The integrated semantic-based\n\nframework incorporating TREASURE and the SBCA algorithm tackles both the problem of\n\nmicroblogging cluster analysis and contributes to the success of a variety of natural language\n\nprocessing (NLP) and computational intelligence research.\n\nTREASURE utilises word embedding neural network (NN) models to capture the semantic\n\nrelationships between words based on their co-occurrences in a corpus. Moreover,\n\nTREASURE analyses the morphological and lexical structure of tweets to predict the syntactic\n\nsimilarities. An intrinsic evaluation of TREASURE was performed with reference to a reliable\n\nsimilarity benchmark generated through an experiment to gather human ratings on a Twitter\n\npolitical dataset. A further evaluation was performed with reference to the SemEval-2014\n\nsimilarity benchmark in order to validate the generalizability of TREASURE. The intrinsic\n\nevaluation and statistical analysis demonstrated a strong positive linear correlation between\n\nTREASURE and human ratings for both benchmarks. Furthermore, TREASURE achieved a\n\nsignificantly higher correlation coefficient compared to existing state-of-the-art STSS\n\nmeasures.\n\nThe SBCA algorithm incorporates TREASURE as the proximity measure. Unlike\n\nconventional partition-based clustering algorithms, the SBCA algorithm is fully unsupervised\n\nand dynamically determine the number of clusters beforehand. Subjective evaluation criteria\n\nwere employed to evaluate the SBCA algorithm with reference to the SemEval-2014 similarity\n\nbenchmark. Furthermore, an experiment was conducted to produce a reliable multi-class\n\nbenchmark on the European Referendum political domain, which was also utilised to evaluate\n\nthe SBCA algorithm. The evaluation results provide evidence that the SBCA algorithm\n\nundertakes highly accurate combining and separation decisions and can generate pure clusters\n\nfrom microblogging posts.\n\nThe contributions of this thesis to knowledge are mainly demonstrated as: 1) Development\n\nof a novel STSS measure for microblogging posts (TREASURE). 2) Development of a new\n\nSBCA algorithm that incorporates TREASURE to detect semantic themes in microblogs. 3)\n\nGenerating a word embedding pre-trained model learned from a large corpus of political\n\ntweets. 4) Production of a reliable similarity-annotated benchmark and a reliable multi-class\n\nbenchmark in the domain of politics",
+            "identifiers": [
+                "oai:e-space.mmu.ac.uk:622770",
+                null
+            ],
+            "relations": [
+                "http://e-space.mmu.ac.uk/622770/"
+            ],
+            "repositories": [
+                {
+                    "id": "35",
+                    "openDoarId": 0,
+                    "name": "E-space: Manchester Metropolitan University's Research Repository",
+                    "urlHomepage": null,
+                    "urlOaipmh": null,
+                    "uriJournals": null,
+                    "physicalName": "noname",
+                    "source": null,
+                    "software": null,
+                    "metadataFormat": null,
+                    "description": null,
+                    "journal": null,
+                    "roarId": 0,
+                    "baseId": 0,
+                    "pdfStatus": null,
+                    "nrUpdates": 0,
+                    "disabled": false,
+                    "lastUpdateTime": null,
+                    "repositoryLocation": null
+                }
+            ],
+            "repositoryDocument": {
+                "pdfStatus": 1,
+                "metadataAdded": 1557147286000,
+                "metadataUpdated": 1612964853000,
+                "depositedDate": 1555212132000
+            },
+            "subjects": [
+                "Thesis",
+                "NonPeerReviewed"
+            ],
+            "title": "An integrated semantic-based framework for intelligent similarity measurement and clustering of microblogging posts",
+            "topics": [],
+            "types": [],
+            "year": 2019,
+            "fulltextIdentifier": "https://core.ac.uk/download/196581376.pdf",
+            "oai": "oai:e-space.mmu.ac.uk:622770",
+            "downloadUrl": "https://core.ac.uk/download/196581376.pdf"
+        },
+        {
+            "id": "186299899",
+            "authors": [
+                "Ortiz, Michael Segundo",
+                "Seki, Kazuhiro",
+                "Mostafa, Javed"
+            ],
+            "contributors": [],
+            "datePublished": "2018-12-05T00:00:00",
+            "description": "The current mode of biomedical literature search is severely limited in\neffectively finding information relevant to specialists. A potential approach\nto solving this problem is exploratory search, which allows users to\ninteractively navigate through a vast document collection. As the first step\ntoward exploratory search for specialists in biomedicine, this paper develops a\nmethodology to evaluate quality of document clusters. For this purpose, we\nincorporate human expertise into data set creation and evaluation framework by\nleveraging MeSH terms as semantic anchors. In addition, we investigate the\nbenefit of full-text data for improving cluster quality.Comment: This work is currently under consideration for the 17th World\n  Congress of Medical and Health Informatics. Please follow the link for more\n  information - http://www.medinfo-lyon.org/en/about-us/medinfo2019",
+            "identifiers": [
+                "oai:arXiv.org:1812.02129",
+                null
+            ],
+            "language": {
+                "code": "en",
+                "id": 9,
+                "name": "English"
+            },
+            "relations": [],
+            "repositories": [
+                {
+                    "id": "144",
+                    "openDoarId": 0,
+                    "name": "arXiv.org e-Print Archive",
+                    "urlHomepage": null,
+                    "urlOaipmh": null,
+                    "uriJournals": null,
+                    "physicalName": "noname",
+                    "source": null,
+                    "software": null,
+                    "metadataFormat": null,
+                    "description": null,
+                    "journal": null,
+                    "roarId": 0,
+                    "baseId": 0,
+                    "pdfStatus": null,
+                    "nrUpdates": 0,
+                    "disabled": false,
+                    "lastUpdateTime": null,
+                    "repositoryLocation": null
+                }
+            ],
+            "repositoryDocument": {
+                "pdfStatus": 1,
+                "metadataAdded": 1549435778000,
+                "metadataUpdated": 1608820998000,
+                "depositedDate": 1544054400000
+            },
+            "subjects": [
+                "text"
+            ],
+            "title": "Toward Exploratory Search in Biomedicine: Evaluating Document Clusters\n  by MeSH as a Semantic Anchor",
+            "topics": [
+                "Computer Science - Information Retrieval",
+                "Computer Science - Digital Libraries",
+                "Computer Science - Human-Computer Interaction"
+            ],
+            "types": [],
+            "year": 2018,
+            "fulltextIdentifier": "http://arxiv.org/abs/1812.02129",
+            "oai": "oai:arXiv.org:1812.02129",
+            "downloadUrl": "http://arxiv.org/abs/1812.02129"
+        },
+        {
+            "id": "186280980",
+            "authors": [
+                "Shah, Setu",
+                "Luo, Xiao"
+            ],
+            "contributors": [],
+            "datePublished": "2018-10-22T00:00:00",
+            "description": "Document clustering is a text mining technique used to provide better\ndocument search and browsing in digital libraries or online corpora. A lot of\nresearch has been done on biomedical document clustering that is based on using\nexisting ontology. But, associations and co-occurrences of the medical concepts\nare not well represented by using ontology. In this research, a vector\nrepresentation of concepts of diseases and similarity measurement between\nconcepts are proposed. They identify the closest concepts of diseases in the\ncontext of a corpus. Each document is represented by using the vector space\nmodel. A weight scheme is proposed to consider both local content and\nassociations between concepts. A Self-Organizing Map is used as document\nclustering algorithm. The vector projection and visualization features of SOM\nenable visualization and analysis of the clusters distributions and\nrelationships on the two dimensional space. The experimental results show that\nthe proposed document clustering framework generates meaningful clusters and\nfacilitate visualization of the clusters based on the concepts of diseases.Comment: KDD 2017's Data Driven Discovery Worksho",
+            "identifiers": [
+                "oai:arXiv.org:1810.09597",
+                null
+            ],
+            "language": {
+                "code": "en",
+                "id": 9,
+                "name": "English"
+            },
+            "relations": [],
+            "repositories": [
+                {
+                    "id": "144",
+                    "openDoarId": 0,
+                    "name": "arXiv.org e-Print Archive",
+                    "urlHomepage": null,
+                    "urlOaipmh": null,
+                    "uriJournals": null,
+                    "physicalName": "noname",
+                    "source": null,
+                    "software": null,
+                    "metadataFormat": null,
+                    "description": null,
+                    "journal": null,
+                    "roarId": 0,
+                    "baseId": 0,
+                    "pdfStatus": null,
+                    "nrUpdates": 0,
+                    "disabled": false,
+                    "lastUpdateTime": null,
+                    "repositoryLocation": null
+                }
+            ],
+            "repositoryDocument": {
+                "pdfStatus": 1,
+                "metadataAdded": 1549435529000,
+                "metadataUpdated": 1608820839000,
+                "depositedDate": 1540335600000
+            },
+            "subjects": [
+                "text"
+            ],
+            "title": "Biomedical Document Clustering and Visualization based on the Concepts\n  of Diseases",
+            "topics": [
+                "Computer Science - Computation and Language",
+                "Computer Science - Artificial Intelligence",
+                "Computer Science - Machine Learning"
+            ],
+            "types": [],
+            "year": 2018,
+            "fulltextIdentifier": "http://arxiv.org/abs/1810.09597",
+            "oai": "oai:arXiv.org:1810.09597",
+            "downloadUrl": "http://arxiv.org/abs/1810.09597"
         }
     ]
 }

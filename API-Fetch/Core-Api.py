@@ -22,31 +22,34 @@ faithfulMetadata = "false"
 
 URL = f"https://core.ac.uk:443/api-v2/articles/similar?limit={limit}&metadata={metadata}&fulltext={fulltext}&citations={citations}&similar={similar}&duplicate={duplicate}&urls={urls}&faithfulMetadata={faithfulMetadata}&apiKey={CORE_KEY}"  # noqa
 
+print(URL)
+
 res = requests.post(
     URL, data=QUERY.encode("utf-8"), headers={"Content-Type": "text/plain"}
 )
 res = res.json()
 
-parsed_papers = []
+with open("out.json", "w") as outfile:
+    json.dump(res, outfile, indent=4)
 
-print(res)
+parsed_papers = []
 
 for paper in res["data"]:
     print("\n" + paper["title"])
-    parsed_papers.append(
-        {
-            "title": paper["title"],
-            "description": paper["description"],
-            "authors": paper["authors"],
-            "datePublished": paper["datePublished"],
-            "downloadUrl": paper["downloadUrl"],
-        }
-    )
-
+    try:
+        parsed_papers.append(
+            {
+                "title": paper["title"],
+                "description": paper["description"],
+                "authors": paper["authors"],
+                "datePublished": paper["datePublished"],
+                "downloadUrl": paper["downloadUrl"],
+            }
+        )
+    except KeyError:
+        pass
 # print(json.dumps(res, indent=4))
 
-with open("out.json", "w") as outfile:
-    json.dump(res, outfile, indent=4)
 
 with open("out_parsed.json", "w") as outfile:
     json.dump(parsed_papers, outfile, indent=4)
