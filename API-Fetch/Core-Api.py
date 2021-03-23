@@ -27,10 +27,26 @@ res = requests.post(
 )
 res = res.json()
 
+parsed_papers = []
+
+print(res)
+
 for paper in res["data"]:
     print("\n" + paper["title"])
+    parsed_papers.append(
+        {
+            "title": paper["title"],
+            "description": paper["description"],
+            "authors": paper["authors"],
+            "datePublished": paper["datePublished"],
+            "downloadUrl": paper["downloadUrl"],
+        }
+    )
 
 # print(json.dumps(res, indent=4))
 
 with open("out.json", "w") as outfile:
     json.dump(res, outfile, indent=4)
+
+with open("out_parsed.json", "w") as outfile:
+    json.dump(parsed_papers, outfile, indent=4)
