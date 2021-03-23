@@ -1,1009 +1,725 @@
 {
     "status": "OK",
-    "totalHits": 177069,
     "data": [
         {
-            "_index": "articles_2019_06_05",
-            "_type": "article",
-            "_id": "335227371",
-            "_score": 21.03262,
-            "_source": {
-                "id": "335227371",
-                "authors": [
-                    "Rosenquist, James Albert"
-                ],
-                "citations": [],
-                "contributors": [
-                    "painter: James Albert Rosenquist (American, 1933-)"
-                ],
-                "datePublished": "1973-01-01T00:00:00",
-                "deleted": "ALLOWED",
-                "description": "full vie",
-                "fullText": null,
-                "fullTextIdentifier": null,
-                "identifiers": [
-                    "oai:dome.mit.edu:1721.3/39862",
-                    null
-                ],
-                "journals": null,
-                "language": null,
-                "duplicateId": null,
-                "publisher": "Repository: Brooklyn Museum of Art (Brooklyn, New York, United States) ID: 73.177",
-                "rawRecordXml": "<record><header><identifier>oai:dome.mit.edu:1721.3/39862</identifier><datestamp>2014-07-16T22:21:17Z</datestamp><setSpec>com_1721.3_1</setSpec><setSpec>col_1721.3_1837</setSpec></header><metadata><oai_dc:dc xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" xmlns:doc=\"http://www.lyncode.com/xoai\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd\" ><dc:title>\nHello, Hello, Hello</dc:title><dc:creator>\nRosenquist, James Albert</dc:creator><dc:contributor>\npainter: James Albert Rosenquist (American, 1933-)</dc:contributor><dc:subject>\nPainting, Abstract</dc:subject><dc:subject>\nGeometric figures</dc:subject><dc:subject>\nPop art --United States</dc:subject><dc:subject>\nArt, Modern --20th century</dc:subject><dc:subject>\nPaper clips</dc:subject><dc:description>\nfull view</dc:description><dc:date>\n1973</dc:date><dc:date>\n2009-06-08T14:35:05Z</dc:date><dc:date>\n2009-06-08T14:35:05Z</dc:date><dc:date>\n1973</dc:date><dc:type>\nImage</dc:type><dc:identifier>\n104386</dc:identifier><dc:identifier>\nhttp://hdl.handle.net/1721.3/39862</dc:identifier><dc:identifier>\nBMA-608</dc:identifier><dc:relation>\n134350</dc:relation><dc:rights>\n\u00a9Brooklyn Museum of Art, Brooklyn, New York, Anonymous gift</dc:rights><dc:rights>\nLicensed for educational and research use by the MIT community only</dc:rights><dc:format>\n66.68 x 177.48 cm (26.25 x 69.875 inches)</dc:format><dc:format>\nacrylic paint</dc:format><dc:format>\ncanvas</dc:format><dc:format>\nimage/jpeg</dc:format><dc:format>\nimage/jpeg</dc:format><dc:format>\nimage/jpeg</dc:format><dc:coverage>\nCreation location: East Hampton (New York, United States)</dc:coverage><dc:coverage>\ncreation date: 1973</dc:coverage><dc:publisher>\nRepository: Brooklyn Museum of Art (Brooklyn, New York, United States) ID: 73.177</dc:publisher>\n</oai_dc:dc></metadata></record>",
-                "relations": [
-                    "134350"
-                ],
-                "repositories": [
-                    {
-                        "id": "15194",
-                        "openDoarId": 0,
-                        "name": "MIT Libraries Dome",
-                        "urlHomepage": null,
-                        "urlOaipmh": null,
-                        "uriJournals": null,
-                        "physicalName": "noname",
-                        "source": null,
-                        "software": null,
-                        "metadataFormat": null,
-                        "description": null,
-                        "journal": null,
-                        "roarId": 0,
-                        "baseId": 0,
-                        "pdfStatus": null,
-                        "nrUpdates": 0,
-                        "disabled": false,
-                        "lastUpdateTime": null,
-                        "repositoryLocation": null
-                    }
-                ],
-                "repositoryDocument": {
-                    "pdfStatus": 0,
-                    "textStatus": 0,
-                    "metadataAdded": 1603189830000,
-                    "metadataUpdated": 1614466075000,
-                    "timestamp": 1405545677000,
-                    "depositedDate": 1405545677000,
-                    "indexed": 1,
-                    "deletedStatus": "0",
-                    "pdfSize": 0,
-                    "tdmOnly": false,
-                    "pdfOrigin": null
-                },
-                "similarities": null,
-                "subjects": [
-                    "Image"
-                ],
-                "title": "Hello, Hello, Hello",
-                "topics": [
-                    "Painting, Abstract",
-                    "Geometric figures",
-                    "Pop art --United States",
-                    "Art, Modern --20th century",
-                    "Paper clips"
-                ],
-                "types": [],
-                "urls": [
-                    "http://hdl.handle.net/1721.3/39862"
-                ],
-                "year": 1973,
-                "doi": null,
-                "oai": "oai:dome.mit.edu:1721.3/39862",
-                "downloadUrl": "",
-                "pdfHashValue": null,
-                "documentType": null,
-                "documentTypeConfidence": null,
-                "citationCount": null,
-                "estimatedCitationCount": null,
-                "acceptedDate": null,
-                "depositedDate": 1405545677000,
-                "publishedDate": 94694400000,
-                "issn": null,
-                "attachmentCount": 0,
-                "repositoryPublicReleaseDate": null,
-                "extendedMetadataAttributes": null,
-                "crossrefDocument": null,
-                "magDocument": null,
-                "orcidAuthors": null
-            }
+            "id": "201000780",
+            "authors": [
+                "Bano, Aalia",
+                "Pera Rojas, Alejandra",
+                "Almoukayed, Ahmad",
+                "Clarke, Thomas H S",
+                "Kirmani, Sukaina",
+                "Davies, Kevin A",
+                "Kern, Florian"
+            ],
+            "contributors": [],
+            "datePublished": "2019-03-25T00:00:00",
+            "description": "Immunosenescence is thought to contribute to the increase of autoimmune diseases in older people. Immunosenescence is often associated with the presence of an expanded population of CD4 T cells lacking expression of CD28 (CD28null). These highly cytotoxic CD4 T cells were isolated from disease-affected tissues in patients with rheumatoid arthritis, systemic lupus erythematosus, multiple sclerosis, or other chronic inflammatory diseases and their numbers appeared to be linked to disease severity. However, we recently demonstrated that the common herpes virus, cytomegalovirus (CMV), not ageing, is the major driver of this subset of cytotoxic T cells. In this review, we discuss how CMV might potentiate and exacerbate autoimmune disease through the expansion of CD28null CD4 T cells",
+            "identifiers": [
+                "oai:sro.sussex.ac.uk:82824",
+                "10.12688/f1000research.17119.1"
+            ],
+            "publisher": "'F1000 Research Ltd'",
+            "relations": [],
+            "repositories": [
+                {
+                    "id": "109",
+                    "openDoarId": 0,
+                    "name": "Sussex Research Online",
+                    "urlHomepage": null,
+                    "urlOaipmh": null,
+                    "uriJournals": null,
+                    "physicalName": "noname",
+                    "source": null,
+                    "software": null,
+                    "metadataFormat": null,
+                    "description": null,
+                    "journal": null,
+                    "roarId": 0,
+                    "baseId": 0,
+                    "pdfStatus": null,
+                    "nrUpdates": 0,
+                    "disabled": false,
+                    "lastUpdateTime": null,
+                    "repositoryLocation": null
+                }
+            ],
+            "repositoryDocument": {
+                "pdfStatus": 1,
+                "metadataAdded": 1559574373000,
+                "metadataUpdated": 1615988677000,
+                "depositedDate": 1553679832000
+            },
+            "subjects": [
+                "R",
+                "R1",
+                "R852"
+            ],
+            "title": "CD28null CD4 T-cell expansions in autoimmune disease suggest a link with cytomegalovirus infection",
+            "topics": [
+                "R",
+                "R1",
+                "R852"
+            ],
+            "types": [],
+            "year": 2019,
+            "fulltextIdentifier": "https://core.ac.uk/download/201000780.pdf",
+            "doi": "10.12688/f1000research.17119.1",
+            "oai": "oai:sro.sussex.ac.uk:82824",
+            "downloadUrl": "https://core.ac.uk/download/201000780.pdf"
         },
         {
-            "_index": "articles_2019_06_05",
-            "_type": "article",
-            "_id": "159836593",
-            "_score": 20.354073,
-            "_source": {
-                "id": "159836593",
-                "authors": [],
-                "citations": [],
-                "contributors": [],
-                "datePublished": "2008-01-01T00:00:00",
-                "deleted": "ALLOWED",
-                "description": null,
-                "fullText": null,
-                "fullTextIdentifier": null,
-                "identifiers": [
-                    "oai:localhost:10514/14018",
-                    null
-                ],
-                "journals": null,
-                "language": null,
-                "duplicateId": null,
-                "publisher": "Hello!visitSpain",
-                "rawRecordXml": "<record><header><identifier>\noai:localhost:10514/14018</identifier><datestamp>2012-01-19T08:49:04Z</datestamp><setSpec>hdl_10514_21</setSpec></header><metadata><oai_dc:dc xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd\" ><dc:date>2010-07-02T11:57:17Z</dc:date><dc:date>2010-07-02T11:57:17Z</dc:date><dc:date>2008</dc:date><dc:identifier>http://www.hellovisitspain.com/es/guias/3105.html</dc:identifier><dc:identifier>http://hdl.handle.net/10514/14018</dc:identifier><dc:language>es</dc:language><dc:publisher>Hello!visitSpain</dc:publisher><dc:relation>Gu\u00edas de viajes;</dc:relation><dc:subject>Alhambra</dc:subject><dc:subject>Categorias::Materias::Gu\u00edas tur\u00edsticas</dc:subject><dc:subject>Categorias::Geograf\u00eda::Granada</dc:subject><dc:title>La Alhambra de Granada</dc:title><dc:type>Book</dc:type></oai_dc:dc></metadata></record>",
-                "relations": [
-                    "Gu\u00edas de viajes;"
-                ],
-                "repositories": [
-                    {
-                        "id": "3114",
-                        "openDoarId": 0,
-                        "name": "La Alhambra de Granada",
-                        "urlHomepage": null,
-                        "urlOaipmh": null,
-                        "uriJournals": null,
-                        "physicalName": "noname",
-                        "source": null,
-                        "software": null,
-                        "metadataFormat": null,
-                        "description": null,
-                        "journal": null,
-                        "roarId": 0,
-                        "baseId": 0,
-                        "pdfStatus": null,
-                        "nrUpdates": 0,
-                        "disabled": false,
-                        "lastUpdateTime": null,
-                        "repositoryLocation": null
-                    }
-                ],
-                "repositoryDocument": {
-                    "pdfStatus": 0,
-                    "textStatus": 0,
-                    "metadataAdded": 1532742631000,
-                    "metadataUpdated": 1611360971000,
-                    "timestamp": 1326962944000,
-                    "depositedDate": 1326931200000,
-                    "indexed": 1,
-                    "deletedStatus": "0",
-                    "pdfSize": 0,
-                    "tdmOnly": false,
-                    "pdfOrigin": null
-                },
-                "similarities": null,
-                "subjects": [
-                    "Book"
-                ],
-                "title": "La Alhambra de Granada",
-                "topics": [
-                    "Alhambra",
-                    "Categorias::Materias::Gu\u00edas tur\u00edsticas",
-                    "Categorias::Geograf\u00eda::Granada"
-                ],
-                "types": [],
-                "urls": [
-                    "http://hdl.handle.net/10514/14018",
-                    "http://www.hellovisitspain.com/es/guias/3105.html"
-                ],
-                "year": 2008,
-                "doi": null,
-                "oai": "oai:localhost:10514/14018",
-                "downloadUrl": "",
-                "pdfHashValue": null,
-                "documentType": null,
-                "documentTypeConfidence": null,
-                "citationCount": null,
-                "estimatedCitationCount": null,
-                "acceptedDate": null,
-                "depositedDate": 1326931200000,
-                "publishedDate": 1199145600000,
-                "issn": null,
-                "attachmentCount": 0,
-                "repositoryPublicReleaseDate": null,
-                "extendedMetadataAttributes": null,
-                "crossrefDocument": null,
-                "magDocument": null,
-                "orcidAuthors": null
-            }
+            "id": "154259244",
+            "authors": [
+                "M\u00fcnz, Christian",
+                "Chijioke, Obinna"
+            ],
+            "contributors": [],
+            "datePublished": "2017",
+            "description": "Natural killer (NK) cells are potent innate cytotoxic lymphocytes for the destruction of infected and transformed cells. Although they were originally considered to be ready-made assassins after their hematopoietic development, it has recently become clear that their activity is regulated by mechanisms such as repertoire composition, licensing, priming, and adaptive memory-like differentiation. Some of these mechanisms are influenced by infectious disease agents, including herpesviruses. In this review, we will compare expansion, stimulation, and effector functions of NK cell populations after infections with \u03b2- and \u03b3 1-herpesviruses because, though closely related, these pathogens seem to drive completely opposite NK cell responses. The discussed findings suggest that different NK cell subsets expand and perform protective functions during infectious diseases and might be used diagnostically to predict resistance to the causative pathogens as well as treat them by adoptive transfer of the respective populations",
+            "identifiers": [
+                "oai:www.zora.uzh.ch:147980",
+                "10.12688/f1000research.11197.1"
+            ],
+            "publisher": "Faculty of 1000 Ltd.",
+            "relations": [
+                "https://www.zora.uzh.ch/id/eprint/147980/"
+            ],
+            "repositories": [
+                {
+                    "id": "345",
+                    "openDoarId": 0,
+                    "name": "ZORA",
+                    "uri": null,
+                    "urlHomepage": null,
+                    "urlOaipmh": null,
+                    "uriJournals": null,
+                    "physicalName": "noname",
+                    "source": null,
+                    "software": null,
+                    "metadataFormat": null,
+                    "description": null,
+                    "journal": null,
+                    "roarId": 0,
+                    "baseId": 0,
+                    "pdfStatus": null,
+                    "nrUpdates": 0,
+                    "disabled": false,
+                    "lastUpdateTime": null,
+                    "repositoryLocation": null
+                }
+            ],
+            "repositoryDocument": {
+                "pdfStatus": 1,
+                "metadataAdded": 1523331059000,
+                "metadataUpdated": 1586250737000,
+                "depositedDate": 1519257600000
+            },
+            "subjects": [
+                "Journal Article",
+                "PeerReviewed"
+            ],
+            "title": "Natural killer cells in herpesvirus infections",
+            "topics": [
+                "Institute of Experimental Immunology",
+                "570 Life sciences; biology",
+                "610 Medicine & health"
+            ],
+            "types": [],
+            "year": 2017,
+            "fulltextIdentifier": "http://www.zora.uzh.ch/id/eprint/147980/1/Munz_and_Chijioke%2C_F1000Research_2017.pdf",
+            "doi": "10.12688/f1000research.11197.1",
+            "oai": "oai:www.zora.uzh.ch:147980",
+            "downloadUrl": "http://www.zora.uzh.ch/id/eprint/147980/1/Munz_and_Chijioke%2C_F1000Research_2017.pdf"
         },
         {
-            "_index": "articles_2019_06_05",
-            "_type": "article",
-            "_id": "79587329",
-            "_score": 20.251364,
-            "_source": {
-                "id": "79587329",
-                "authors": [],
-                "citations": [],
-                "contributors": [
-                    "Hirsch, Louis A. (Composer)",
-                    "Buck, Gene (Lyricist)",
-                    "M. Witmark & Sons (Publisher)"
-                ],
-                "datePublished": "1915-01-01T00:00:00",
-                "deleted": "ALLOWED",
-                "description": "First Line: Hello, central! Hello, central! Can't you see?First Line of Chorus: Hello, Frisco, hello! Hello, Frisco, hello!Key: G Majo",
-                "fullText": null,
-                "fullTextIdentifier": null,
-                "identifiers": [
-                    "item:39986",
-                    null
-                ],
-                "journals": null,
-                "language": null,
-                "duplicateId": null,
-                "publisher": null,
-                "rawRecordXml": "<record><header><identifier>\n\t\t\n    \n\t\t\n\t\t\t\n      \n\t\t\t\n\t\t\t\t\n        \n\t\t\t\titem:39986</identifier><datestamp>\n\t\t\t\t\n        \n\t\t\t\t2018-06-21T18:49:31Z</datestamp><setSpec>\n\t\t\t\t\n        \n\t\t\t\tcollections:125</setSpec><setSpec>\n\t\t\t\t\n        \n\t\t\t\tsummon</setSpec><setSpec>\n\t\t\t\t\n        \n\t\t\t\tresearch</setSpec>\n\t\t\t\t\n      \n\t\t\t</header><metadata><oai_dc:dc XSI_SCHEMA_LOC=\"http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" ><dc:title>\n\t\t\t\n      \n\t\t\t\n\t\t\t\t\n        \n\t\t\t\t\n\t\t\t\t\t\n          \n\t\t\t\t\tHello, Frisco</dc:title><dc:contributor>\n\t\t\t\t\t\n          \n\t\t\t\t\tHirsch, Louis A. (Composer)</dc:contributor><dc:contributor>\n\t\t\t\t\t\n          \n\t\t\t\t\tBuck, Gene (Lyricist)</dc:contributor><dc:contributor>\n\t\t\t\t\t\n          \n\t\t\t\t\tM. Witmark & Sons (Publisher)</dc:contributor><dc:subject>\n\t\t\t\t\t\n          \n\t\t\t\t\tSongs, 1910-1919</dc:subject><dc:identifier>\n\t\t\t\t\t\n          \n\t\t\t\t\tCall Number: SM2843</dc:identifier><dc:language>\n\t\t\t\t\t\n          \n\t\t\t\t\teng</dc:language><dc:description>\n\t\t\t\t\t\n          \n\t\t\t\t\tFirst Line: Hello, central! Hello, central! Can't you see?</dc:description><dc:description>\n\t\t\t\t\t\n          \n\t\t\t\t\tFirst Line of Chorus: Hello, Frisco, hello! Hello, Frisco, hello!</dc:description><dc:description>\n\t\t\t\t\t\n          \n\t\t\t\t\tKey: G Major</dc:description><dc:type>\n\t\t\t\t\t\n          \n\t\t\t\t\tNotated Music</dc:type><dc:type>\n\t\t\t\t\t\n          \n\t\t\t\t\tImage</dc:type><dc:identifier>\n\t\t\t\t\t\n          \n\t\t\t\t\thttp://hdl.handle.net/2286/R.I.39986</dc:identifier><dc:rights>\n\t\t\t\t\t\n          \n\t\t\t\t\thttp://rightsstatements.org/vocab/NoC-US/1.0/</dc:rights><dc:rights>\n\t\t\t\t\t\n          \n\t\t\t\t\thttps://creativecommons.org/publicdomain/mark/1.0/</dc:rights><dc:date>\n\t\t\t\t\t\n          \n\t\t\t\t\t1915</dc:date>\n\t\t\t\t\t\n        \n\t\t\t\t</oai_dc:dc>\n\t\t\t\t\n      \n\t\t\t</metadata>\n\t\t\t\n    \n\t\t</record>",
-                "relations": [],
-                "repositories": [
-                    {
-                        "id": "315",
-                        "openDoarId": 0,
-                        "name": "ASU Digital Repository",
-                        "urlHomepage": null,
-                        "urlOaipmh": null,
-                        "uriJournals": null,
-                        "physicalName": "noname",
-                        "source": null,
-                        "software": null,
-                        "metadataFormat": null,
-                        "description": null,
-                        "journal": null,
-                        "roarId": 0,
-                        "baseId": 0,
-                        "pdfStatus": null,
-                        "nrUpdates": 0,
-                        "disabled": false,
-                        "lastUpdateTime": null,
-                        "repositoryLocation": null
-                    }
-                ],
-                "repositoryDocument": {
-                    "pdfStatus": 0,
-                    "textStatus": 0,
-                    "metadataAdded": 1489169617000,
-                    "metadataUpdated": 1607639358000,
-                    "timestamp": 1529603371000,
-                    "depositedDate": 1529535600000,
-                    "indexed": 1,
-                    "deletedStatus": "0",
-                    "pdfSize": 0,
-                    "tdmOnly": false,
-                    "pdfOrigin": null
-                },
-                "similarities": null,
-                "subjects": [
-                    "Notated Music",
-                    "Image"
-                ],
-                "title": "Hello, Frisco",
-                "topics": [
-                    "Songs, 1910-1919"
-                ],
-                "types": [],
-                "urls": [
-                    "http://hdl.handle.net/2286/R.I.39986"
-                ],
-                "year": 1915,
-                "doi": null,
-                "oai": null,
-                "downloadUrl": "",
-                "pdfHashValue": null,
-                "documentType": null,
-                "documentTypeConfidence": null,
-                "citationCount": null,
-                "estimatedCitationCount": null,
-                "acceptedDate": null,
-                "depositedDate": 1529535600000,
-                "publishedDate": -1735689600000,
-                "issn": null,
-                "attachmentCount": 0,
-                "repositoryPublicReleaseDate": null,
-                "extendedMetadataAttributes": null,
-                "crossrefDocument": null,
-                "magDocument": null,
-                "orcidAuthors": null
-            }
+            "id": "85124355",
+            "authors": [
+                "Kartini, Kartini",
+                "Piyaviriyakul, Suratsawadee",
+                "Thongpraditchote, Suchitra",
+                "Siripong, Pongpun",
+                "Vallisuta, Omboon"
+            ],
+            "contributors": [],
+            "datePublished": "2017-07-19T00:00:00",
+            "description": "Background: Plantago major has been reported to have anticancer and anti-inflammatory properties. However, its antiproliferative and anti-inflammatory mechanisms have not elucidated. Moreover, which plant parts are more suitable as starting materials has not been explored. Objectives: To investigate the antiproliferative activity of P. major\n\nMCF-7, MDA-MB-231, HeLaS3, A549, and KB cancer cell lines as well as their effects on inflammatory cytokines (tumor necrosis factor [TNF]-a, interleukin [IL]-1\u03b2, IL-6, an\n\n[IFN]-g) production by lipopolysaccharide (LPS)-stimulated THP-1 macrophages. Materials and Methods: The methanol and aqueous extracts of P. major from different plant its chemical compounds, i.e., ursolic acid (UA), oleanolic acid (OA), and aucubin were tested in this experiment. Results: Methanol and aqueous extracts of P. major\n\ngreatest antiproliferative activity. The methanol extracts of seeds also demonstrated the highest inhibition of TNF-a, IL-1\u03b2, IL-6, and IFN-g production. Interestingly, t\n\ncommonly discarded, exhibited comparable activities to those of leaves and petioles. Furthermore, UA exhibited stronger activities than OA and aucubin. Conclusions:\n\nbeing proposed as the main source for further development of anticancer and anti-inflammatory products, whereas the roots could be included in the preparation of\n\nproducts with respect to anti-inflammatory",
+            "identifiers": [
+                "oai:repository.ubaya.ac.id:30401",
+                null
+            ],
+            "publisher": "Wolters Kluwer - Medknow Publications and Media Pvt. Ltd, Mumbai, INDIA.",
+            "relations": [
+                "http://www.phcog.com/",
+                "http://repository.ubaya.ac.id/30401/"
+            ],
+            "repositories": [
+                {
+                    "id": "428",
+                    "openDoarId": 0,
+                    "name": "University of Surabaya Institutional Repository",
+                    "urlHomepage": null,
+                    "urlOaipmh": null,
+                    "uriJournals": null,
+                    "physicalName": "noname",
+                    "source": null,
+                    "software": null,
+                    "metadataFormat": null,
+                    "description": null,
+                    "journal": null,
+                    "roarId": 0,
+                    "baseId": 0,
+                    "pdfStatus": null,
+                    "nrUpdates": 0,
+                    "disabled": false,
+                    "lastUpdateTime": null,
+                    "repositoryLocation": null
+                }
+            ],
+            "repositoryDocument": {
+                "pdfStatus": 1,
+                "metadataAdded": 1503166653000,
+                "metadataUpdated": 1608336410000,
+                "depositedDate": 1500850800000
+            },
+            "subjects": [
+                "Article",
+                "PeerReviewed"
+            ],
+            "title": "Effects of Plantago major extracts and its chemical compounds on proliferation of cancer cells and cytokines\n\nproduction of lipopolysaccharide-activated THP-1 macrophages",
+            "topics": [
+                "RS Pharmacy and materia medica"
+            ],
+            "types": [],
+            "year": 2017,
+            "fulltextIdentifier": "https://core.ac.uk/download/85124355.pdf",
+            "oai": "oai:repository.ubaya.ac.id:30401",
+            "downloadUrl": "https://core.ac.uk/download/85124355.pdf"
         },
         {
-            "_index": "articles_2019_06_05",
-            "_type": "article",
-            "_id": "79587330",
-            "_score": 20.03098,
-            "_source": {
-                "id": "79587330",
-                "authors": [],
-                "citations": [],
-                "contributors": [
-                    "Hirsch, Louis A. (Composer)",
-                    "Buck, Gene (Lyricist)",
-                    "M. Witmark & Sons (Publisher)",
-                    "De Takacs, Andre C. (Artist)"
-                ],
-                "datePublished": "1915-01-01T00:00:00",
-                "deleted": "ALLOWED",
-                "description": "First Line: Hello central, hello central, can't you seeFirst Line of Chorus: Hello Frisco, hello hello Frisco, helloTitle of Larger Work: Ziegfeld Follies 1915Key: A Flat Majo",
-                "fullText": null,
-                "fullTextIdentifier": null,
-                "identifiers": [
-                    "item:39987",
-                    null
-                ],
-                "journals": null,
-                "language": null,
-                "duplicateId": null,
-                "publisher": null,
-                "rawRecordXml": "<record><header><identifier>\n\t\t\n    \n\t\t\n\t\t\t\n      \n\t\t\t\n\t\t\t\t\n        \n\t\t\t\titem:39987</identifier><datestamp>\n\t\t\t\t\n        \n\t\t\t\t2018-06-21T18:49:31Z</datestamp><setSpec>\n\t\t\t\t\n        \n\t\t\t\tcollections:125</setSpec><setSpec>\n\t\t\t\t\n        \n\t\t\t\tsummon</setSpec><setSpec>\n\t\t\t\t\n        \n\t\t\t\tresearch</setSpec>\n\t\t\t\t\n      \n\t\t\t</header><metadata><oai_dc:dc XSI_SCHEMA_LOC=\"http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" ><dc:title>\n\t\t\t\n      \n\t\t\t\n\t\t\t\t\n        \n\t\t\t\t\n\t\t\t\t\t\n          \n\t\t\t\t\tHello, Frisco!</dc:title><dc:title>\n\t\t\t\t\t\n          \n\t\t\t\t\tAlternate Title: I Called You Up to Say \"Hello!\"</dc:title><dc:contributor>\n\t\t\t\t\t\n          \n\t\t\t\t\tHirsch, Louis A. (Composer)</dc:contributor><dc:contributor>\n\t\t\t\t\t\n          \n\t\t\t\t\tBuck, Gene (Lyricist)</dc:contributor><dc:contributor>\n\t\t\t\t\t\n          \n\t\t\t\t\tM. Witmark & Sons (Publisher)</dc:contributor><dc:contributor>\n\t\t\t\t\t\n          \n\t\t\t\t\tDe Takacs, Andre C. (Artist)</dc:contributor><dc:subject>\n\t\t\t\t\t\n          \n\t\t\t\t\tSongs, 1910-1919</dc:subject><dc:identifier>\n\t\t\t\t\t\n          \n\t\t\t\t\tCall Number: SM2844</dc:identifier><dc:language>\n\t\t\t\t\t\n          \n\t\t\t\t\teng</dc:language><dc:description>\n\t\t\t\t\t\n          \n\t\t\t\t\tFirst Line: Hello central, hello central, can't you see</dc:description><dc:description>\n\t\t\t\t\t\n          \n\t\t\t\t\tFirst Line of Chorus: Hello Frisco, hello hello Frisco, hello</dc:description><dc:description>\n\t\t\t\t\t\n          \n\t\t\t\t\tTitle of Larger Work: Ziegfeld Follies 1915</dc:description><dc:description>\n\t\t\t\t\t\n          \n\t\t\t\t\tKey: A Flat Major</dc:description><dc:type>\n\t\t\t\t\t\n          \n\t\t\t\t\tNotated Music</dc:type><dc:type>\n\t\t\t\t\t\n          \n\t\t\t\t\tImage</dc:type><dc:identifier>\n\t\t\t\t\t\n          \n\t\t\t\t\thttp://hdl.handle.net/2286/R.I.39987</dc:identifier><dc:rights>\n\t\t\t\t\t\n          \n\t\t\t\t\thttp://rightsstatements.org/vocab/NoC-US/1.0/</dc:rights><dc:rights>\n\t\t\t\t\t\n          \n\t\t\t\t\thttps://creativecommons.org/publicdomain/mark/1.0/</dc:rights><dc:date>\n\t\t\t\t\t\n          \n\t\t\t\t\t1915</dc:date>\n\t\t\t\t\t\n        \n\t\t\t\t</oai_dc:dc>\n\t\t\t\t\n      \n\t\t\t</metadata>\n\t\t\t\n    \n\t\t</record>",
-                "relations": [],
-                "repositories": [
-                    {
-                        "id": "315",
-                        "openDoarId": 0,
-                        "name": "ASU Digital Repository",
-                        "urlHomepage": null,
-                        "urlOaipmh": null,
-                        "uriJournals": null,
-                        "physicalName": "noname",
-                        "source": null,
-                        "software": null,
-                        "metadataFormat": null,
-                        "description": null,
-                        "journal": null,
-                        "roarId": 0,
-                        "baseId": 0,
-                        "pdfStatus": null,
-                        "nrUpdates": 0,
-                        "disabled": false,
-                        "lastUpdateTime": null,
-                        "repositoryLocation": null
-                    }
-                ],
-                "repositoryDocument": {
-                    "pdfStatus": 0,
-                    "textStatus": 0,
-                    "metadataAdded": 1489169617000,
-                    "metadataUpdated": 1607639358000,
-                    "timestamp": 1529603371000,
-                    "depositedDate": 1529535600000,
-                    "indexed": 1,
-                    "deletedStatus": "0",
-                    "pdfSize": 0,
-                    "tdmOnly": false,
-                    "pdfOrigin": null
-                },
-                "similarities": null,
-                "subjects": [
-                    "Notated Music",
-                    "Image"
-                ],
-                "title": "Alternate Title: I Called You Up to Say \"Hello!\"",
-                "topics": [
-                    "Songs, 1910-1919"
-                ],
-                "types": [],
-                "urls": [
-                    "http://hdl.handle.net/2286/R.I.39987"
-                ],
-                "year": 1915,
-                "doi": null,
-                "oai": null,
-                "downloadUrl": "",
-                "pdfHashValue": null,
-                "documentType": null,
-                "documentTypeConfidence": null,
-                "citationCount": null,
-                "estimatedCitationCount": null,
-                "acceptedDate": null,
-                "depositedDate": 1529535600000,
-                "publishedDate": -1735689600000,
-                "issn": null,
-                "attachmentCount": 0,
-                "repositoryPublicReleaseDate": null,
-                "extendedMetadataAttributes": null,
-                "crossrefDocument": null,
-                "magDocument": null,
-                "orcidAuthors": null
-            }
+            "id": "153211941",
+            "authors": [
+                "Hanan, Nurul Akma"
+            ],
+            "contributors": [],
+            "datePublished": "2017-08-01T00:00:00",
+            "description": "Nanoteknologi menawarkan kegunaan yang meluas dalam pelbagai bidang seperti kejuruteraan, telekomunikasi, pengiklanan, tekstil, kosmetik, dan juga perubatan\n\n\n\nNanotechnology has undeniably offered a variety of applications, ranging from engineering, telecommunication, advertising, textile, cosmetics and even medicin",
+            "identifiers": [
+                "oai:generic.eprints.org:39245/core423",
+                null
+            ],
+            "relations": [
+                "http://eprints.usm.my/39245/"
+            ],
+            "repositories": [
+                {
+                    "id": "423",
+                    "openDoarId": 0,
+                    "name": "Repository@USM",
+                    "urlHomepage": null,
+                    "urlOaipmh": null,
+                    "uriJournals": null,
+                    "physicalName": "noname",
+                    "source": null,
+                    "software": null,
+                    "metadataFormat": null,
+                    "description": null,
+                    "journal": null,
+                    "roarId": 0,
+                    "baseId": 0,
+                    "pdfStatus": null,
+                    "nrUpdates": 0,
+                    "disabled": false,
+                    "lastUpdateTime": null,
+                    "repositoryLocation": null
+                }
+            ],
+            "repositoryDocument": {
+                "pdfStatus": 1,
+                "metadataAdded": 1521336212000,
+                "metadataUpdated": 1608338459000,
+                "depositedDate": 1526511600000
+            },
+            "subjects": [
+                "Thesis",
+                "NonPeerReviewed"
+            ],
+            "title": "A Systematic Review On Cytotoxicity Of Plant-Mediated Metallic Nanoparticles",
+            "topics": [
+                "RK1-715 Dentistry"
+            ],
+            "types": [],
+            "year": 2017,
+            "fulltextIdentifier": "https://core.ac.uk/download/153211941.pdf",
+            "oai": "oai:generic.eprints.org:39245/core423",
+            "downloadUrl": "https://core.ac.uk/download/153211941.pdf"
         },
         {
-            "_index": "articles_2019_06_05",
-            "_type": "article",
-            "_id": "377142",
-            "_score": 19.693438,
-            "_source": {
-                "id": "377142",
-                "authors": [
-                    "Banfield, Mark"
-                ],
-                "citations": [],
-                "contributors": [],
-                "datePublished": "2001-01-01T00:00:00",
-                "deleted": "ALLOWED",
-                "description": null,
-                "fullText": null,
-                "fullTextIdentifier": null,
-                "identifiers": [
-                    "oai:eprints.lancs.ac.uk:11922",
-                    null
-                ],
-                "journals": null,
-                "language": null,
-                "duplicateId": null,
-                "publisher": null,
-                "rawRecordXml": "<record><header><identifier>\n    \n    \n      oai:eprints.lancs.ac.uk:11922</identifier><datestamp>\n      2020-10-08T09:38:24Z</datestamp><setSpec>\n      7374617475733D756E707562</setSpec><setSpec>\n      74797065733D6F74686572</setSpec></header><metadata><oai_dc:dc xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" ><dc:relation>\n    \n      \n        https://eprints.lancs.ac.uk/id/eprint/11922/</dc:relation><dc:title>\n        hello hello</dc:title><dc:creator>\n        Banfield, Mark</dc:creator><dc:date>\n        2001-01</dc:date><dc:type>\n        Other</dc:type><dc:type>\n        NonPeerReviewed</dc:type><dc:identifier>\n          Banfield, Mark  (2001) hello hello.  UNSPECIFIED.    (Unpublished)  </dc:identifier></oai_dc:dc></metadata></record>",
-                "relations": [
-                    "https://eprints.lancs.ac.uk/id/eprint/11922/"
-                ],
-                "repositories": [
-                    {
-                        "id": "59",
-                        "openDoarId": 0,
-                        "name": "Lancaster E-Prints",
-                        "urlHomepage": null,
-                        "urlOaipmh": null,
-                        "uriJournals": null,
-                        "physicalName": "noname",
-                        "source": null,
-                        "software": null,
-                        "metadataFormat": null,
-                        "description": null,
-                        "journal": null,
-                        "roarId": 0,
-                        "baseId": 0,
-                        "pdfStatus": null,
-                        "nrUpdates": 0,
-                        "disabled": false,
-                        "lastUpdateTime": null,
-                        "repositoryLocation": null
-                    }
-                ],
-                "repositoryDocument": {
-                    "pdfStatus": 0,
-                    "textStatus": 0,
-                    "metadataAdded": 1331232255000,
-                    "metadataUpdated": 1607669504000,
-                    "timestamp": 1602146304000,
-                    "depositedDate": 1523401200000,
-                    "indexed": 1,
-                    "deletedStatus": "0",
-                    "pdfSize": 0,
-                    "tdmOnly": false,
-                    "pdfOrigin": null
-                },
-                "similarities": null,
-                "subjects": [
-                    "Other",
-                    "NonPeerReviewed"
-                ],
-                "title": "hello hello",
-                "topics": [],
-                "types": [],
-                "urls": [
-                    "https://eprints.lancs.ac.uk/id/eprint/11922/"
-                ],
-                "year": 2001,
-                "doi": null,
-                "oai": "oai:eprints.lancs.ac.uk:11922",
-                "downloadUrl": "",
-                "pdfHashValue": null,
-                "documentType": null,
-                "documentTypeConfidence": null,
-                "citationCount": null,
-                "estimatedCitationCount": null,
-                "acceptedDate": null,
-                "depositedDate": 1523401200000,
-                "publishedDate": 978307200000,
-                "issn": null,
-                "attachmentCount": 0,
-                "repositoryPublicReleaseDate": null,
-                "extendedMetadataAttributes": {
-                    "attachmentCount": 0,
-                    "publicReleaseDate": null
-                },
-                "crossrefDocument": null,
-                "magDocument": null,
-                "orcidAuthors": null
-            }
+            "id": "363910527",
+            "authors": [
+                "Ortega, Sterling B.",
+                "Pandiyan, Poornima",
+                "Windsor, Jana",
+                "Torres, Vanessa O.",
+                "Selvaraj, Uma M.",
+                "Lee, Amy",
+                "Morriss, Michael",
+                "Tian, Fenghua",
+                "Raman, Lakshmi",
+                "Stowe, Ann M."
+            ],
+            "contributors": [],
+            "datePublished": "2019-03-01T08:00:00",
+            "description": "OBJECTIVES: Extracorporeal membrane oxygenation provides short-term cardiopulmonary life support, but is associated with peripheral innate inflammation, disruptions in cerebral autoregulation, and acquired brain injury. We tested the hypothesis that extracorporeal membrane oxygenation also induces CNS-directed adaptive immune responses which may exacerbate extracorporeal membrane oxygenation-associated brain injury.\nDESIGN: A single center prospective observational study.\nSETTING: Pediatric and cardiac ICUs at a single tertiary care, academic center.\nPATIENTS: Twenty pediatric extracorporeal membrane oxygenation patients (0-14 yr; 13 females, 7 males) and five nonextracorporeal membrane oxygenation Pediatric Logistic Organ Dysfunction score matched patients.\nINTERVENTIONS: None.\nMEASUREMENTS AND MAIN RESULTS: Venous blood samples were collected from the extracorporeal membrane oxygenation circuit at day 1 (10-23\u2009hr), day 3, and day 7 of extracorporeal membrane oxygenation. Flow cytometry quantified circulating innate and adaptive immune cells, and CNS-directed autoreactivity was detected using an in vitro recall response assay. Disruption of cerebral autoregulation was determined using continuous bedside near-infrared spectroscopy and acquired brain injury confirmed by MRI. Extracorporeal membrane oxygenation patients with acquired brain injury (n = 9) presented with a 10-fold increase in interleukin-8 over extracorporeal membrane oxygenation patients without brain injury (p \\u3c 0.01). Furthermore, brain injury within extracorporeal membrane oxygenation patients potentiated an inflammatory phenotype in adaptive immune cells and selective autoreactivity to brain peptides in circulating B cell and cytotoxic T cell populations. Correlation analysis revealed a significant relationship between adaptive immune responses of extracorporeal membrane oxygenation patients with acquired brain injury and loss of cerebral autoregulation.\nCONCLUSIONS: We show that pediatric extracorporeal membrane oxygenation patients with acquired brain injury exhibit an induction of pro-inflammatory cell signaling, a robust activation of adaptive immune cells, and CNS-targeting adaptive immune responses. As these patients experience developmental delays for years after extracorporeal membrane oxygenation, it is critical to identify and characterize adaptive immune cell mechanisms that target the developing CNS",
+            "identifiers": [
+                "oai:uknowledge.uky.edu:neurology_facpub-1061",
+                null
+            ],
+            "language": {
+                "code": "en",
+                "id": 9,
+                "name": "English"
+            },
+            "publisher": "UKnowledge",
+            "relations": [],
+            "repositories": [
+                {
+                    "id": "3479",
+                    "openDoarId": 0,
+                    "name": "University of Kentucky",
+                    "urlHomepage": null,
+                    "urlOaipmh": null,
+                    "uriJournals": null,
+                    "physicalName": "noname",
+                    "source": null,
+                    "software": null,
+                    "metadataFormat": null,
+                    "description": null,
+                    "journal": null,
+                    "roarId": 0,
+                    "baseId": 0,
+                    "pdfStatus": null,
+                    "nrUpdates": 0,
+                    "disabled": false,
+                    "lastUpdateTime": null,
+                    "repositoryLocation": null
+                }
+            ],
+            "repositoryDocument": {
+                "pdfStatus": 1,
+                "metadataAdded": 1608554461000,
+                "metadataUpdated": 1614392557000,
+                "depositedDate": 1606802558000
+            },
+            "subjects": [
+                "text"
+            ],
+            "title": "A Pilot Study Identifying Brain-Targeting Adaptive Immunity in Pediatric Extracorporeal Membrane Oxygenation Patients with Acquired Brain Injury",
+            "topics": [
+                "Adaptive Immunity",
+                "Adolescent",
+                "B-Lymphocytes",
+                "Brain",
+                "Brain Injuries",
+                "Case-Control Studies",
+                "Child",
+                "Child",
+                "Preschool",
+                "Drug Discovery",
+                "Extracorporeal Membrane Oxygenation",
+                "Female",
+                "Flow Cytometry",
+                "Humans",
+                "Infant",
+                "Infant",
+                "Newborn",
+                "Inflammation",
+                "Male",
+                "Organ Dysfunction Scores",
+                "Pilot Projects",
+                "T-Lymphocytes",
+                "Cytotoxic",
+                "autoreactivity",
+                "B cells",
+                "cerebral autoregulation",
+                "cytotoxic T cells",
+                "extracorporeal membrane oxygenation",
+                "helper T cells",
+                "Child, Preschool",
+                "Infant, Newborn",
+                "T-Lymphocytes, Cytotoxic",
+                "Biomedical Engineering and Bioengineering",
+                "Neurology",
+                "Pediatrics"
+            ],
+            "types": [],
+            "year": 2019,
+            "fulltextIdentifier": "https://core.ac.uk/download/363910527.pdf",
+            "oai": "oai:uknowledge.uky.edu:neurology_facpub-1061",
+            "downloadUrl": "https://core.ac.uk/download/363910527.pdf"
         },
         {
-            "_index": "articles_2019_06_05",
-            "_type": "article",
-            "_id": "84743457",
-            "_score": 19.482872,
-            "_source": {
-                "id": "84743457",
-                "authors": [
-                    "Hirsch, Louis A. (Louis Achille) [composer]",
-                    "Buck, Gene [lyricist]",
-                    "Faye, Alice [performer]",
-                    "Payne, John [performer]",
-                    "Oakie, Jack [performer]",
-                    "Bari, Lynn [performer]"
-                ],
-                "citations": [],
-                "contributors": [],
-                "datePublished": "2017-05-09T17:28:14",
-                "deleted": "ALLOWED",
-                "description": "Gift of Dr. Mary Jane Esplen.Piano vocal guitar ukulele banjo [instrumentation]Hello, Central! Hello, Central! [first lineHello, Frisco, hello! [first line of chorus]G [key]Moderato [tempo]Motion picture music ; popular song [form/genre]Alice Faye, John Payne, Jack Oakie, Lynn Bari (photograph) [illustration]Publisher's advertisement on inside front and back cover [note]Copyright renewed [note",
-                "fullText": null,
-                "fullTextIdentifier": null,
-                "identifiers": [
-                    "oai:yorkspace.library.yorku.ca:10315/33108",
-                    null
-                ],
-                "journals": null,
-                "language": null,
-                "duplicateId": null,
-                "publisher": "New York : M. Witmark & Son, 1915.",
-                "rawRecordXml": "<record><header><identifier>oai:yorkspace.library.yorku.ca:10315/33108</identifier><datestamp>2019-08-20T22:04:00Z</datestamp><setSpec>com_10315_580</setSpec><setSpec>col_10315_8004</setSpec></header><metadata><oai_dc:dc xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" xmlns:doc=\"http://www.lyncode.com/xoai\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd\" ><dc:title>\nHello, Frisco!</dc:title><dc:title>\nHello, Frisco! : from the 20th Century-Fox picture ; Alice Faye, John Payne, Jack Oakie, Lynn Bari in \"Hello, Frisco, Hello</dc:title><dc:title>\nHello, Frisco, hello</dc:title><dc:creator>\nHirsch, Louis A. (Louis Achille) [composer]</dc:creator><dc:creator>\nBuck, Gene [lyricist]</dc:creator><dc:creator>\nFaye, Alice [performer]</dc:creator><dc:creator>\nPayne, John [performer]</dc:creator><dc:creator>\nOakie, Jack [performer]</dc:creator><dc:creator>\nBari, Lynn [performer]</dc:creator><dc:description>\nGift of Dr. Mary Jane Esplen.</dc:description><dc:description>\nPiano vocal guitar ukulele banjo [instrumentation]</dc:description><dc:description>\nHello, Central! Hello, Central! [first line</dc:description><dc:description>\nHello, Frisco, hello! [first line of chorus]</dc:description><dc:description>\nG [key]</dc:description><dc:description>\nModerato [tempo]</dc:description><dc:description>\nMotion picture music ; popular song [form/genre]</dc:description><dc:description>\nAlice Faye, John Payne, Jack Oakie, Lynn Bari (photograph) [illustration]</dc:description><dc:description>\nPublisher's advertisement on inside front and back cover [note]</dc:description><dc:description>\nCopyright renewed [note]</dc:description><dc:date>\n2017-05-17T18:49:03Z</dc:date><dc:date>\n2017-05-17T18:49:03Z</dc:date><dc:date>\n1915</dc:date><dc:date>\n2017-05-09T17:28:14Z</dc:date><dc:type>\nSheet Music</dc:type><dc:identifier>\nJAC008934</dc:identifier><dc:identifier>\nhttps://www.library.yorku.ca/find/Record/3668535</dc:identifier><dc:identifier>\nhttp://hdl.handle.net/10315/33108</dc:identifier><dc:language>\nen</dc:language><dc:relation>\nJohn Arpin Sheet Music Collection</dc:relation><dc:rights>\nhttp://bit.ly/SheetMusicFAQ</dc:rights><dc:format>\n3 pages of music ; 23 X 30 cm.</dc:format><dc:format>\nimage/jpeg</dc:format><dc:format>\napplication/pdf</dc:format><dc:publisher>\nNew York : M. Witmark & Son, 1915.</dc:publisher>\n</oai_dc:dc></metadata></record>",
-                "relations": [
-                    "John Arpin Sheet Music Collection"
-                ],
-                "repositories": [
-                    {
-                        "id": "319",
-                        "openDoarId": 0,
-                        "name": "YorkSpace",
-                        "urlHomepage": null,
-                        "urlOaipmh": null,
-                        "uriJournals": null,
-                        "physicalName": "noname",
-                        "source": null,
-                        "software": null,
-                        "metadataFormat": null,
-                        "description": null,
-                        "journal": null,
-                        "roarId": 0,
-                        "baseId": 0,
-                        "pdfStatus": null,
-                        "nrUpdates": 0,
-                        "disabled": false,
-                        "lastUpdateTime": null,
-                        "repositoryLocation": null
-                    }
-                ],
-                "repositoryDocument": {
-                    "pdfStatus": 0,
-                    "textStatus": 0,
-                    "metadataAdded": 1502570805000,
-                    "metadataUpdated": 1607644654000,
-                    "timestamp": 1566335040000,
-                    "depositedDate": 1495062000000,
-                    "indexed": 1,
-                    "deletedStatus": "0",
-                    "pdfSize": 0,
-                    "tdmOnly": false,
-                    "pdfOrigin": null
-                },
-                "similarities": null,
-                "subjects": [
-                    "Sheet Music"
-                ],
-                "title": "Hello, Frisco, hello",
-                "topics": [],
-                "types": [],
-                "urls": [
-                    "http://hdl.handle.net/10315/33108",
-                    "https://www.library.yorku.ca/find/Record/3668535"
-                ],
-                "year": 2017,
-                "doi": null,
-                "oai": "oai:yorkspace.library.yorku.ca:10315/33108",
-                "downloadUrl": "",
-                "pdfHashValue": null,
-                "documentType": null,
-                "documentTypeConfidence": null,
-                "citationCount": null,
-                "estimatedCitationCount": null,
-                "acceptedDate": null,
-                "depositedDate": 1495062000000,
-                "publishedDate": 1494350894000,
-                "issn": null,
-                "attachmentCount": 0,
-                "repositoryPublicReleaseDate": null,
-                "extendedMetadataAttributes": null,
-                "crossrefDocument": null,
-                "magDocument": null,
-                "orcidAuthors": null
-            }
+            "id": "161874969",
+            "authors": [
+                "Allison, S.J.",
+                "Cooke, D.",
+                "Davidson, F.S.",
+                "Elliott, P.I.P.",
+                "Faulkner, R.A.",
+                "Griffiths, H.B.S.",
+                "Harper, O.J.",
+                "Hussain, O.",
+                "Owen-Lynch, P.J.",
+                "Phillips, Roger M.",
+                "Rice, C.R.",
+                "Shepherd, S.L.",
+                "Wheelhouse, Richard T."
+            ],
+            "contributors": [],
+            "datePublished": "2018-06-04T00:00:00",
+            "description": "YesThe ligands L1 and L2 both form separable dinuclear double\u2010stranded helicate and mesocate complexes with RuII. In contrast to clinically approved platinates, the helicate isomer of [Ru2(L1)2]4+ was preferentially cytotoxic to isogenic cells (HCT116 p53\u2212/\u2212), which lack the critical tumour suppressor gene. The mesocate isomer shows the reverse selectivity, with the achiral isomer being preferentially cytotoxic towards HCT116 p53+/+. Other structurally similar RuII\u2010containing dinuclear complexes showed very little cytotoxic activity. This study demonstrates that alterations in ligand or isomer can have profound effects on cytotoxicity towards cancer cells of different p53 status and suggests that selectivity can be \u201ctuned\u201d to either genotype. In the search for compounds that can target difficult\u2010to\u2010treat tumours that lack the p53 tumour suppressor gene, [Ru2(L1)2]4+ is a promising compound for further development",
+            "identifiers": [
+                "oai:bradscholars.brad.ac.uk:10454/16548",
+                "10.1002/anie.201805510"
+            ],
+            "publisher": "'Wiley'",
+            "relations": [
+                "https://doi.org/10.1002/anie.201805510"
+            ],
+            "repositories": [
+                {
+                    "id": "10",
+                    "openDoarId": 0,
+                    "name": "Bradford Scholars",
+                    "urlHomepage": null,
+                    "urlOaipmh": null,
+                    "uriJournals": null,
+                    "physicalName": "noname",
+                    "source": null,
+                    "software": null,
+                    "metadataFormat": null,
+                    "description": null,
+                    "journal": null,
+                    "roarId": 0,
+                    "baseId": 0,
+                    "pdfStatus": null,
+                    "nrUpdates": 0,
+                    "disabled": false,
+                    "lastUpdateTime": null,
+                    "repositoryLocation": null
+                }
+            ],
+            "repositoryDocument": {
+                "pdfStatus": 1,
+                "metadataAdded": 1546429557000,
+                "metadataUpdated": 1613813660000,
+                "depositedDate": 1535017538000
+            },
+            "subjects": [
+                "Article",
+                "Accepted Manuscript"
+            ],
+            "title": "Ruthenium-containing linear helicates and mesocates with tuneable p53 selective cytotoxicity in colorectal cancer cells",
+            "topics": [
+                "Cancer",
+                "Cytotoxicity",
+                "Helicate",
+                "Mesocate",
+                "Ruthenium"
+            ],
+            "types": [],
+            "year": 2018,
+            "fulltextIdentifier": "https://core.ac.uk/download/161874969.pdf",
+            "doi": "10.1002/anie.201805510",
+            "oai": "oai:bradscholars.brad.ac.uk:10454/16548",
+            "downloadUrl": "https://core.ac.uk/download/161874969.pdf"
         },
         {
-            "_index": "articles_2019_06_05",
-            "_type": "article",
-            "_id": "159076328",
-            "_score": 19.475925,
-            "_source": {
-                "id": "159076328",
-                "authors": [
-                    "Bai, J",
-                    "Liang, T",
-                    "Sun, Y",
-                    "Phillips, C",
-                    "Wireless Telecommunications Symposium (WTS), 2016"
-                ],
-                "citations": [],
-                "contributors": [],
-                "datePublished": "2017-07-21T07:56:29",
-                "deleted": "ALLOWED",
-                "description": "\u00a9 2016 IEEE. All these years, a lot of efforts have been put upon how to reduce the broadcast overhead consumption in Cognitive Radio enabled Mobile Ad hoc Network (CRMANET). In this work, we propose an improved hello message scheme named Adaptive Classified Hello Scheme (ACHS) adopting classification method in CRMANET. Different from fixed hello interval and content form in frequently used Periodic Hello Message Scheme (PHMS), ACHS categorizes nodes into different classes based on node mobility. Each class in ACHS will be configured with different hello intervals and content format. Given each nodes real-time function performing in CRMANET (on the route or off the route), ACHS employs different strategies. For instance, when nodes are performing data transmission, instead of sending dedicate hello messages, their hello information will be attached into the data message to further reduce the control overhead. Compared with Periodic Hello Message Scheme (PHMS) and Reactive Hello Protocol (RHMS) in simulation, ACHS has improved hello efficiency around 50%",
-                "fullText": null,
-                "fullTextIdentifier": null,
-                "identifiers": [
-                    "oai:qmro.qmul.ac.uk:123456789/25024",
-                    "10.1109/WTS.2016.7482032"
-                ],
-                "journals": [
-                    {
-                        "title": null,
-                        "identifiers": [
-                            "1934-5070",
-                            "issn:1934-5070"
-                        ]
-                    }
-                ],
-                "language": null,
-                "duplicateId": null,
-                "publisher": "'Institute of Electrical and Electronics Engineers (IEEE)'",
-                "rawRecordXml": "<record><header><identifier>oai:qmro.qmul.ac.uk:123456789/25024</identifier><datestamp>2020-11-11T11:48:14Z</datestamp><setSpec>com_123456789_2884</setSpec><setSpec>col_123456789_33698</setSpec></header><metadata><oai_dc:dc xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" xmlns:doc=\"http://www.lyncode.com/xoai\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd\" ><dc:title>\nHello message scheme enhancement in CRMANET</dc:title><dc:creator>\nBai, J</dc:creator><dc:creator>\nLiang, T</dc:creator><dc:creator>\nSun, Y</dc:creator><dc:creator>\nPhillips, C</dc:creator><dc:creator>\nWireless Telecommunications Symposium (WTS), 2016</dc:creator><dc:description>\n\u00a9 2016 IEEE. All these years, a lot of efforts have been put upon how to reduce the broadcast overhead consumption in Cognitive Radio enabled Mobile Ad hoc Network (CRMANET). In this work, we propose an improved hello message scheme named Adaptive Classified Hello Scheme (ACHS) adopting classification method in CRMANET. Different from fixed hello interval and content form in frequently used Periodic Hello Message Scheme (PHMS), ACHS categorizes nodes into different classes based on node mobility. Each class in ACHS will be configured with different hello intervals and content format. Given each nodes real-time function performing in CRMANET (on the route or off the route), ACHS employs different strategies. For instance, when nodes are performing data transmission, instead of sending dedicate hello messages, their hello information will be attached into the data message to further reduce the control overhead. Compared with Periodic Hello Message Scheme (PHMS) and Reactive Hello Protocol (RHMS) in simulation, ACHS has improved hello efficiency around 50%.</dc:description><dc:date>\n2017-08-01T10:40:02Z</dc:date><dc:date>\n2016-02-02</dc:date><dc:date>\n2016-05-31</dc:date><dc:date>\n2017-07-21T07:56:29.611Z</dc:date><dc:type>\nConference Proceeding</dc:type><dc:identifier>\n9781509003143</dc:identifier><dc:identifier>\n1934-5070</dc:identifier><dc:identifier>\nhttp://qmro.qmul.ac.uk/xmlui/handle/123456789/25024</dc:identifier><dc:identifier>\n10.1109/WTS.2016.7482032</dc:identifier><dc:rights>\n\u00a9 2017 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works.</dc:rights>\n</oai_dc:dc>\n</metadata></record>",
-                "relations": [],
-                "repositories": [
-                    {
-                        "id": "619",
-                        "openDoarId": 0,
-                        "name": "Queen Mary Research Online",
-                        "urlHomepage": null,
-                        "urlOaipmh": null,
-                        "uriJournals": null,
-                        "physicalName": "noname",
-                        "source": null,
-                        "software": null,
-                        "metadataFormat": null,
-                        "description": null,
-                        "journal": null,
-                        "roarId": 0,
-                        "baseId": 0,
-                        "pdfStatus": null,
-                        "nrUpdates": 0,
-                        "disabled": false,
-                        "lastUpdateTime": null,
-                        "repositoryLocation": null
-                    }
-                ],
-                "repositoryDocument": {
-                    "pdfStatus": 0,
-                    "textStatus": 0,
-                    "metadataAdded": 1530366644000,
-                    "metadataUpdated": 1614289289000,
-                    "timestamp": 1605095294000,
-                    "depositedDate": 1501542000000,
-                    "indexed": 1,
-                    "deletedStatus": "0",
-                    "pdfSize": 0,
-                    "tdmOnly": false,
-                    "pdfOrigin": null
-                },
-                "similarities": null,
-                "subjects": [
-                    "Conference Proceeding"
-                ],
-                "title": "Hello message scheme enhancement in CRMANET",
-                "topics": [],
-                "types": [],
-                "urls": [
-                    "http://qmro.qmul.ac.uk/xmlui/handle/123456789/25024"
-                ],
-                "year": 2017,
-                "doi": "10.1109/WTS.2016.7482032",
-                "oai": "oai:qmro.qmul.ac.uk:123456789/25024",
-                "downloadUrl": "",
-                "pdfHashValue": null,
-                "documentType": null,
-                "documentTypeConfidence": null,
-                "citationCount": null,
-                "estimatedCitationCount": null,
-                "acceptedDate": null,
-                "depositedDate": 1501542000000,
-                "publishedDate": 1500623789000,
-                "issn": null,
-                "attachmentCount": 0,
-                "repositoryPublicReleaseDate": null,
-                "extendedMetadataAttributes": null,
-                "crossrefDocument": null,
-                "magDocument": null,
-                "orcidAuthors": null
-            }
+            "id": "159176612",
+            "authors": [
+                "Mutiah, Roihatul",
+                "Sukardiman, Sukardiman",
+                "Widyawaruyanti, Aty"
+            ],
+            "contributors": [],
+            "datePublished": "2018-06-01T00:00:00",
+            "description": "Objective: This study aims to isolate the active anticancer compound from ethyl acetate fraction extracted from the roots of Calotropis gigantea and to determine the operating mechanism of the isolates towards WiDr colon cancer cells. Methods: the isolation was conducted by using bioassay guided isolation approach method. The cytotoxic potential was determined by using MTT method. The chemical structure was identified by using UPLCMS/MS and NMR-1H spectroscopy. The cell cycle arrest and apoptosis induction were determined by flow cytometry method. The expression of caspase-8 was determined by immunocytochemistry method. Results: The results showed that the active compounds are obtained calotroposid A compound which is glycosides terpenoids. Calotroposide A is capable of inhibiting the growth of WiDr colon cancer cells at IC50 17.23\u03bcg/ml. Cell apoptosis induction took place and was indicated by cell apoptosis increase, S and G2/M accumulation and by caspase-8 expression. Conclusion: Calotroposide A induces anticancer activity against WiDr colon cancer cells by means of apoptosis induction mechanism through extrinsic pathway with increased expression of caspase-8",
+            "identifiers": [
+                "oai:repository.uin-malang.ac.id:3665",
+                "10.22034/APJCP.2018.19.6.1457"
+            ],
+            "publisher": "'International Dose-Response Society'",
+            "relations": [
+                "http://repository.uin-malang.ac.id/3665/",
+                "http://journal.waocp.org/article_63270.html"
+            ],
+            "repositories": [
+                {
+                    "id": "889",
+                    "openDoarId": 0,
+                    "name": "UIN Maliki Malang Repository",
+                    "urlHomepage": null,
+                    "urlOaipmh": null,
+                    "uriJournals": null,
+                    "physicalName": "noname",
+                    "source": null,
+                    "software": null,
+                    "metadataFormat": null,
+                    "description": null,
+                    "journal": null,
+                    "roarId": 0,
+                    "baseId": 0,
+                    "pdfStatus": null,
+                    "nrUpdates": 0,
+                    "disabled": false,
+                    "lastUpdateTime": null,
+                    "repositoryLocation": null
+                }
+            ],
+            "repositoryDocument": {
+                "pdfStatus": 1,
+                "metadataAdded": 1531042874000,
+                "metadataUpdated": 1608059352000,
+                "depositedDate": 1530140400000
+            },
+            "subjects": [
+                "Journal Article",
+                "PeerReviewed"
+            ],
+            "title": "Calotroposid A: a Glycosides Terpenoids from Calotropis gigantea Induces Apoptosis of Colon Cancer WiDr Cells through Cell Cycle Arrest G2/M and Caspase 8 Expression",
+            "topics": [
+                "111201 Cancer Cell Biology",
+                "111204 Cancer Therapy (excl. Chemotherapy and Radiation Therapy)",
+                "111502 Clinical Pharmacology and Therapeutics"
+            ],
+            "types": [],
+            "year": 2018,
+            "fulltextIdentifier": "https://core.ac.uk/download/159176612.pdf",
+            "doi": "10.22034/APJCP.2018.19.6.1457",
+            "oai": "oai:repository.uin-malang.ac.id:3665",
+            "downloadUrl": "https://core.ac.uk/download/159176612.pdf"
         },
         {
-            "_index": "articles_2019_06_05",
-            "_type": "article",
-            "_id": "217056089",
-            "_score": 19.344625,
-            "_source": {
-                "id": "217056089",
-                "authors": [
-                    "Britt, Addy",
-                    "Coslow, Sam"
-                ],
-                "citations": [],
-                "contributors": [],
-                "datePublished": "1927-01-01T08:00:00",
-                "deleted": "ALLOWED",
-                "description": "https://digitalcommons.library.umaine.edu/mmb-vp-copyright/2022/thumbnail.jp",
-                "fullText": null,
-                "fullTextIdentifier": null,
-                "identifiers": [
-                    "oai:digitalcommons.library.umaine.edu:mmb-vp-copyright-2022",
-                    null
-                ],
-                "journals": null,
-                "language": null,
-                "duplicateId": null,
-                "publisher": "DigitalCommons@UMaine",
-                "rawRecordXml": "<record><header><identifier>\n\n\t\t\t\n\n\t\n\t\toai:digitalcommons.library.umaine.edu:mmb-vp-copyright-2022</identifier><datestamp>\n\t\t2016-03-30T13:36:06Z</datestamp><setSpec>\n\t\t\t\tpublication:mmb_copyright</setSpec><setSpec>\n\t\t\t\tpublication:mmb</setSpec><setSpec>\n\t\t\t\tpublication:mmb-vp-copyright</setSpec><setSpec>\n\t\t\t\tpublication:fogler</setSpec>\n\t\t\t</header><metadata><oai_dc:dc xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd\" ><dc:title>\n\t\n\t\t\n\t\t\tHello! Swanee - Hello!</dc:title><dc:creator>\nBritt, Addy</dc:creator><dc:creator>\nCoslow, Sam</dc:creator><dc:date>\n1927-01-01T08:00:00Z</dc:date><dc:type>\ntext</dc:type><dc:identifier>\nhttps://digitalcommons.library.umaine.edu/mmb-vp-copyright/1023</dc:identifier><dc:source>\nVocal Popular Sheet Music Collection</dc:source><dc:publisher>\nDigitalCommons@UMaine</dc:publisher><dc:subject>\n\nRegions of the US</dc:subject><dc:subject>\nSongs about transportation</dc:subject><dc:subject>\nSongs with geographic locations</dc:subject><dc:subject>\nSongs with piano</dc:subject><dc:subject>\nSouth</dc:subject><dc:subject>\nSwanee River</dc:subject><dc:subject>\nTrains</dc:subject><dc:description>\nhttps://digitalcommons.library.umaine.edu/mmb-vp-copyright/2022/thumbnail.jpg</dc:description>\n\n\t\t</oai_dc:dc>\n\t</metadata>\n</record>",
-                "relations": [],
-                "repositories": [
-                    {
-                        "id": "3475",
-                        "openDoarId": 0,
-                        "name": "University of Maine",
-                        "urlHomepage": null,
-                        "urlOaipmh": null,
-                        "uriJournals": null,
-                        "physicalName": "noname",
-                        "source": null,
-                        "software": null,
-                        "metadataFormat": null,
-                        "description": null,
-                        "journal": null,
-                        "roarId": 0,
-                        "baseId": 0,
-                        "pdfStatus": null,
-                        "nrUpdates": 0,
-                        "disabled": false,
-                        "lastUpdateTime": null,
-                        "repositoryLocation": null
-                    }
-                ],
-                "repositoryDocument": {
-                    "pdfStatus": 0,
-                    "textStatus": 0,
-                    "metadataAdded": 1562691516000,
-                    "metadataUpdated": 1610910946000,
-                    "timestamp": 1459341366000,
-                    "depositedDate": 1459341366000,
-                    "indexed": 1,
-                    "deletedStatus": "0",
-                    "pdfSize": 0,
-                    "tdmOnly": false,
-                    "pdfOrigin": null
-                },
-                "similarities": null,
-                "subjects": [
-                    "text"
-                ],
-                "title": "Hello! Swanee - Hello!",
-                "topics": [
-                    "Regions of the US",
-                    "Songs about transportation",
-                    "Songs with geographic locations",
-                    "Songs with piano",
-                    "South",
-                    "Swanee River",
-                    "Trains"
-                ],
-                "types": [],
-                "urls": [
-                    "https://digitalcommons.library.umaine.edu/mmb-vp-copyright/1023"
-                ],
-                "year": 1927,
-                "doi": null,
-                "oai": "oai:digitalcommons.library.umaine.edu:mmb-vp-copyright-2022",
-                "downloadUrl": "",
-                "pdfHashValue": null,
-                "documentType": null,
-                "documentTypeConfidence": null,
-                "citationCount": null,
-                "estimatedCitationCount": null,
-                "acceptedDate": null,
-                "depositedDate": 1459341366000,
-                "publishedDate": -1356969600000,
-                "issn": null,
-                "attachmentCount": 0,
-                "repositoryPublicReleaseDate": null,
-                "extendedMetadataAttributes": null,
-                "crossrefDocument": null,
-                "magDocument": null,
-                "orcidAuthors": null
-            }
+            "id": "160494288",
+            "authors": [
+                "Chovanec, Michal",
+                "Taza, Fadi",
+                "Kalra, Maitri",
+                "Hah, Noah",
+                "Nephew, Kenneth P.",
+                "Spinella, Michael J.",
+                "Albany, Costantine"
+            ],
+            "contributors": [
+                "Medicine, School of Medicine"
+            ],
+            "datePublished": "2018-02-01T00:00:00",
+            "description": "Inhibition of DNA methyltransferases (DNMTs) has emerged as a novel treatment strategy in solid tumors. Aberrant hypermethylation in promoters of critical tumor suppressor genes is the basis for the idea that treatment with hypomethylating agents may lead to the restoration of a \u201cnormal\u201d epigenome and produce clinically meaningful therapeutic outcomes. The aim of this review article is to summarize the current state of knowledge of DNMT inhibitors in the treatment of genitourinary malignancies. The efficacy of these agents in genitourinary malignancies was reported in a number of studies and suggests a role of induced DNA hypomethylation in overcoming resistance to conventional cytotoxic treatments. The clinical significance of these findings should be further investigated",
+            "identifiers": [
+                "oai:scholarworks.iupui.edu:1805/17100",
+                "10.1007/s11523-017-0546-x"
+            ],
+            "language": {
+                "code": "en",
+                "id": 9,
+                "name": "English"
+            },
+            "publisher": "'Springer Science and Business Media LLC'",
+            "relations": [],
+            "repositories": [
+                {
+                    "id": "1651",
+                    "openDoarId": 0,
+                    "name": "IUPUIScholarWorks",
+                    "urlHomepage": null,
+                    "urlOaipmh": null,
+                    "uriJournals": null,
+                    "physicalName": "noname",
+                    "source": null,
+                    "software": null,
+                    "metadataFormat": null,
+                    "description": null,
+                    "journal": null,
+                    "roarId": 0,
+                    "baseId": 0,
+                    "pdfStatus": null,
+                    "nrUpdates": 0,
+                    "disabled": false,
+                    "lastUpdateTime": null,
+                    "repositoryLocation": null
+                }
+            ],
+            "repositoryDocument": {
+                "pdfStatus": 1,
+                "metadataAdded": 1534571049000,
+                "metadataUpdated": 1611509021000,
+                "depositedDate": 1533942000000
+            },
+            "subjects": [
+                "Article"
+            ],
+            "title": "Incorporating DNA Methyltransferase Inhibitors (DNMTis) in the Treatment of Genitourinary Malignancies: A Systematic Review",
+            "topics": [
+                "DNA methyltransferase inhibitors",
+                "genitourinary malignancies",
+                "DNMTis"
+            ],
+            "types": [],
+            "year": 2018,
+            "fulltextIdentifier": "https://core.ac.uk/download/160494288.pdf",
+            "doi": "10.1007/s11523-017-0546-x",
+            "oai": "oai:scholarworks.iupui.edu:1805/17100",
+            "downloadUrl": "https://core.ac.uk/download/160494288.pdf"
         },
         {
-            "_index": "articles_2019_06_05",
-            "_type": "article",
-            "_id": "21752246",
-            "_score": 19.308731,
-            "_source": {
-                "id": "21752246",
-                "authors": [],
-                "citations": [],
-                "contributors": [
-                    "The Pennsylvania State University CiteSeerX Archives"
-                ],
-                "datePublished": "2012-03-29",
-                "deleted": "ALLOWED",
-                "description": "The Hello protocol in OSPF allows each router in a network to check whether it can exchange messages with neighboring routers in its network. This check is carried out by making each router periodically send hello messages to every neighboring router in the network. Associated with the Hello protocol are two time periods: the hello period and the dead period. The hello period is the time period between sending two successive hello messages to the same neighbor. The dead period is the time period after which a router can declare a neighbor dead if during this period the router does not receive any hello messages from that neighbor. The original Hello protocol restricts the hello and dead periods to be fixed over time and to be identical in all routers. Simulation studies have shown that these restrictions contribute to network instabilities and even to network collapse. To improve network stability, we present a flexible Hello protocol where the hello and dead periods change over time and become consistent (rather than identical) in all routers. To ensure the fault-tolerance of our Hello protocol, the protocol is designed to be stabilizing. That is, when started from an arbitrary initial state, the protocol converges to a legitimate state, and remains in legitimate states throughout the remainder of its execution. This work is supported by DARPA under contract F30602-00-C-019",
-                "fullText": "Hello Again:\nStabilization of the Hello Protocol in OSPF\u00a4\nJorge A. Cobb y Mohamed G. Gouda z Deepinder Sidhu x\nAbstract\nThe Hello protocol in OSPF allows each router in a network to\ncheck whether it can exchange messages with neighboring routers in\nits network. This check is carried out by making each router periodi-\ncally send hello messages to every neighboring router in the network.\nAssociated with the Hello protocol are two time periods: the hello pe-\nriod and the dead period. The hello period is the time period between\nsending two successive hello messages to the same neighbor. The dead\nperiod is the time period after which a router can declare a neighbor\ndead if during this period the router does not receive any hello messages\nfrom that neighbor. The original Hello protocol restricts the hello and\ndead periods to be \ufb01xed over time and to be identical in all routers.\nSimulation studies have shown that these restrictions contribute to net-\nwork instabilities and even to network collapse. To improve network\nstability, we present a \ufb02exible Hello protocol where the hello and dead\nperiods change over time and become consistent (rather than identical)\nin all routers. To ensure the fault-tolerance of our Hello protocol, the\nprotocol is designed to be stabilizing. That is, when started from an\narbitrary initial state, the protocol converges to a legitimate state, and\nremains in legitimate states throughout the remainder of its execution.\n\u00a4This work is supported by DARPA under contract F30602-00-C-0198\nyDepartment of Computer Science (EC 31), The University of Texas at Dallas, Richard-\nson, TX, 75083-0688, cobb@utdallas.edu.\nzDepartment of Computer Science, The University of Texas at Austin, 1 University\nStation C0500, Austin, TX 78712-0233, gouda@cs.utexas.edu.\nxTelenix Corporation, 9194 Red Branch Road, Suite K, Columbia, MD 21045,\ndsidhu@telenix.com.\n11 Introduction\nA fundamental component of any computer network is its routing protocol.\nThe purpose of the routing protocol is to direct each message along the most\ne\ufb03cient path from its source computer to its destination computer. In order\nto determine the most e\ufb03cient path, the routing protocol requires knowledge\nof the network topology.\nIn general, routing protocols learn the network topology in two steps.\nIn the \ufb01rst step, each router obtains a list of its neighboring routers, that\nis, a list of those routers that are reachable via a single network link. In\nthe second step, each router broadcasts this list to all other routers in the\nnetwork. This broadcast may be explicit or implicit. In an explicit broadcast,\nthe list of neighbors is broadcast without modi\ufb01cation. This is known as link-\nstate routing [14]. Examples of link-state routing protocols may be found\nin [4, 8, 13]. On the other hand, in an implicit broadcast, only distance-\nvectors are exchanged between neighbors. Multiple examples of distance-\nvector protocols may be found in the literature [5, 6, 7].\nThe above implies that an accurate list of neighboring routers is funda-\nmental to a routing protocol. This list is obtained by exchanging messages,\nknown as hello messages, between neighboring routers. If this exchange is\npossible, then the network link between the neighboring routers is function-\ning properly, and this link may be used to transfer data messages. The\nprotocol in charge of the exchange of hello messages is known as the Hello\nprotocol.\nIn the Internet, Open Shortest-Path First (OSPF) [4] is the most widely\nused routing protocol. It is a complex protocol, with multiple components.\nIts fundamental component, as argued above, is the Hello protocol.\nThere are two time periods associated with the Hello protocol in OSPF:\nthe hello period and the dead period. The hello period is the time period\nbetween sending two successive hello messages to the same neighbor. The\ndead period is the time period after which a router can declare a neighbor\ndead if during this period the router does not receive any hello messages from\nthat neighbor. The hello and dead periods have the following restrictions.\nFor every pair of neighboring routers, the hello periods of these routers with\nrespect to each other must be identical and \ufb01xed over time. Similarly, the\ndead periods of these two routers with respect to each other must be identical\nand \ufb01xed over time.\nThese restrictions have several shortcomings. In the \ufb01rst place, if the\nhello and dead periods are miscon\ufb01gured at a router, then the router is\nunable to communicate with other routers, and is, in e\ufb00ect, removed from\n2the network. More importantly, simulation studies have shown that these\nrestrictions contribute to network instabilities and even to network collapse\n[11, 12]. These same instabilities have been observed during the collapse of\nInternet service provider networks [11, 12].\nThe network instability begins when a major network event causes the\nbroadcast of a large number of link-state advertisements and other control\nmessages. This tra\ufb03c of control messages causes hello messages to be exces-\nsively delayed or lost. In consequence, some routers incorrectly determine\nthat a neighbor is dead. This in turn causes the broadcast of additional\nlink-state advertisement and control messages, creating a cycle of instability.\nSeveral techniques to mitigate this instability are recommended [11, 12].\nFor the Hello protocol, it is recommended that the hello and dead periods be\nadjusted in response to network overload. In this light, we present a Hello\nprotocol with the following two properties. First, each router may vary its\nhello and dead periods as the need arises. As the hello and dead periods\nchange, the state of the router (dead/live) is correctly determined by its\nneighbors. Second, timer management is very simple. In particular, each\nrouter maintains a single timer.\nTo ensure the fault-tolerance of our Hello protocol, the protocol is de-\nsigned to be stabilizing. A protocol is said to be stabilizing if and only if,\nwhen started from an arbitrary initial state, it converges to a state contained\nin a set of legitimate states, and the set of legitimate states is closed under\nexecution [9, 10]. Stabilizing protocols are robust, since they tolerate all\nforms of transient faults. That is, after a sequence of faults, a stabilizing\nprotocol may be left in an illegitimate state, but within \ufb01nite time, the pro-\ntocol converges to a legitimate state, and remains within the set of legitimate\nstates.\nOur protocol is presented in four steps. We \ufb01rst present a Hello protocol\nas described in OSPF [4]. Next, we present a protocol where each router\nchooses its initial hello period, which, although \ufb01xed over time, need not be\nequal to the hello period of its neighboring routers. In addition, the router\nadapts its dead period according to two factors: the hello period chosen\nby its neighbor, and variations in network conditions. Then, we present a\nprotocol where each router may vary its hello period in addition to varying\nits dead period. Finally, the protocol is strengthened to become stabilizing.\n32 Protocol Notation and Network Model\nBefore presenting our protocols, we give a short overview of our protocol\nnotation and network model. The notation is similar to that of Gouda [1].\nA protocol consists of a set of n processes, p[0];p[1]; ::: ;p[n \u00a1 1]; inter-\nconnected via communication channels. Each channel stores a sequence of\nmessages between two processes. For every pair of processes p[i] and p[g], if\nthere is a channel from p[i] to p[g], then there is also a channel from p[g] to\np[i]. Two processes are said to be neighbors if and only if they are connected\nby a pair of channels.\nThe channel from process p[i] to process p[g] represents the local area\nnetwork between the computers where p[i] and p[g] reside, plus any additional\nbu\ufb00ering at the computer of p[g] before the messages from p[i] are delivered\nto p[g]. Because communication between computers is direct, we assume\nchannels do not reorder messages. In addition, we assume each channel can\nstore a message for at most \u00b8 time units before the message is either received\nor lost.\nEach process is speci\ufb01ed by a set of inputs, a set of variables, a parameter,\nand a set of actions. The general structure of a process de\ufb01nition is as follows.\nprocess <process name>\ninp <inp name> : <type>,\n<inp name> : <type>,\n. . .\n<inp name> : <type>\nvar <var name> : <type>,\n<var name> : <type>,\n. . .\n< var name> : < type>\npar < par name> : < type>\nbegin\n< action>\n< action>\n. . .\n< action>\n4end\nThe inputs declared in a process can be read, but not written, by the\nactions of that process. The variables declared in a process can be read and\nwritten by the actions of that process. The parameter is discussed below.\nEvery action is of the form: <guard> ! <command>. Executing an\naction consists of executing the statements in the command of the action. A\ncommand is constructed from sequencing (;) and iterative (for) constructs\nthat group together assignment and send statements.\nAssignment statements are of the form\n<variable> := <expression> if <boolean expression>\nIf the <boolean expression> is true before the statement is executed, then\nthe <variable> is assigned the current value of the <expression>. If the\n<boolean expression> is false, then the <variable> remains unchanged. If\nthe phrase if <boolean expression> is not present, then the value of <ex-\npression> is assigned to the <variable> unconditionally.\nA send statement in process p[i] is of the form send msg to p[g], where\np[g] is a neighbor of p[i]. Executing this statement appends a message of\ntype msg to the channel from p[i] to p[g].\nThe guard of an action is in one of three forms: local, receiving, and\ntime-out. A local guard is a boolean expression over the inputs, variables,\nand parameter declared in the process. A local guard is enabled if and only\nif its boolean expression evaluates to true. A receiving guard is of the form\nrcv msg from p[g], where p[g] is a neighbor of the process. This guard is\nenabled if and only if the next message to be received from neighbor p[g]\nis of type msg. Before the command of the receiving guard is executed,\nthe received message is removed from the incoming channel. We describe\ntime-out guards below.\nEach process maintains multiple timer variables. Automatically, each\ntimer variable is increased by one with each unit of time elapsed during the\nexecution. A time-out guard is of the form timeout tr \u00b8 t, where tr is the\nname of the timer, and t is an integer expression with the desired bound for\nthe timer. This guard is enabled whenever the expression tr \u00b8 t is true.\nThe parameter declared in a process is used to write a set of actions as a\nsingle action, with one action for each possible value of the parameter. For\nexample, if we have the following parameter de\ufb01nition,\npar g : 1 :: 3\n5then the following action\nrcv msg from p[g] ! ack[g] := true\nis a shorthand notation for the following three actions.\nrcv msg from p[1] ! ack[1] := true\nrcv msg from p[2] ! ack[2] := true\nrcv msg from p[3] ! ack[3] := true\nAn execution step of the network consists in choosing, among all actions\nof all processes, an action whose guard is enabled, and executing this action.\nWe assume that executing an action takes an arbitrary small amount of\ntime. An execution of a protocol consists of a sequence of execution steps,\nwhich either never ends, or ends in a state where the guards of all actions\nare disabled.\nTimer variables are incremented automatically as follows. Let si be the\nstate of the protocol during the time interval [ti;ti+1]. Let action ai+1 be\nexecuted at time ti+1, producing as a result the new state si+1. If a timer\nhas the value xi in state si, then the value of this timer when action ai+1 is\nchosen for execution is xi + (ti+1 \u00a1 ti).\nThere is an upper bound \u00a2 before an enabled action is selected for ex-\necution. That is, if an action is enabled at time t, then, by time t + \u00a2,\neither the action is executed or it becomes disabled. We assume a similar,\nbut tighter, upper bound \u00b1 for time-out actions, where \u00b1 \u00bf \u00a2.\nFinally, in a non-faulty initial protocol state, all channels are empty, and\nall timer variables have their maximum value. All other variables have their\nlowest value, i.e., integer variables have the value zero, and boolean variables\nhave the value false.\n3 The Original Hello Protocol\nConsider a protocol of n processes p[0];p[1]; ::: ;p[n\u00a11], where each process\nrepresents a router in a network. Each process periodically sends a hello\nmessage to every neighboring process in the network. These hello messages\nallow each process p[i] to check, for each neighboring process p[g], whether\np[i] can exchange messages with p[g].\nAssociated with the hello messages that a process p[i] periodically sends\nto a neighboring process p[g] is a time period called the hello period of p[i]\n6with respect to p[g]: It is the time period that passes after p[i] sends a hello\nmessage to p[g] and before p[i] sends the next hello message to p[g].\nAssociated with the hello messages that a process p[i] periodically re-\nceives from a neighboring process p[g] is a time period called the dead period\nof p[i] with respect to p[g]: If p[i] does not receive any hello message from\np[g] during this period, then p[i] concludes that p[g] is dead at the end of\nthis period.\nClearly, for any two neighboring processes p[i] and p[g], the hello period\nof p[i] with respect to p[g] needs to be less than or equal to the dead period\nof p[g] with respect to p[i].\nIn the original Hello protocol [4], the hello and dead periods have \ufb01xed\nvalues. Moreover, for any two neighboring processes p[i] and p[g], the hello\nperiod of p[i] with respect to p[g] equals the hello period of p[g] with respect\nto p[i], and the dead period of p[i] with respect to p[g] equals the dead period\nof p[g] with respect to p[i]. It follows that the hello period of p[i] with respect\nto p[g] is less than or equal the dead period of p[i] with respect to p[g].\nEach hello message received by a process p[i] from a neighboring process\np[g] has three \ufb01elds as follows:\nhello(h;d;b)\nwhere: h is the hello period of p[g]with respect to p[i],\nd is the dead period of p[g]with respect to p[i], and\nb is a boolean bit with the following values:\nb = true if p[g] has recently received hellos from p[i]\nfalse otherwise.\nEach process p[i] in the network has the following three inputs:\ninp N : set{ g j p[g] is a neighbor of p[i]},\nhp : array [N] of hmin :: hmax, / hello periods of p[i] /\ndp : array [N] of dmin :: dmax / dead periods of p[i] /\nInput N is the set of indices of all neighboring processes of p[i]. For every\nneighboring process p[g] of p[i], the input hp[g] in p[i] is the hello period of\np[i] with respect to p[g], and the input dp[g] in p[i] is the dead period of p[i]\nwith respect to p[g].\nThe function of the Hello protocol is for each process p[i] to maintain a\nstate variable st[g] for each neighboring process p[g]. The value of st[g], in\nthe range 0 :: 2, is assigned according to the following rules:\n7st[g] = 0 if p[i] is not receiving any hello messages from p[g],\n1 if p[i] is receiving hello messages from p[g] but these messages\nindicate that p[g] is not receiving any hello messages from p[i],\n2 if p[i] is receiving hello messages from p[g] and these messages\nindicate that p[g] is also receiving hello messages from p[i].\nFor each process p[i] to send a hello message to a neighboring process p[g]\nevery hp[g] time units, p[i] maintains a timer tr[g]. Whenever this timer\nreaches the value of hp[g], p[i] sends a hello message to p[g], and resets tr[g]\nto zero. Note that at all times tr[g] contains the amount of time elapsed\nsince the last time p[i] sent a hello message to p[g].\nFor each process p[i] to detect that its current dead period with respect\nto a neighboring process p[g] has expired, p[i] maintains a deadline variable\ndl[g] whose integer value is de\ufb01ned as follows.\ni. Each time p[i] times out to send a hello message to p[g], the value of\ndl[g] is decremented by tr[g], i.e., it is decremented by the amount\nof time elapsed from the previous time-out.\nii. Anytime the value of dl[g] becomes zero, p[i] concludes that its cur-\nrent dead period with respect to p[g] has expired, and so it sets the\nvalue of st[g] to 0.\niii. Each time p[i] receives a \u201cproper\u201d hello message from p[g], the value\nof dl[g] is reset to dp[g] + tr[g]. Note that a hello message from p[g]\nto p[i] is \u201cproper\u201d if the hello period in the message equals the hello\nperiod of p[i] with respect to p[g] and the dead period in the message\nequals the dead period of p[i] with respect to p[g].\nA process p[i : 0 :: n \u00a1 1] in the Hello protocol can be speci\ufb01ed as follows.\nprocess p[i : 0 :: n \u00a1 1]\ninp N : set fg jp[g] is a neighbor of p[i]g,\nhp : array [N] of hmin :: hmax, / hello periods of p[i] /\ndp : array [N] of dmin :: dmax / dead periods of p[i] /\nvar tr : array [N] of 0 :: hmax + \u00b1, / timers of p[i] /\nst : array [N] of 0 :: 2, / states of neighbors of p[i] /\ndl : array [N] of 0 :: dmax + hmax + \u00b1, / deadlines of p[i] /\nf : N, / p[f] is a neighbor of p[i] /\nh : hmin :: hmax, / \ufb01elds in rcvd hello msg /\n8d : dmin :: dmax,\nb : boolean\npar g : N / any neighbor of p[i] /\nbegin\ntimeout tr[g] \u00b8 hp[g] !\ndl[g] := dl[g] \u00a1 tr[g];\nst[g] := 0 if dl[g] = 0;\nsend hello(hp[g];dp[g];st[g] > 0) to p[g];\ntr[g] := 0\nrcv hello(h;d;b) from p[g] !\nst[g] := 2 if hp[g] = h ^ dp[g] = d ^ b;\nst[g] := 1 if hp[g] = h ^ dp[g] = d ^ :b;\nst[g] := 0 if hp[g] 6= h _ dp[g] 6= d;\ndl[g] := dp[g] + tr[g]\nend\nEach process has two actions. In the \ufb01rst action, process p[i] detects that\nits time-out action for a neighboring process p[g] is enabled for execution and\nexecutes it as follows. First, p[i] decrements the value of the deadline dl[g]\nby the amount of time elapsed, namely, tr[g]. If the value of dl[g] becomes\nzero, then p[i] determines that p[g] is unreachable, and assigns zero to st[g].\nSecond, p[i] sends a hello message to p[g]. Third, p[i] resets timer tr[g] to\nzero, and thus schedules its time-out action for p[g] to be executed once more\nafter hp[g] time units.\nIn the second action, process p[i] receives a hello message from a neigh-\nboring process p[g] and updates its corresponding state st[g] and deadline\ndl[g] variables accordingly.\nThis protocol has two restrictions. First, the hello and dead periods of\nall processes have \ufb01xed values. Second, the hello messages received by any\nprocess p[i] from a neighboring process p[g] are accepted (by p[i]) only if the\nhello and dead periods of p[i] with respect to p[g] are equal to, respectively,\nthe hello and dead periods of p[g] with respect to p[i]. These two restrictions\nare needlessly severe, and in the rest of this paper we describe two variations\nof this protocol where these restrictions are relaxed.\n94 A Protocol with Converging Dead Periods\nIn this section, we describe a variation of the Hello protocol where each\nprocess p[i] chooses its hello periods as it wishes, then each neighboring\nprocess of p[i] adjusts its dead period with respect to p[i] to be consistent\nwith the corresponding hello period of p[i]. In other words, the dead period\nof a neighboring process p[g] with respect to p[i] eventually \u201cconverges\u201d to a\nvalue that is consistent with the chosen hello period of p[i] with respect to\np[g].\nBecause the hello periods of each process are chosen by the process, we\ndesign each process to choose all its hello periods to be equal. This design\nsimpli\ufb01es the time-out structure of each process. In particular, a process no\nlonger needs to time-out at di\ufb00erent time instants to send hello messages to\ndi\ufb00erent neighboring processes. Rather, when a process executes a time-out,\nit sends hello messages to everyone of its neighboring processes.\nWe next turn our attention to the question of how a process p[i] adjusts\nits dead period dp[g] with respect to a neighboring process p[g] to make it\nconsistent with the hello period h chosen by p[g]. To answer this question,\nwe assume that p[i] has a positive integer rf[g], such that dp[g] := rf[g]\u00a2h.\nThe value of rf[g] is chosen depending on the expected reliability of the\nchannel from process p[g] to process p[i]. On one hand, if this channel is\nreliable and very few messages from p[g] to p[i] are ever lost, then rf[g] has\na small value, say 1, 2, or 3. On the other hand, if this channel is unreliable\nand many messages from p[g] to p[i] can be lost, then rf[g] has a large value,\nsay 8, 9, or 10. We refer to rf[g] as the reliability factor of process p[i] with\nrespect to its neighboring process p[g].\nNote that the reliability of the channel may be a\ufb00ected by many factors,\nsuch as the probability of message corruption and the current level of chan-\nnel congestion. For example, if the channel is being \ufb02ooded by messages\nother than those in the hello protocol, such as data messages from network\napplications or routing control messages, then the value of rf[g] must be\nlarge enough to re\ufb02ect these conditions. Therefore, we allow rf[g] to change\nover time, and thus, the dead period of p[i] with respect to p[g] will vary\naccordingly.\nA process p[i : 0 :: n \u00a1 1] in the Hello protocol with converging dead\nperiods can be speci\ufb01ed as follows.\nprocess p[i : 0 :: n \u00a1 1]\ninp N : set {g j p[g] is a neighbor of p[i]}\nhp : hmin :: hmax / hello period of p[i] /\n10var tr : 0 :: hmax + \u00b1, / timer of p[i] /\nst : array [N] of 0 :: 2, / states of neighbors of p[i] /\ndp : array [N] of dmin :: dmax, / dead periods of p[i]/\ndl : array [N] of 0 :: dmax + hmax + \u00b1, / deadlines of dead periods of p[i] /\nrf : array [N] of 1 :: rmax, / reliability factors of p[i] /\nf : N, / p[f] is a neighbor of p[i] /\nd : dmin :: dmax, / temporary variable /\nh : hmin :: hmax, / \ufb01elds in rcvd hello msg /\nb : boolean\npar g : N / any neighbor of p[i] /\nbegin\ntimeout tr \u00b8 hp !\nfor every f in N do\ndl[f] := dl[f] \u00a1 tr;\nst[f] := 0 if dl[f] = 0;\nsend hello(hp;st[f] > 0) to p[f]\nod;\ntr := 0\nrcv hello(h;b) from p[g] !\ndp[g] := rf[g]\u00a2h;\ndl[g] := dp[g] + tr;\nst[g] := 2 if b;\nst[g] := 1 if :b\ntrue !\nh := dp[g]=rf[g];\nrf[g] := any;\nd := rf[g] \u00a2 h;\ndl[g] := dl[g] + (d \u00a1 dp[g]);\ndp[g] := d\nend\nThis process p[i] is similar to process p[i] in Section 3, but there are four\nsigni\ufb01cant di\ufb00erences between the two.\ni. In this p[i], hp is a single input of type integer and dp is a variable\narray of integers. The value of hp is chosen before p[i] starts exe-\ncuting, and the value of each dp[g] is adjusted when p[i] receives a\n11hello message from its neighboring process p[g]. In p[i] in Section 3,\nboth hp and dp are input arrays of integers, and their values are set\nbefore p[i] starts executing.\nii. In this p[i], there is exactly one time-out action, and when this time-\nout action is executed, p[i] sends a hello message to each of its neigh-\nboring processes. In p[i] in Section 3, there are several time-out\nactions: one action for each neighboring process of p[i].\niii. In this p[i], every received hello message is accepted, and st[g] is\nupdated according to the received boolean bit b. In p[i] in Section 3,\na received hello(h;d;b) is accepted only if hp[g] in p[i] equals h and\ndp[g] in p[i] equals d.\niv. For each neighbor p[g], an additional action changes the value of\nrf[g] over time. The action \ufb01rst computes the current hello period\nof neighbor p[g], and then chooses a new value for rf[g]. Then, the\ndeadline and dead period with respect to p[g] are updated accord-\ningly.\n5 A Protocol with Dynamic Hello Periods\nIn the last Hello protocol, each process chooses its hello period when it\nstarts executing, then it keeps its hello period \ufb01xed and lets its neighboring\nprocesses adjust their dead periods to become consistent with the chosen\nhello period. In this section, we discuss how to modify this protocol to allow\nany process to change its hello period when a need arises. For example,\nwhen a process becomes busy, it may increase its hello period in order to\ndecrease the overhead that it encounters in sending hello messages. When\nthe process is no longer busy, it may decrease its hello period to increase the\nresponsiveness of the Hello protocol.\nAssume that a process p[i] wishes to assign to its hello period hp a new\nvalue hn. There are two cases to consider. In the \ufb01rst case, hp \u00b8 hn, and\nhence, the rate at which p[i] sends hello messages will rise. This higher\nmessage rate cannot increase the risk of a neighbor incorrectly declaring\nthat p[i] is dead. Thus, p[i] may adopt the new hello period immediately by\nperforming the assignment hp := hn.\nIn the second case, hp < hn, and thus, the rate at which p[i] sends hello\nmessages will decrease. Since each neighbor has not yet increased its dead\nperiod with respect to p[i], p[i] cannot immediately adopt the larger hello\n12period without risking the possibility that one of these neighbors incorrectly\ndeclares that p[i] is dead. To prevent this possibility, p[i] keeps hp unchanged\nfor sometime, but includes the new hello period hn in the hello messages that\np[i] sends to its neighboring processes. Each neighboring process p[g] notices\nthe new hello period hn in the hello messages (received from p[i]), adjusts\nits dead period with respect to p[i] according to hn, and acknowledges the\nnew hello period hn in the hello messages it sends to p[i].\nThe acknowledgments are in the form of a small sequence number. When-\never p[i] chooses a new hello period hn, it increases its sequence number, and\nincludes this sequence number in its hello messages. Each neighbor p[g] will\nacknowledge the new hello period by returning this sequence number to p[i]\nin its own hello messages. Therefore, each hello message from p[i] to p[g]\ncontains two sequence numbers: the sequence number of the hello period at\np[i], and the sequence number of the hello period at p[g] that p[i] learned\nfrom the latest hello message it received from p[g]:\nA process p[i : 0 :: n\u00a11] in the Hello protocol with dynamic hello periods\ncan be speci\ufb01ed as follows.\nprocess p[i : 0 :: n \u00a1 1]\ninp N : set {g j p[g] is a neighbor of p[i]}\nvar tr : 0 :: hmax + \u00b1, / timer of p[i] /\nst : array [N] of 0 :: 2, / states of neighbors of p[i] /\ndp : array [N] of dmin :: dmax, / dead periods of p[i]/\ndl : array [N] of 0 :: dmax + hmax + \u00b1, / deadlines of dead periods of p[i] /\nrf : array [N] of 1 :: rmax, / reliability factors of p[i] /\nhp : hmin :: hmax, / hello period of p[i] /\nhn : hmin :: hmax, / next hello period of p[i] /\nha : array [N] of boolean, / hello value is acknowledged /\nsn : 0 :: smax \u00a1 1, / sequence number of p[i]/\nsg : array [N] of 0 :: smax \u00a1 1, / sequence number of each neighbor /\nf : N, / p[f] is a neighbor of p[i] /\nd : dmin :: dmax, / temporary variable /\nh : hmin :: hmax, / \ufb01elds in rcvd hello msg /\ns,s0 : 0 :: smax \u00a1 1,\nb : boolean\npar g : N / any neighbor of p[i] /\nbegin\nhp = hn !\nhn := any;\nhp := hn if hn \u00b7 hp;\n13sn := (sn + 1)modsmax if hn > hp;\nha[f] := false if hn > hp\ntimeout tr \u00b8 hp !\nfor every f in N do\ndl[f] := dl[f] \u00a1 tr;\nst[f] := 0 if dl[f] = 0;\nsend hello(hn;sn;sg[f];st[f] > 0) to p[f]\nod;\nhp := hn if (8f : (st[f] = 2) ) ha[f]);\ntr := 0\nrcv hello(h;s;s0;b) from p[g] !\nsg[g] := s;\ndp[g] := rf[g]\u00a2h;\ndl[g] := dp[g] + tr;\nst[g] := 2 if b;\nst[g] := 1 if :b;\nha[g] := (hs = s0)\ntrue !\nh := dp[g]=rf[g];\nrf[g] := any;\nd := rf[g] \u00a2 h;\ndl[g] := dl[g] + (d \u00a1 dp[g]);\ndp[g] := d\nend\nThis process p[i] is similar to process p[i] in Section 4, but there are\nseveral signi\ufb01cant additions.\ni. Four new variables are introduced: a new integer variable hn, a\nboolean array ha, a sequence number sn, and a sequence number\narray sg. In hn, p[i] stores its new hello period. In ha[g], p[i] stores\nwhether p[g] has acknowledged the new hello period. Finally, p[i]\nstores in sn the sequence number of its hello period, and stores in\nsg[g] the sequence number of the hello period received from p[g].\nii. A new action is introduced, where a new value is chosen for the\n14hello period. If the new hello period is smaller then the current hello\nperiod, then the new hello period is adopted immediately. Otherwise,\nall neighbors must be aware of the larger hello period before it may be\nadopted. Thus, the sequence number is increased, and all elements\nof array ha are set to false.\niii. In the time-out action, the new hello period hn is assigned to the\ncurrent hello period hp, provided that all neighbors with whom bidi-\nrectional communication has been established have acknowledged the\nnew hello period.\niv. In the receive action, the sequence number of neighbor p[g] is stored\nin sg[g]. In addition, if p[g] is acknowledging the current sequence\nnumber of p[i], then ha[g] is set to true.\n6 A Stabilizing Protocol\nThe protocol presented in the previous section is not strong enough to be\nstabilizing. For ease of presentation, we discuss in this section the necessary\nchanges to ensure its stabilization, and present the complete protocol in the\nappendix, along with its proof of stabilization.\nWe begin by formally de\ufb01ning stabilization by borrowing some de\ufb01nitions\nfrom [2]. To simplify our stabilization predicate, we use the notion of pseudo-\nstabilization. We say a protocol pseudo-stabilizes to a predicate P in time T\nif and only if every execution of the protocol, regardless of its initial state,\nhas an in\ufb01nite su\ufb03x where P holds at every state in the su\ufb03x, and the\nexecution reaches this su\ufb03x within T time units.\nBelow, whenever the process that declared a variable is not understood\nfrom context, the identity of the process is added as a su\ufb03x of the variable.\nE.g., hp:i refers to variable hp in process p[i].\nConsider the following predicate.\n(st[g]:i = 2) ) (dp[i]:g \u00b8 rf[i]:g \u00a2 hp:i) (1)\nThat is, if bidirectional communication has been established between p[i]\nand p[g], then, the dead period of p[g] with respect to p[i] is large enough to\naccommodate the hello period of p[i].\nIn order for the protocol of Section 5 to stabilize to (1), we must consider\nthe contents of the channels between p[i] and p[g]. In particular, the channels\nat the initial state of the network may contain an arbitrary sequence of\n15messages. In this case, it is easy to obtain a race condition that prevents\nstabilization.\nTo ensure stabilization, we restrict how often each process changes its\nhello period. In particular, when a process increases its hello period, the\noutgoing and incoming channels of the process must be free of messages con-\ntaining the new sequence number generated by the process. This is enforced\nby placing a lower bound \u00bc on the interval of time that may elapse between\nincreases in the hello period of a process. We show in the appendix that\n\u00bc and the maximum sequence number, smax \u00a1 1, must satisfy the following\nrelationship.\nsmax >\n\u00b9\n2 \u00a2 \u00b8 + dmax + hmax + \u00b1\n\u00bc\n\u00ba\n+ 1 (2)\nTo implement the lower bound \u00bc, we introduce a new integer variable inc.\nThis variable contains the remaining time units before hn may be increased\nonce more. Variable inc is decremented by tr at each time-out. Process\np[i] may choose a new value for hn only if inc = 0. Furthermore, if hn is\nincreased, then inc is reset to \u00bc + tr.\nUnder a fault-free execution, hp \u00b7 hn always holds. To ensure this holds\nin the presence of transient faults, the guard of the assignment statement\nhp := hn in the time-out action is weakened as follows.\nhp := hn if (8f : (hn > hp ^ st[f] = 2) ) ha[f])\nIn addition, process p[i] should not simply set st[g] = 2 whenever the\nhello message from p[g] contains b = true. This is because, even though\nb = true, p[g] may have considered p[i] to be dead temporarily, and during\nthis time, p[i] changed sequence numbers. Therefore, the sequence number\nmust also be taken into consideration. In particular, if st[g] = 1, then it\nshould not be increased to two unless the right sequence number has already\nbeen received at p[g]. Also, if st[g] = 2, then it should be reduced to one\nif the wrong sequence number is received and p[i] is not changing its hello\nperiod (i.e. hn = hp). Thus, the statement updating the value of st[g] in\nthe receive action is modi\ufb01ed as follows.\nst[g] := 2 if b ^ hs = s0;\nst[g] := 1 if :b _ (hn = hp ^ hs 6= s0);\nFinally, to improve the convergence time, two new actions are introduced\nto ensure that dl[g] \u00b7 dp[g] + tr and inc \u00b7 \u00bc + tr hold at all times.\n16The above changes result in the stabilizing Hello protocol. The com-\nplete protocol is given in Appendix A. The following theorem is proven in\nAppendix B.\nTheorem 1 The stabilizing Hello protocol pseudostabilizes to predicate (1)\nin time 4\u00a2\u00b8+3\u00a2dmax+3\u00a2hmax+\u00b1+\u00a2 irrespective of the number of message\nlosses.\n7 Broadcast Channels\nIn the Internet, a computer network consists of a collection of subnetworks\ninterconnected via routers. Two routers attached to a common subnetwork\nmay exchange messages with each other via the common subnetwork. In\ngeneral, there are two types of subnetworks: point-to-point and broadcast.\nTo ensure fault-tolerance, the protocol is made stabilizing.\nIn a point-to-point subnetwork, the subnetwork is shared only by the\nrouters at its two end points. This is represented in our notation by two\nprocesses connected by a pair of channels. Therefore, our Hello protocols\nare tailored for point-to-point subnetworks.\nIn a broadcast subnetwork, multiple routers are attached to the subnet-\nwork. If any of these routers sends a message over the subnetwork, all other\nrouters are able to receive a copy of this message. To represent a broadcast\nsubnetwork, we connect processes via broadcast channels. When a process\nsends a message over a broadcast channel, all other processes connected to\nthis channel receive a copy of the message.\nOur Hello protocols can be tailored to e\ufb03ciently operate over a broadcast\nchannel as follows. When a process p[g] sends a hello message, it includes\nthe following \ufb01elds.\n\u00b2 Its own identi\ufb01er g.\n\u00b2 Its hello period.\n\u00b2 Its hello sequence number.\n\u00b2 A list of identi\ufb01ers. If identi\ufb01er i is on this list, then st[i] 6= 0 at p[g],\ni.e., p[g] received a hello message from p[i] before the dead period of\np[g] with respect to p[i] expired.\n\u00b2 A list of sequence numbers, one for each identi\ufb01er above. The sequence\nnumber associated with identi\ufb01er i is the last sequence number that\np[g] received from p[i].\n17Given the above \ufb01elds, when process p[i] receives a hello message from p[g],\nit proceeds as follows. First, p[i] is aware that the message originates from\np[g] because the identi\ufb01er g is in the message. Second, if i is not listed in\nthe hello message, then p[i] is aware that its hello messages are not reaching\np[g]. On the other hand, if i is listed in the hello message, then p[i] can\nuse the sequence number associated with identi\ufb01er i to determine if p[g] has\nadjusted itself to the most recent hello period of p[i].\n8 Summary and Concluding Remarks\nThe original Hello protocol restricts the hello and dead periods to be \ufb01xed\nover time and be identical in neighboring routers. This, however, has been\nshown to contribute to network instabilities. In this light, we have presented\ntwo variations of the Hello protocol where the hello and dead periods change\nover time and become consistent, but not necessarily identical, in neighboring\nrouters.\nWe have left open the question as to when should a router modify its hello\nperiod and how it should choose its new value. As indicated by Choudhury\net. al. [12], automated methods can be used to detect that the network\nhas reached an overloaded state. This would indicate that the hello period\nshould be modi\ufb01ed.\nWe have focused on the task of detecting if a neighboring router is reach-\nable. However, the Hello protocol in OSPF has another important function\nin broadcast networks: electing a designated router and a backup desig-\nnated router [4]. Each router indicates in its hello messages its \u201cwillingness\u201d\nto become the designated router, and also indicates the pair of routers it cur-\nrently considers to be the designated router and backup designated router.\nThe standard algorithm to elect these routers is stabilizing without any ad-\nditional modi\ufb01cations, and thus we do not include it in our protocols.\nReferences\n[1] Gouda, M., Elements of Network Protocol Design, Wiley-Interscience,\n1998.\n[2] Gouda, M. G., Miller, R. E., Burns, J. E., \u201cStabilization and Pseu-\ndostabilization\u201d, Distributed Computing, Vol. 7, No. 1., pp. 35-42, Nov.\n1993.\n18[3] Gouda M., \u201cThe Triumph and Tribulation of System Stabilization\u201d,\nProc. of the 9th International Workshop on Distributed Algorithms\n(WDAG) 1995, Lecture Notes in Computer Science 972.\n[4] Moy J., \u201cOSPF Version 2\u201d, Internet Request for Comments 2328, April\n1998.\n[5] Hedrick, C., \u201cRouting Information Protocol\u201d, Internet Request for Com-\nments 1058, 1988.\n[6] Hinden, R. and Sheltzer, A., \u201cDARPA Internet Gateway Protocol, In-\nternet Request for Comments RFC 823, September, 1982.\n[7] Garcia-Luna-Aceves, J. J., \u201cLoop-Free Routing Using Di\ufb00using Com-\nputations\u201d, \u201cIEEE/ACM Transactions on Networking\u201d, Vol. 1, No. 1,\nFebruary, 1993.\n[8] Garcia-Luna-Aceves, J. J. and Murthy S., \u201cA Path-Finding Algorithm\nfor Loop-Free Routing\u201d, IEEE/ACM Transactions on Networking, Vol.\n5, No. 1, February, 1997.\n[9] Schneider, M., \u201cSelf-Stabilization\u201d, ACM Computing Surveys, Vol. 25,\nNo. 1, 1993.\n[10] Herman, T., \u201cA Comprehensive Bibliography on Self-Stabilization\u201d,\nChicago Journal of Theoretical Computer Science, working paper, 2002.\n[11] Ash J., Choudhury, G. L., Manral, V., Maunder, A., Sapozhnikova, V.\nD., Sherif, M., \u201cCongestion Avoidance & Control for OSPF Networks\u201d,\nInternet Dratf (draft-ash-manral-ospf-congestion-control-00.txt), April,\n2002\n[12] Ash, J., Choudhury, G. L., Han, J., Manral, V., Maunder, A., Noor-\nchashm, M., Sapozhnikova, V., D., Sherif, M., \u201cProposed Mecha-\nnisms for Congestion Control: Failure Recovery in OSPF & ISIS Net-\nworks\u201d, Internet Dratf (draft-ash-ospf-isis-congestion-control-02.txt),\nJune, 2002\n[13] Vutukury, S., and Garcia-Luna-Aceves, J. J., \u201cA Simple Approximation\nto Minimum Delay Routing\u201d. Proceedings of the SIGCOMM Conference,\n1999.\n[14] Tananbaum, A., Computer Networks, 4th ed., Prentice-Hall, 2003.\n19A Stabilizing Protocol\nprocess p[i : 0 :: n \u00a1 1]\ninp N : set {g j p[g] is a neighbor of p[i]}\nvar tr : 0 :: hmax + \u00b1, / timer of p[i] /\nst : array [N] of 0 :: 2, / states of neighbors of p[i] /\ndp : array [N] of dmin :: dmax, / dead periods of p[i]/\ndl : array [N] of 0 :: dmax + hmax + \u00b1, / deadlines of dead periods of p[i] /\nrf : array [N] of 1 :: rmax, / reliability factors of p[i] /\nhp : hmin :: hmax, / hello period of p[i] /\nhn : hmin :: hmax, / next hello period of p[i] /\nha : array [N] of boolean, / hello value is acknowledged /\nsn : 0 :: smax \u00a1 1, / sequence number of p[i]/\nsg : array [N] of 0 :: smax \u00a1 1, / sequence number of each neighbor /\ninc : 0 :: \u00bc + hmax + \u00b1, / next time hn may increase /\nf : N, / p[f] is a neighbor of p[i] /\nd : dmin :: dmax, / temporary variable /\nh : hmin :: hmax, / \ufb01elds in rcvd hello msg /\ns,s0 : 0 :: smax \u00a1 1,\nb : boolean\npar g : N / any neighbor of p[i] /\nbegin\nhp = hn ^ inc = 0 !\nhn := any;\nhp := hn if hn \u00b7 hp;\nsn := (sn + 1)modsmax if hn > hp;\nha[f] := false if hn > hp;\ninc := \u00bc + tr if hn > hp\ntimeout tr \u00b8 hp !\ninc := inc \u00a1 tr;\nfor every f in N do\ndl[f] := dl[f] \u00a1 tr;\nst[f] := 0 if dl[f] = 0;\nsend hello(hn;sn;sg[f];st[f] > 0) to p[f]\nod;\nhp := hn if (8f : (hn > hp ^ st[f] = 2) ) ha[f]);\ntr := 0\n20rcv hello(h;s;s0;b) from p[g] !\nsg[g] := s;\ndp[g] := rf[g]\u00a2h;\ndl[g] := dp[g] + tr;\nst[g] := 2 if b ^ hs = s0;\nst[g] := 1 if :b _ (hn = hp ^ hs 6= s0);\nha[g] := (hs = s0)\ntrue !\nh := dp[g]=rf[g];\nrf[g] := any;\nd := rf[g] \u00a2 h;\ndl[g] := dl[g] + (d \u00a1 dp[g]);\ndp[g] := d\ndl[g] > dp[g] + tr ! dl[g] := dp[g] + tr\ninc > \u00bc + tr ! inc := \u00bc + tr\nend\nB Proof of Stabilization\nLemma 1 Let t be the initial (possibly faulty) state of the system.\n1. From time t up to the \ufb01rst time-out, tr will increase by at least the\namount of time between t and the time-out minus \u00b1.\n2. At every subsequent time-out, tr contains the amount of time elapsed\nfrom the execution of the previous time-out to the execution of this\ntime-out.\nProof:\nFor the \ufb01rst part of the lemma, variable tr always increases with time,\nunless it has reached its highest value of hmax + \u00b1, at which point it stops\nincreasing. However, at this time the time-out is enabled, and the time-out\ncannot remain enabled more than \u00b1 time units without being executed.\n21For the second part of the lemma, at every time-out, tr is assigned zero.\nFurthermore, the time-out will be enabled no later than when tr reaches the\nvalue hmax. Since the largest value of tr has not been reached, and since the\ntime-out will be executed within \u00b1 time units, tr always increases between\ntime-outs.\nEnd of Proof.\nLemma 2 Let t be the time of the initial (possibly faulty) state of an execu-\ntion. For all time t0, where t + \u00a2 \u00b7 t0, the following hold.\ndl[g] \u00b7 dp[g] + tr\ninc \u00b7 \u00bc + tr\nProof:\nAfter \u00a2 time units, the \ufb01nal two actions will execute. Furthermore,\nthe value of tr increases with time, and when it is reset to zero it is \ufb01rst\nsubtracted from dl[g] and inc, preserving the above relations. When dl[g]\nand inc are reset, their new values satisfy the above relations. Finally, when\nrf[g] changes, dl[g] and dp[g] are increased by the same amount.\nEnd of Proof:\nLemma 3 Let t be the time of the initial (possibly faulty) state of an exe-\ncution. During any interval of time [t0;t00]; the maximum number of times a\nprocess can increase the value of hn is\n\u00b9\nt00 \u00a1 t0\n\u00bc\n\u00ba\n+ 1\nProof:\nIn the worst case, hn is increased exactly at time t0. Then, inc is set to\n\u00bc+tr. After the \ufb01rst time-out, the new value of inc will be \u00bc minus at most\nthe amount of time elapsed since hn increased. The reason it may not be\nequal to the elapsed time is because the \ufb01rst time-out may be late by \u00b1 time\nunits (Lemma 1). For every subsequent time-out, inc will decrement by the\ntime elapsed from the previous time-out. Thus, inc will be set to zero, and\nhn may increase, no more often than once every \u00bc time units. If we count\nthe initial increase at t, the number of times hn may increase is\nj\nt00\u00a1t0\n\u00bc\nk\n+1.\nEnd of Proof.\nLemma 4 Let t be the initial (possibly faulty) state of an execution, and let\nt + \u00a2 \u00b7 t0. If from time t0 up to time t0 + dmax + hmax + \u00b1 no message is\nreceived from a neighbor, then the neighbor has been declared dead by time t0.\n22Proof:\nWe consider how much time may elapse until dl[g] is assigned zero. After\ntime t0, Lemma 2 holds, i.e., dl[g] \u00b7 dp[g] + tr. Therefore, since dl[g] is\ndecreased by tr at the time of the \ufb01rst time-out, and since tr may not\nincrease during the execution for \u00b1 time units (Lemma 1), then at the \ufb01rst\ntime-out dl[g] is decreased by at least the time elapsed from t0 to the time-out\ntime minus \u00b1. After every subsequent time-out (Lemma 1), dl[g] is decreased\nby the duration of the time-out. Furthermore, since each time-out is at least\nhp time units from the previous one, and the maximum value of hp is hmax,\nthe last time-out may be up to hmax time units greater than necessary. In\naddition, the initial value of dp[g] is at most dmax, and thus at time t0 we\nhave dl[g] \u00b7 dmax+tr. Finally, the value of dl[g] may increase or decrease in\nthe last action. However, its relative change of value is equal to that of dp[g],\nand dp[g] is bounded by dmax. Hence, no later than time t0+dmax+hmax+\u00b1\na time-out will execute setting dl[g] to zero and declaring p[g] unreachable.\nEnd of Proof\nWe say that p[g] agrees with the hn value of p[i], denoted hn_agrees(g;i),\nif all of the following hold.\n1. dp[i]:g \u00b8 rf[i]:g \u00a2hn:i ^ sg[i]:g = hs:i\n2. For every message hello(h;s;s0;b) in the channel from p[i] to p[g],\nhn:i \u00b7 h ^ hs:i = s\n3. For every message hello(h;s;s0;b) in the channel from p[g] to p[i],\nb ) (hs:i = s0)\nIt is easy to show that hn_agrees(g;i) is stable under the execution of\nactions in p[g].\nLemma 5 For any x, if dp[i]:g \u00b8 rf[i]:g \u00a2 x holds, then it continues to hold\nafter executing the fourth action of process p[g].\nProof:\nThis follows imply from algebra.\nEnd of Proof\nLemma 6 If hn_agrees(g;i) holds, then it continues to hold after the exe-\ncution of any action in p[g].\n23Proof:\nThe \ufb01rst action of p[g] does not reference any value in hn_agrees(g;i).\nIn the second action of p[g], it only a\ufb00ects hn_agrees(g;i) by sending a\nhello message to p[i]. However, since part 1 in hn_agrees(g;i) holds, the\nmessage will have the correct sequence number. In the third action, dp[i]:g\nand sg[i]:g are updated according to the message received from p[i], but due\nto part 2 of hn_agrees(g;i), the new values satisfy hn_agrees(g;i). In the\nfourth action, dp[i]:g is modi\ufb01ed, but from Lemma 5, the new value also\nsatis\ufb01es hn_agrees(g;i). The \ufb01fth and sixth actions do not reference values\nin hn_agrees(g;i).\nEnd of Proof\nLemma 7 Let t be the time of the initial (possibly faulty) state of the exe-\ncution. For any time t0, where t + 2 \u00a2 \u00b8 + dmax + hmax + \u00b1 + \u00a2 \u00b7 t0, if there\nexists a message hello(h;s;s0;b) at the head of the channel from p[g] to p[i],\nsuch that b ^ s0 = sn:i, then hn_agrees(g;i) holds.\nProof:\nWe will call any message sent by p[i] to p[g] after time t + \u00a2 \u201cfresh\u201d.\nAfter time t + \u00a2 + \u00b8, all messages from p[i] to p[g] have to be fresh, due to\nthe upper bound \u00b8 on message lifetime. A message is called \u201clive\u201d if its last\n\ufb01eld, the boolean value, equals true.\nWe would like to obtain a lower time bound such that any live message\nsent by p[g] after this time bound must be preceded by p[g] receiving a fresh\nmessage from p[i].\nRecall that, after time t + \u00b8 + \u00a2, only fresh messages are in the channel\nfrom p[i] to p[g]. If from time t+\u00b8+\u00a2 to time t+\u00b8+dmax +hmax +\u00b1 +\u00a2\na fresh message is not received by p[g] from p[i], then it implies that p[g]\nhas declared p[i] dead for not receiving a hello message (Lemma 4). Thus,\nany live message transmitted by p[g] after time t+\u00b8+dmax +hmax +\u00b1 +\u00a2\nis transmitted after the reception of a fresh message. Therefore, any live\nmessage in the channel from p[g] to p[i] at time t+2\u00a2\u00b8+dmax+hmax+\u00b1+\u00a2\nor greater must be transmitted after the reception of a fresh message.\nLet m be a live message that is at the head of the channel from p[g] to\np[i] at time T, where T \u00b8 t+2\u00a2\u00b8+dmax +hmax +\u00b1 +\u00a2. From above, p[g]\nmust have received a fresh message from p[i] before transmitting m. Let m0\nbe the last message p[g] received from p[i] before sending m. We want to\nconsider a lower bound on the time at which m0 was sent by p[i].\nMessage m was sent no earlier than at time T\u00a1\u00b8, since messages only live\n\u00b8 time units. Furthermore, since the message is live, p[g] must have received\n24message m0 from p[i] no earlier than time T \u00a1 \u00b8 \u00a1 dmax \u00a1 hmax \u00a1 \u00b1, since\notherwise p[g] would have timed out and considered p[i] to be nonreachable.\nFinally, message m0 could not have been sent any earlier than T \u00a1 2 \u00a2 \u00b8 \u00a1\ndmax \u00a1 hmax \u00a1 \u00b1 due to lifetime of messages in channels.\nFrom above, a maximum of 2\u00a2\u00b8+dmax+hmax+\u00b1 time units have elapsed\nfrom the transmission of m0 until time T, i.e., until the time m is at the head\nof the channel from p[g] to p[i]. From relation (2), there is not enough time\nfor the sequence numbers to wrap around. Hence, hn:i has not increased\nsince the time p[i] sent m0:\nWe next consider the three components of hn_agrees(g;i) and show that\nthey hold at time T.\n\u00b2 Since hn:i has not increased nor the sequence number changed since\nthe time p[i] sent m0, all messages sent by p[i] after m0 satisfy part 2\nof hn_agrees(g;i).\n\u00b2 From the de\ufb01nition of m0; p[g] received m0, stored the sequence number\nof p[i], and adjusted dp[i]:g accordingly, and thus part 1 of hn_agrees(g;i)\nheld when m0 was received. From part 2, this continues to hold when-\never p[g] receives a message from p[i]. Also, from Lemma 5, part 1\ncontinues to hold when p[g] updates rf[i].\n\u00b2 Because part 1 holds after m0 is received at p[g], any message sent by\np[g] after sending m satis\ufb01es part 3.\nEnd of Proof.\nLemma 8 Let t be the time of the initial (possibly faulty) state of the execu-\ntion. Then, at any time t0, where t+2\u00a2\u00b8+2\u00a2dmax+2\u00a2hmax+\u00b1+\u00a2 \u00b7 t0, the\nfollowing will hold and continue to hold for every process p[i] and its neighbor\np[g].\n(ha[g]:i ^ st[g]:i = 2) ) hn_agrees(g;i) (3)\nProof:\nLet T = t+2\u00a2\u00b8+dmax+hmax+\u00b1+\u00a2. We \ufb01rst argue that if predicate (3)\nholds at any time after T, then it will continue to hold. If predicate (3) holds,\nit may be falsi\ufb01ed when the left-hand-side is false and an action makes it true,\nor when the right-hand-side is true and an action makes it false. Consider the\n\ufb01rst case. If the left-hand-side is false, it can only become true by receiving\na hello message from p[g]. If the message has an incorrect sequence number,\n25ha[g]:i is set to false, and predicate (3) holds. If the message has the correct\nsequence number, then from Lemma 7, hn_agrees(g;i) holds, and hence\npredicate (3) also holds. Consider the second case. If the right-hand-side\nis true, then from Lemma 6, no action of p[g] may falsify it. On the other\nhand, p[i] may falsify hn_agrees(g;i) by increasing the value of hn (and at\nthe same time changing the value of sn), but in this case ha[g]:i is set to\nfalse, and predicate (3) still holds.\nTo show that predicate (3) will hold after time T +dmax +hmax, assume\nthat a hello message is received by p[i] from p[g] from time T to time T +\ndmax + hmax. If the left-hand-side of the predicate is true after the action,\nthis implies the sequence number of the message is correct, in which case\nby Lemma 7 we have that hn_agrees(g;i) holds, and predicate (3) holds.\nAssume no hello message is received during this interval, then, from Lemma\n41, p[i] will declare p[g] dead and assign zero to st[g]:i, and predicate (3)\nholds.\nEnd of Proof\nLemma 9 Let t be the time of the initial faulty state of the execution. At\nany time t0, where t + hmax + \u00b1 \u00b7 t0, hp \u00b7 hn holds at every process.\nProof:\nThe time-out becomes enabled no later than time t + hmax, because the\nminimum value of tr is zero and the maximum value of hp is hmax. Thus,\nthe time-out will be executed no later than time t + hmax + \u00b1. After the\n\ufb01rst time-out, if hp > hn, then hn is assigned to hp, ensuring hp \u00b7 hn.\nWhenever hn changes in the \ufb01rst action, it must be that hp = hn before the\naction. Furthermore, if the new value of hn is less than that of hp, then hn\nis assigned to hp immediately. If hp < hn, then it remains so until in the\ntime-out action hn is assigned to hp. The lemma thus follows.\nEnd of Proof\nWe say that p[g] agrees with the hp value of p[i], denoted hp_agrees(g;i),\nif the following two conditions hold.\n\u00b2 (st[i]:g > 0) ) (dp[i]:g \u00b8 rf[i]:g \u00a2 hp:i)\n\u00b2 For every message hello(h;s;s0;b) in the channel from p[i] to p[g],\nhp:i \u00b7 h\n1Note that an additional term \u00b1 is not necessary because, from the proof of Lemma 4,\nthe term \u00b1 originates from the inaccuracy of the time-out mechanism, which from Lemma\n1 will occur only at the \ufb01rst time-out. From the value of T, at least one time-out must\nhave occurred before T: Hence, not time-out inaccuracies will occur after T.\n26Lemma 10 If hp_agrees(g;i) holds, then it continues to hold after the ex-\necution of any action in p[g].\nProof:\nThe \ufb01rst action of p[g] does not reference any value in hp_agrees(g;i).\nIn the second action of p[g], it only a\ufb00ects hp_agrees(g;i) by changing\nthe value of st[i]:g. However, the new value is zero, and hence, hp_agrees(g;i)\nholds.\nIn the third action, dp[i]:g and st[i]:g are updated according to the mes-\nsage received from p[i], but due to part 2 of hp_agrees(g;i), the new values\nsatisfy hp_agrees(g;i).\nIn the fourth action, dp[i]:g is modi\ufb01ed, but from Lemma 5, the new\nvalue also satis\ufb01es hp_agrees(g;i).\nThe \ufb01fth and sixth actions do not reference values in hn_agrees(g;i).\nEnd of Proof\nTheorem 2 Let t be the time of the initial (possibly faulty) state of the\nexecution. Then, at any time t0, where t+3\u00a2\u00b8+2\u00a2dmax+2\u00a2hmax+\u00b1+\u00a2 \u00b7 t0,\nthe following holds for every process p[i] and its neighbor p[g].\n(st[g]:i = 2) ) hp_agrees(g;i) (4)\nProof:\nLet T = t + 2 \u00a2 \u00b8 + dmax + hmax + \u00b1 + \u00a2. We \ufb01rst show that if after\ntime T predicates (3) and (4) hold concurrently, then they continue to hold.\nFrom the proof of Lemma 8, if predicate (3) holds at any time after T, then\nit continues to hold. Thus, we focus on predicate (4).\nProcess p[g] cannot a\ufb00ect (4), because the left-hand-side of (4) only refers\nto variables in p[i], and from Lemma 10, p[g] cannot falsify the right-hand-\nside.\nConsider now process p[i]: In the \ufb01rst action, it may change the value of\nhn:i but not of hp:i, and thus, it cannot a\ufb00ect (4). In the time-out action,\nif st[g] is set to zero then (4) holds trivially. Otherwise, from Lemma 9,\nhp \u00b7 hn, and hence, the new hello message sent agrees with hp. Furthermore,\nif hp is assigned hn, then from the guard of the assignment, either st[g] < 2,\nin which case (4) holds trivially, or we have ha[g] ^ st[g] = 2. In the latter\ncase, since (3) holds, then hn_agrees(g;i) holds, and thus hp_agrees(g;i)\nwill hold after the assignment. In the receive action, (4) is only a\ufb00ected by\nassigning 2 to st[g]. In this case, however, b ^ hs = s0, and from Lemma 7,\nhn_agrees(g;i) holds, and from Lemma 9, hp_agrees(g;i) will hold after\nthe assignment. The last action does not a\ufb00ect (4).\n27We next need to show that predicate (4) will hold and continue to hold.\nWe also show that (3) also holds at this time, and hence, both predicates will\ncontinue to hold. Below, we refer to time T + \u00b8 + dmax + hmax as T0. Note\nthat from the proof of Lemma 8, if predicate (3) holds at any time after T,\nit continues to hold, and furthermore, it is guaranteed to hold and continue\nto hold no later than time T + dmax + hmax, i.e., earlier than T0.\nAssume that at some time from T to T0 we have st[g]:i < 2. In this case\n(4) and (3) already hold, and thus they will continue to hold. We thus focus\non the case where st[g]:i = 2 at time T and remains so until time T0.\nSimilar to the proof of Lemma 7, any message sent by p[i] to p[g] after\ntime T is called \u201cfresh\u201d. After time T +\u00b8, all messages from p[i] to p[g] have\nto be fresh, due to the upper bound \u00b8 on message lifetime.\nAssume that hp:i is always smaller than the hello values of all the fresh\nmessages sent out by p[i], and this holds from time T to time T0. Then,\nhp_agree(g;i) should hold. This reason is similar to the proof of Lemma\n7. If by time T + \u00b8 + dmax + hmax, i.e. T0, p[g] did not receive a fresh\nmessage from p[i], p[g] declares p[i] dead (Lemma 4 and Lemma 1), and\nhp_agree(g;i) holds. Thus, (4) holds, and we know that (3) holds and\ncontinues to hold earlier than T0. If p[g] does receive a fresh message from\np[i] within time T0, then its dead period with respect to p[i] is in agreement\nwith hp:i, and (4) holds. Furthermore, all fresh messages sent from time T\nto time T0 are at least hp:i, thus, the dead period of p[g] with respect to\np[i] will remain in agreement with hp:i from T to T0, thus, (4) continues to\nhold, and lastly, (3) will hold and continue to hold at a time earlier than T0.\nHence, both (3) and (4) will hold and continue to hold.\nOn the other hand, assume that, somewhere from time T to time T0,\nhp:i becomes larger than the hello value of a fresh message from p[i] to\np[g]. At time T, from Lemma 9, hp:i \u00b7 hn:i. Thus, since hello values in\nmessages are copied from hn:i, hp:i will be at most the hello value of the \ufb01rst\nfresh messages. To become larger than one of them, hn:i must increase, and\ntherefore, array ha:i is set to false, and later hp:i is assigned hn:i. However,\nsince we assume that st[g]:i = 2, for hp:i to be assigned hn:i it must be that\nha[g]:i changed from false to true. This implies receiving a message from p[g]\nwith the appropriate sequence number, and from Lemma 7, hn_agrees(g;i)\nholds, and from Lemma 9, hp_agrees(g;i) also holds. Thus, both (4) and\n(3) will hold and continue to hold.\nEnd of Proof\nWe say that p[g] fully agrees with the hp value of p[i], denoted\nhp_fully_agrees(g;i), if the following two conditions hold.\n28\u00b2 dp[i]:g \u00b8 rf[i]:g \u00a2 hp:i\n\u00b2 For every message hello(h;s;s0;b) in the channel from p[i] to p[g],\nhp:i \u00b7 h\nLemma 11 If hp_fully_agrees(g;i) holds, then it continues to hold after\nthe execution of any action in p[g].\nProof:\nNeither the \ufb01rst nor second actions of p[g] reference any value in\nhp_fully_agrees(g;i).\nIn the third action, dp[i]:g is updated according to the message received\nfrom p[i], but due to part 2 of hp_fully_agrees(g;i), the new values satisfy\nhp_fully_agrees(g;i).\nIn the fourth action, dp[i]:g is modi\ufb01ed, but from Lemma 5, the new\nvalue also satis\ufb01es hp_fully_agrees(g;i).\nThe \ufb01fth and sixth actions do not reference values in hn_agrees(g;i).\nEnd of Proof\nTheorem 3 Let t be the time of the initial (possibly faulty) state of the\nexecution. Then, at any time t0, where t+4\u00a2\u00b8+3\u00a2dmax+3\u00a2hmax+\u00b1+\u00a2 \u00b7 t0,\nthe following holds for every process p[i] and its neighbor p[g].\n(st[g]:i = 2) ) hp_fully_agrees(g;i) (5)\nProof:\nLet T = t + 2 \u00a2 \u00b8 + dmax + hmax + \u00b1 + \u00a2; T0 = T + \u00b8 + dmax + hmax;\nand T00 = T0 + \u00b8 + dmax + hmax. First, using Lemma 11, a proof similar\nto the \ufb01rst part of the proof of Theorem 2 shows that if predicate (3) and\npredicate (5) hold together at any time after time T, then they continue to\nhold. We are guaranteed from Lemma 8 that (3) holds after time T0. Hence,\nwe focus on showing that (5) holds after time T0 and before time T00. Also,\nfrom Theorem 2, predicate (4) holds by time T0.\nIf (5) holds at time T0, we are done. Otherwise, since (4) does hold, the\nonly choice is for st[i]:g = 0. If st[i]:g becomes greater than zero, then from\n(4) we have that (5) holds and we are done. Otherwise, all messages sent by\np[g] after T0 are not live. If any of these non-live messages arrives to p[i] by\ntime T00, then st[g]:i < 2 will hold, and (5) holds. Otherwise, by time T0+\u00b8,\nany live message from p[g] to p[i] is gone and only non-live messages exist\n29from p[g] to p[i]. Thus, by time T0 + \u00b8 + dmax + hmax (Lemma 4), p[i] will\ntimeout and assign zero to st[g]:i, and (5) holds.\nEnd of Proof\nTheorem 3 implies Theorem 1, and the proof of the stabilizing protocol\nis therefore complete.\n30",
-                "fullTextIdentifier": "http://www.utd.edu/~cobb/PublishedPapers/Journals/Hello-JHSN/CobbGoudaSidhuRevised.pdf",
-                "identifiers": [
-                    "oai:CiteSeerX.psu:10.1.1.217.1323",
-                    null
-                ],
-                "journals": null,
-                "language": null,
-                "duplicateId": null,
-                "publisher": null,
-                "rawRecordXml": "<record><header><identifier>\n    \n      \n        oai:CiteSeerX.psu:10.1.1.217.1323</identifier><datestamp>\n        2012-03-29</datestamp>\n      </header><metadata><oai_dc:dc xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd\" ><dc:title>\n      \n        \n          Hello Again: Stabilization of the Hello Protocol in OSPF \u2217</dc:title><dc:description>\n          The Hello protocol in OSPF allows each router in a network to check whether it can exchange messages with neighboring routers in its network. This check is carried out by making each router periodically send hello messages to every neighboring router in the network. Associated with the Hello protocol are two time periods: the hello period and the dead period. The hello period is the time period between sending two successive hello messages to the same neighbor. The dead period is the time period after which a router can declare a neighbor dead if during this period the router does not receive any hello messages from that neighbor. The original Hello protocol restricts the hello and dead periods to be fixed over time and to be identical in all routers. Simulation studies have shown that these restrictions contribute to network instabilities and even to network collapse. To improve network stability, we present a flexible Hello protocol where the hello and dead periods change over time and become consistent (rather than identical) in all routers. To ensure the fault-tolerance of our Hello protocol, the protocol is designed to be stabilizing. That is, when started from an arbitrary initial state, the protocol converges to a legitimate state, and remains in legitimate states throughout the remainder of its execution. This work is supported by DARPA under contract F30602-00-C-0198</dc:description><dc:contributor>\n          The Pennsylvania State University CiteSeerX Archives</dc:contributor><dc:publisher>\n          </dc:publisher><dc:date>\n          2012-03-29</dc:date><dc:date>\n          2012-03-29</dc:date><dc:format>\n          application/pdf</dc:format><dc:type>\n          text</dc:type><dc:identifier>\n          http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.217.1323</dc:identifier><dc:source>\n          http://www.utd.edu/~cobb/PublishedPapers/Journals/Hello-JHSN/CobbGoudaSidhuRevised.pdf</dc:source><dc:language>\n          en</dc:language><dc:rights>\n          Metadata may be used without restrictions as long as the oai identifier remains attached to it.</dc:rights>\n        </oai_dc:dc>\n      </metadata>\n    </record>",
-                "relations": [],
-                "repositories": [
-                    {
-                        "id": "145",
-                        "openDoarId": 0,
-                        "name": "CiteSeerX",
-                        "uri": null,
-                        "urlHomepage": null,
-                        "urlOaipmh": null,
-                        "uriJournals": null,
-                        "physicalName": "noname",
-                        "source": null,
-                        "software": null,
-                        "metadataFormat": null,
-                        "description": null,
-                        "journal": null,
-                        "roarId": 0,
-                        "pdfStatus": null,
-                        "nrUpdates": 0,
-                        "disabled": false,
-                        "lastUpdateTime": null,
-                        "repositoryLocation": null
-                    }
-                ],
-                "repositoryDocument": {
-                    "pdfStatus": 1,
-                    "textStatus": 1,
-                    "metadataAdded": 1414003473000,
-                    "metadataUpdated": 1529417399000,
-                    "timestamp": 1332975600000,
-                    "depositedDate": 1332975600000,
-                    "indexed": 1,
-                    "deletedStatus": "0",
-                    "pdfSize": 533339,
-                    "tdmOnly": false,
-                    "pdfOrigin": "http://www.utd.edu/~cobb/PublishedPapers/Journals/Hello-JHSN/CobbGoudaSidhuRevised.pdf"
-                },
-                "similarities": null,
-                "subjects": [
-                    "text"
-                ],
-                "title": "Hello Again: Stabilization of the Hello Protocol in OSPF \u2217",
-                "topics": [],
-                "types": [],
-                "urls": [
-                    "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.217.1323",
-                    "http://www.utd.edu/~cobb/PublishedPapers/Journals/Hello-JHSN/CobbGoudaSidhuRevised.pdf"
-                ],
-                "year": 2012,
-                "doi": null,
-                "oai": "oai:CiteSeerX.psu:10.1.1.217.1323",
-                "downloadUrl": "https://core.ac.uk/download/pdf/21752246.pdf",
-                "pdfHashValue": "fad220fdbf5cd6780ce3ed67b74c7caf2bd1390a",
-                "documentType": "research",
-                "documentTypeConfidence": 1,
-                "citationCount": null,
-                "estimatedCitationCount": null,
-                "acceptedDate": null,
-                "depositedDate": 1332975600000,
-                "publishedDate": null,
-                "issn": null,
-                "crossrefDocument": null,
-                "magDocument": null
-            }
+            "id": "185703269",
+            "authors": [
+                "Clarke, Laura",
+                "Broadley, Simon",
+                "Nguyen, Thao",
+                "Johnston, Samantha",
+                "Eaton, Natalie",
+                "Staines, Donald",
+                "Marshall-Gradisnik, Sonya"
+            ],
+            "contributors": [],
+            "datePublished": "2018",
+            "description": "Background: Natural killer (NK) cell phenotypes have reported to be implicated in the pathomechanism of Multiple Sclerosis (MS). Several investigators have observed reduced peripheral numbers, reduced cytotoxic activity, and altered CD56Dim and CD56Bright NK cell phenotypes. This current project, for the first time, investigates the NK cell cytotoxicity, calcium mobilisation and transient receptor potential melastatin 3 (TRPM3) surface expression. Methods: NK cell cytotoxic activity and calcium signaling were examined in CD56Dim and CD56Bright NK cells before and after stimulation using Ionomycin, Pregnenolone sulphate, 2-Aminoethoxydiphenyl borate and Thapsigargin. Purified NK cells were labelled with antibodies to determine TRPM3, CD69 and CD107a surface expression using flow cytometry. Results: Twenty-two MS patients and 22 healthy controls were recruited for this project. Twelve of the 22 previously received Alemtuzumab (Lemtrada\u00d2) and the remaining ten reported nil medication. We report TRPM3 was significantly increased in untreated MS patients compared with healthy controls and treated MS patients (p-value 0.034). There was a significant decrease in CD69 surface expression on CD56Dim NK cell phenotype for untreated MS patients (p-value 0.031) and treated MS patients (p-value 0.036). We report altered calcium mobilisation in CD56Bright NK cells and to a lesser extent CD56Dim NK cells between healthy controls, treated and untreated MS patients. Conclusion: This investigation suggests variations in TRPM3 expression and calcium mobilisation of NK cells may be implicated in the pathogenesis of MS. Further investigation is required to determine the mechanism by which alemtuzumab alters calcium signaling in NK cells.Griffith Health, School of Medical ScienceFull Tex",
+            "identifiers": [
+                "oai:research-repository.griffith.edu.au:10072/382204",
+                "10.4236/ijcm.2018.97047"
+            ],
+            "journals": [
+                {
+                    "title": null,
+                    "identifiers": [
+                        "2158-284x",
+                        "issn:2158-284X"
+                    ]
+                }
+            ],
+            "publisher": "Scientific Research Publishing",
+            "relations": [],
+            "repositories": [
+                {
+                    "id": "4083",
+                    "openDoarId": 0,
+                    "name": "Griffith Research Online",
+                    "uri": null,
+                    "urlHomepage": null,
+                    "urlOaipmh": null,
+                    "uriJournals": null,
+                    "physicalName": "noname",
+                    "source": null,
+                    "software": null,
+                    "metadataFormat": null,
+                    "description": null,
+                    "journal": null,
+                    "roarId": 0,
+                    "pdfStatus": null,
+                    "nrUpdates": 0,
+                    "disabled": false,
+                    "lastUpdateTime": null,
+                    "repositoryLocation": null
+                }
+            ],
+            "repositoryDocument": {
+                "pdfStatus": 1,
+                "metadataAdded": 1549256466000,
+                "metadataUpdated": 1562995288000,
+                "depositedDate": 1548932454000
+            },
+            "subjects": [
+                "Journal article"
+            ],
+            "title": "Transient Receptor Potential Melastatin 3 and Intracellular Calcium in Natural Killer Cells in Multiple Sclerosis",
+            "topics": [
+                "Cellular Immunology",
+                "Immunology not elsewhere classified",
+                "Medical and Health Sciences not elsewhere classified"
+            ],
+            "types": [],
+            "year": 2018,
+            "fulltextIdentifier": "https://core.ac.uk/download/pdf/185703269.pdf",
+            "doi": "10.4236/ijcm.2018.97047",
+            "oai": "oai:research-repository.griffith.edu.au:10072/382204",
+            "downloadUrl": "https://core.ac.uk/download/pdf/185703269.pdf"
         },
         {
-            "_index": "articles_2019_06_05",
-            "_type": "article",
-            "_id": "4199935",
-            "_score": 19.280338,
-            "_source": {
-                "id": "4199935",
-                "authors": [],
-                "citations": [],
-                "contributors": [
-                    "Gene Buck (lyricist)",
-                    "Louis A. Hirsch (composer)"
-                ],
-                "datePublished": "1915",
-                "deleted": "ALLOWED",
-                "description": "De Takacs",
-                "fullText": null,
-                "fullTextIdentifier": "http://jhir.library.jhu.edu/handle/1774.2/7578",
-                "identifiers": [
-                    "oai:jscholarship.library.jhu.edu:1774.2/7578",
-                    null
-                ],
-                "journals": null,
-                "language": null,
-                "duplicateId": null,
-                "publisher": "M. Witmark & Sons",
-                "rawRecordXml": "<record><header><identifier>\noai:jscholarship.library.jhu.edu:1774.2/7578</identifier><datestamp>2007-04-29T09:18:42Z</datestamp><setSpec>hdl_1774.2_2085</setSpec></header><metadata><oai_dc:dc xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd\" ><dc:contributor>Gene Buck (lyricist)</dc:contributor><dc:contributor>Louis A. Hirsch (composer)</dc:contributor><dc:date>2007-03-26T20:21:26Z</dc:date><dc:date>2007-03-26T20:21:26Z</dc:date><dc:date>1915</dc:date><dc:identifier>http://jhir.library.jhu.edu/handle/1774.2/7578</dc:identifier><dc:description>strophic with chorus</dc:description><dc:description>piano and voice</dc:description><dc:description>ads on inside front, inside back, and on back covers for M. Witmark & Sons stock</dc:description><dc:description>15050-3</dc:description><dc:description>Johns Hopkins University, Levy Sheet Music Collection, Box\n        152, Item 069</dc:description><dc:description>Lyrics by Gene Buck. Music by Louis A. Hirsch.</dc:description><dc:description>F. Ziegfeld Jr.'s Ziegfeld Follies 1915.</dc:description><dc:description>De Takacs</dc:description><dc:format>1 score (4 p.)</dc:format><dc:format>sheet music</dc:format><dc:format>image/jpeg</dc:format><dc:publisher>M. Witmark & Sons</dc:publisher><dc:subject>Champagne</dc:subject><dc:subject>Bubbles</dc:subject><dc:subject>Telephones</dc:subject><dc:subject>Courtship</dc:subject><dc:title>Hello, Frisco!</dc:title><dc:title>Hello Central, Hello Central, can't you see [first line]</dc:title><dc:title>Hello Frisco, hello, Hello, Frisco, hello [first line of chorus]</dc:title></oai_dc:dc></metadata></record>",
-                "relations": [],
-                "repositories": [
-                    {
-                        "id": "190",
-                        "openDoarId": 0,
-                        "name": "JScholarship",
-                        "uri": null,
-                        "urlHomepage": null,
-                        "urlOaipmh": null,
-                        "uriJournals": null,
-                        "physicalName": "noname",
-                        "source": null,
-                        "software": null,
-                        "metadataFormat": null,
-                        "description": null,
-                        "journal": null,
-                        "roarId": 0,
-                        "pdfStatus": null,
-                        "nrUpdates": 0,
-                        "disabled": false,
-                        "lastUpdateTime": null,
-                        "repositoryLocation": null
-                    }
-                ],
-                "repositoryDocument": {
-                    "pdfStatus": 0,
-                    "textStatus": 0,
-                    "metadataAdded": 1339432635000,
-                    "metadataUpdated": 1401743289000,
-                    "timestamp": 1471193474000,
-                    "depositedDate": 1177801200000,
-                    "indexed": 1,
-                    "deletedStatus": "0",
-                    "pdfSize": 0,
-                    "tdmOnly": false,
-                    "pdfOrigin": "http://jhir.library.jhu.edu/handle/1774.2/7578"
-                },
-                "similarities": null,
-                "subjects": [
-                    "Champagne",
-                    "Bubbles",
-                    "Telephones",
-                    "Courtship"
-                ],
-                "title": "Hello Frisco, hello, Hello, Frisco, hello [first line of chorus]",
-                "topics": [
-                    "Champagne",
-                    "Bubbles",
-                    "Telephones",
-                    "Courtship"
-                ],
-                "types": [],
-                "urls": [
-                    "http://jhir.library.jhu.edu/handle/1774.2/7578"
-                ],
-                "year": 1915,
-                "doi": null,
-                "oai": "oai:jscholarship.library.jhu.edu:1774.2/7578",
-                "downloadUrl": "",
-                "pdfHashValue": null,
-                "documentType": null,
-                "documentTypeConfidence": null,
-                "citationCount": null,
-                "estimatedCitationCount": null,
-                "acceptedDate": null,
-                "depositedDate": 1177801200000,
-                "publishedDate": null,
-                "issn": null,
-                "crossrefDocument": null,
-                "magDocument": null
-            }
+            "id": "200974362",
+            "authors": [
+                "Fisch, Katja M.",
+                "Hertzer, Cora",
+                "B\u00f6hringer, Nils",
+                "Wuisan, Zerlina G.",
+                "Schillo, Dorothee",
+                "Bara, Robert",
+                "Kaligis, Fontje",
+                "W\u00e4gele, Heike",
+                "K\u00f6nig, Gabriele M.",
+                "Sch\u00e4berle, Till F."
+            ],
+            "contributors": [
+                "Institute for Insect Biotechnology"
+            ],
+            "datePublished": "2017-01-01T00:00:00",
+            "description": "The species diversity of marine heterobranch sea slugs found on field trips around Bunaken Island (North Sulawesi, Indonesia) and adjacent islands of the Bunaken National Marine Park forms the basis of this review. In a survey performed in 2015, 80 species from 23 families were collected, including 17 new species. Only three of these have been investigated previously in studies from Indonesia. Combining species diversity with a former study from 2003 reveals in total 140 species from this locality. The diversity of bioactive compounds known and yet to be discovered from these organisms is summarized and related to the producer if known or suspected (might it be down the food chain, de novo synthesised from the slug or an associated bacterium). Additionally, the collection of microorganisms for the discovery of natural products of pharmacological interest from this hotspot of biodiversity that is presented here contains more than 50 species that have never been investigated before in regard to bioactive secondary metabolites. This highlights the great potential of the sea slugs and the associated microorganisms for the discovery of natural products of pharmacological interest from this hotspot of biodiversity",
+            "identifiers": [
+                "oai:geb.uni-giessen.de:14656",
+                null
+            ],
+            "language": {
+                "code": "en",
+                "id": 9,
+                "name": "English"
+            },
+            "publisher": "FB 09 - Agrarwissenschaften, \u00d6kotrophologie und Umweltmanagement. Agrarwissenschaften und Umweltmanagement",
+            "relations": [],
+            "repositories": [
+                {
+                    "id": "1494",
+                    "openDoarId": 0,
+                    "name": "Giessener Elektronische Bibliothek",
+                    "urlHomepage": null,
+                    "urlOaipmh": null,
+                    "uriJournals": null,
+                    "physicalName": "noname",
+                    "source": null,
+                    "software": null,
+                    "metadataFormat": null,
+                    "description": null,
+                    "journal": null,
+                    "roarId": 0,
+                    "baseId": 0,
+                    "pdfStatus": null,
+                    "nrUpdates": 0,
+                    "disabled": false,
+                    "lastUpdateTime": null,
+                    "repositoryLocation": null
+                }
+            ],
+            "repositoryDocument": {
+                "pdfStatus": 1,
+                "metadataAdded": 1559476752000,
+                "metadataUpdated": 1611436549000,
+                "depositedDate": 1558517300000
+            },
+            "subjects": [
+                "Article"
+            ],
+            "title": "The Potential of Indonesian Heterobranchs Found around Bunaken Island for the Production of Bioactive Compounds",
+            "topics": [
+                "bioactivity",
+                "biodiversity",
+                "natural products",
+                "sea slug",
+                "Agriculture"
+            ],
+            "types": [],
+            "year": 2017,
+            "fulltextIdentifier": "https://core.ac.uk/download/200974362.pdf",
+            "oai": "oai:geb.uni-giessen.de:14656",
+            "downloadUrl": "https://core.ac.uk/download/200974362.pdf"
         }
     ]
 }
