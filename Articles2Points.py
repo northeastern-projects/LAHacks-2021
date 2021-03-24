@@ -13,6 +13,7 @@ class Articles2Points:
         self.model = tr.DistilBertModel.from_pretrained('distilbert-base-uncased').to(self.device)
         self.mds = MDS(n_components = 3)
 
+
     def article2data(self, article):
         # depends on implementation of article (dict or class)
         if "description" in article:
