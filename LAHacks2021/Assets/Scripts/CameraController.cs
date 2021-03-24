@@ -10,8 +10,11 @@ public class CameraController : MonoBehaviour
 
     private void Update()
     {
-        MoveForward(Input.GetAxis("Vertical"));
-        MoveSideways(Input.GetAxis("Horizontal"));
+        float sprint = 1;
+        if (Input.GetKey(KeyCode.LeftShift))
+            sprint = 5;
+        MoveForward(Input.GetAxis("Vertical"), sprint);
+        MoveSideways(Input.GetAxis("Horizontal"), sprint);
 
         if (Input.GetMouseButton(1))
             MoveCamera();
@@ -36,13 +39,13 @@ public class CameraController : MonoBehaviour
         return x;
     }
 
-    private void MoveForward(float forward)
+    private void MoveForward(float forward, float sprint)
     {
-        transform.position += transform.forward * Time.deltaTime * speed * forward;
+        transform.position += transform.forward * Time.deltaTime * speed * forward * sprint;
     }
 
-    private void MoveSideways(float sideways)
+    private void MoveSideways(float sideways, float sprint)
     {
-        transform.position += transform.right * Time.deltaTime * speed * sideways;
+        transform.position += transform.right * Time.deltaTime * speed * sideways * sprint;
     }
 }

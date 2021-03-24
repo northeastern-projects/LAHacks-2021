@@ -251,8 +251,8 @@ Camera:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0.05490196, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -311,6 +311,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aef1c58cdf44b7c48ab984204954180e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 3
+  horizonalRotationSpeed: 1
+  verticalRotationSpeed: 2
 --- !u!850595691 &1551958040
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -401,8 +404,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03631951c3d3e3d4fa86a9b8788797a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path: 
-  prefab: {fileID: 0}
+  path: test_articles
+  prefab: {fileID: 2826484410789989465, guid: fe9fc0a1df2f0df4aba4a3b4e28c7f93, type: 3}
+  scaling: 3.72
+  camera: {fileID: 963194227}
 --- !u!4 &1847659913
 Transform:
   m_ObjectHideFlags: 0
