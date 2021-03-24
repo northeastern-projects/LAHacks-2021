@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class ArticleComponent : MonoBehaviour
 {
-    public string name;
-    public Vector3 position;
+    [SerializeField] private string title;
+    [SerializeField] private string description;
 
-    private void Start()
+    public void Initialize(Article article, float scaling)
     {
-        
+        title = article.title;
+        description = article.description;
+        transform.position = article.position * scaling;
+        gameObject.name = article.title.Substring(0, 20);
     }
 }

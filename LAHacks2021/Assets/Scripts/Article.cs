@@ -4,7 +4,8 @@ using System;
 [Serializable]
 public struct Article
 {
-    [SerializeField] public string name;
+    [SerializeField] public string title;
+    [SerializeField] public string description;
     [SerializeField] public Vector3 position;
 }
 
