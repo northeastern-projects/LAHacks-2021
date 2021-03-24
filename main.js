@@ -40,7 +40,7 @@ function render() {
         .nodeRelSize(6)
         .nodeColor(node => node === hoverNode ? 'rgba(245,220,200,1)' : 'rgba(0,255,255,0.5)')
         .linkCurvature(0)
-        .linkDirectionalParticles(2)
+        .linkDirectionalParticleWidth(2)
         .linkDirectionalParticles(link => hoverLinks.has(link) ? 4 : 0)
         .onNodeHover(node => {
             if (node && hoverNode === node) return;
