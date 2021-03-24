@@ -1,0 +1,20 @@
+{
+  "Articles": [
+    {
+      "name": "Test Article 1",
+      "position": {
+        "x": 3.0,
+        "y": 2.0,
+        "z": 1.0
+      }
+    },
+    {
+      "name": "Test Article B",
+      "position": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 3.0
+      }
+    }
+  ]
+}

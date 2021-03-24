@@ -24,7 +24,7 @@ class Articles2Points:
 
     def __call__(self, articles):
         data = []
-        for article in articles:
+        for article in articles:]
             data.append(self.article2data(article))
 
         tokenized = self.tokenizer(data, add_special_tokens=True, padding = True, truncation = True)
