@@ -1,9 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class WorldGeneration : MonoBehaviour
 {
-    public string path;
     public ArticleComponent prefab;
     [Range(1f, 10f)]
     public float scaling;
@@ -12,10 +15,9 @@ public class WorldGeneration : MonoBehaviour
 
     private List<ArticleComponent> articles;
 
-    private void Start()
+    public void LoadFromJson(string json)
     {
-        TextAsset jsonFile = Resources.Load<TextAsset>(path);
-        ArticleList list = JsonUtility.FromJson<ArticleList>(jsonFile.text);
+        ArticleList list = JsonUtility.FromJson<ArticleList>(json);
         articles = new List<ArticleComponent>();
 
         foreach (Article article in list.Articles)
@@ -47,4 +49,5 @@ public class WorldGeneration : MonoBehaviour
             article.transform.position = delta + anchor;
         }
     }
+
 }
