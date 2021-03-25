@@ -2,6 +2,7 @@ import torch
 import transformers as tr
 from sklearn.manifold import MDS
 import json
+from typing import List
 
 
 class Article:
@@ -12,7 +13,7 @@ class Article:
         self.position = (0, 0, 0)
 
 
-    def get_data(self):
+    def get_data(self) -> str:
         if self.description:
             return self.description
         else:
@@ -37,7 +38,7 @@ class Articles2Points:
         self.mds = MDS(n_components = 3)
 
 
-    def __call__(self, articles: list[Article]):
+    def __call__(self, articles: List[Article]):
         data = []
         for article in articles:
             data.append(article.get_data())
@@ -65,7 +66,7 @@ class Articles2Points:
         return points
 
 
-def Articles2UnityJson(articles: list[Article]) -> str:
+def Articles2UnityJson(articles: List[Article]) -> str:
     json_list = []
     for article in articles:
         json_list.append(article.to_unity_json_dict())
@@ -73,7 +74,7 @@ def Articles2UnityJson(articles: list[Article]) -> str:
     return json.dumps(json_dict)
 
 
-def Data2Articles(data: list[dict], discard_duplicates: bool = True) -> list[Article]:
+def Data2Articles(data: List[dict], discard_duplicates: bool = True) -> List[Article]:
     articles = []
     checked = set()
     for article in data:
