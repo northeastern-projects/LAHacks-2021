@@ -10,6 +10,15 @@ else:
     with open("./results.json", 'w+') as file:
         json.dump(results, file)
 
+for i, result in enumerate(results):
+    checked = set()
+    for article in result["data"]:
+        id = article["title"]
+        if id in checked:
+            print("Duplicate!", i, id)
+        else:
+            checked.add(id)
+
 a2p = Articles2Points.Articles2Points()
 articles = Articles2Points.Data2Articles(results[0]["data"])
 points = a2p(articles)
@@ -20,7 +29,7 @@ print(len(articles))
 print(json.dumps(articles[0].to_unity_json_dict()))
 
 articles_json = Articles2Points.Articles2UnityJson(articles)
-print(articles_json)
+# print(articles_json)
 
 with open("test_articles.json", 'w+') as file:
     file.write(articles_json)

@@ -158,7 +158,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -252,7 +252,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0, b: 0.05490196, a: 0}
+  m_BackGroundColor: {r: 0.6792453, g: 0.43013388, b: 0.40690637, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -312,6 +312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  sprintSpeed: 5
   horizonalRotationSpeed: 1
   verticalRotationSpeed: 2
 --- !u!850595691 &1551958040
@@ -404,9 +405,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03631951c3d3e3d4fa86a9b8788797a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path: test_articles
   prefab: {fileID: 2826484410789989465, guid: fe9fc0a1df2f0df4aba4a3b4e28c7f93, type: 3}
-  scaling: 3.72
+  scaling: 2
+  sphereConfig: {fileID: 11400000, guid: f1f9edb3b823ea14fa3b01dc8fde73f7, type: 2}
   camera: {fileID: 963194227}
 --- !u!4 &1847659913
 Transform:
@@ -421,4 +422,49 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2014154493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2014154495}
+  - component: {fileID: 2014154494}
+  m_Layer: 0
+  m_Name: File Loader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2014154494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014154493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fed9b6829dc16743a1f277c0f5d30ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  path: article_data.json
+  generation: {fileID: 1847659912}
+--- !u!4 &2014154495
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014154493}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.1961317, y: -2.6945076, z: 2.9047508}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

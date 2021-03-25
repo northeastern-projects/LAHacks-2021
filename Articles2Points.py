@@ -7,7 +7,7 @@ import json
 class Article:
     def __init__(self, metadata: dict):
         self.title = metadata["title"]
-        self.description = metadata["description"].replace('\n', ' ').replace('\r', '')
+        if "description" in metadata: self.description = metadata["description"].replace('\n', ' ').replace('\r', '')
         # <Insert stuff about citations, urls, etc.>
         self.position = (0, 0, 0)
 
@@ -55,10 +55,12 @@ class Articles2Points:
             
         first_embed = embeddings[0][:, 0, :]
         points = self.mds.fit_transform(first_embed.cpu())
+        dissimilarity_matrix = self.mds.dissimilarity_matrix_
 
         for i, article in enumerate(articles):
             point3d = points[i]
             article.position = point3d
+            article.dissimilarity = dissimilarity_matrix[i].tolist()
 
         return points
 
@@ -71,8 +73,12 @@ def Articles2UnityJson(articles: list[Article]) -> str:
     return json.dumps(json_dict)
 
 
-def Data2Articles(data: list[dict]) -> list[Article]:
+def Data2Articles(data: list[dict], discard_duplicates: bool = True) -> list[Article]:
     articles = []
+    checked = set()
     for article in data:
-        articles.append(Article(article))
+        id = article['title']
+        if id not in checked:
+            articles.append(Article(article))
+            checked.add(id)
     return articles

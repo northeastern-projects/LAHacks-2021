@@ -10,8 +10,10 @@ public class WorldGeneration : MonoBehaviour
     public ArticleComponent prefab;
     [Range(1f, 10f)]
     public float scaling;
+    public ArticleSphereConfig sphereConfig;
 
     public new Camera camera;
+
 
     private List<ArticleComponent> articles;
 
@@ -23,7 +25,7 @@ public class WorldGeneration : MonoBehaviour
         foreach (Article article in list.Articles)
         {
             ArticleComponent obj = Instantiate(prefab);
-            obj.Initialize(article, scaling);
+            obj.Initialize(article, scaling, sphereConfig);
             obj.transform.SetParent(transform, true);
             articles.Add(obj);
         }
@@ -49,5 +51,4 @@ public class WorldGeneration : MonoBehaviour
             article.transform.position = delta + anchor;
         }
     }
-
 }

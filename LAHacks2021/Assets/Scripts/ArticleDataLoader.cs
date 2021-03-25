@@ -67,5 +67,4 @@ public class ArticleDataLoader : MonoBehaviour
     {
         Debug.LogError("Web Request Failure");
     }
-
 }
