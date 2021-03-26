@@ -5,16 +5,21 @@
         }
     </style>
     <script src="//unpkg.com/3d-force-graph"></script>
+    <script src="//unpkg.com/d3-force-3d"></script>
 
 </head>
 
 <body style="background-color:#000011">
     <div id="3d-graph"></div>
 
-    <button id="generate" style="position: absolute; top: 5px; right: 5px; height: 50px; width: 200px;">
-        Generate New
+
+    <input type="file" name="file" id="file" accept=".json" 
+        style="position: absolute; top: 5px; left: 5px;">
+
+    <button id="random" style="position: absolute; top: 5px; right: 5px; height: 50px; width: 200px;">
+        Generate Random
     </button>
 
-
     <script src="main.js"></script>
+
 </body>
