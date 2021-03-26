@@ -1,8 +1,10 @@
-const N = 200;
+const N = 100;
 const elem = document.getElementById('3d-graph');
 let data, graph;
+let interval;
 
 document.getElementById("generate").addEventListener('click', event => {
+    clearInterval(interval);
     generateData();
     render();
 });
@@ -32,6 +34,8 @@ function render() {
     let hoverNode = null;
     const hoverLinks = new Set();
 
+    const showNode = new Set();
+
     graph = ForceGraph3D({ controlType: "orbit" });
 
     graph(elem)
@@ -39,6 +43,8 @@ function render() {
         .nodeLabel('id')
         .nodeRelSize(6)
         .nodeColor(node => node === hoverNode ? 'rgba(245,220,200,1)' : 'rgba(0,255,255,0.5)')
+        .nodeVisibility(node => showNode.has(node) ? true : false)
+        .linkVisibility(link => (showNode.has(link.source) && showNode.has(link.target)) ? true : false)
         .linkCurvature(0)
         .linkDirectionalParticleWidth(2)
         .linkDirectionalParticles(link => hoverLinks.has(link) ? 4 : 0)
@@ -57,10 +63,19 @@ function render() {
             const factor = 1 + dist / Math.hypot(node.x, node.y, node.x);
             graph.cameraPosition({ x: node.x * factor, y: node.y * factor, z: node.z * factor }, node, 1000);
         })
+    
+    let index = 0;
+    interval = setInterval(() => {
+        showNode.add(data.nodes[index++]);
+        update();
+        if (index >= N) clearInterval(interval);
+    }, 50);
 }
 
 function update() {
     graph
         .nodeColor(graph.nodeColor())
-        .linkDirectionalParticles(graph.linkDirectionalParticles());
+        .linkDirectionalParticles(graph.linkDirectionalParticles())
+        .nodeVisibility(graph.nodeVisibility())
+        .linkVisibility(graph.linkVisibility());
 }
