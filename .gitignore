@@ -2,4 +2,4 @@ API_Keys.json
 env/
 .vscode/
 __pycache__/
-data/
+data/*.py
