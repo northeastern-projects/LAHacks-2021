@@ -38,7 +38,8 @@ def get_queries(queries, limit, metadata, fulltext, citations, similar, duplicat
     url = f"https://core.ac.uk:443/api-v2/articles/search?metadata={metadata}&fulltext={fulltext}&citations={citations}&similar={similar}&duplicate={duplicate}&urls={urls}&faithfulMetadata={faithfulMetadata}&apiKey={CORE_KEY}"
     data = []
     for query in queries:
-      data.append({"query": '"' + query + '" AND description:*', "page":1, "pageSize": limit, "language.name":"English"})
+      full_query = f'(title:"{query}" OR "{query}" OR description:"{query}") AND description:* AND language.name:"English"'
+      data.append({"query": full_query, "page":1, "pageSize": limit})
     res = requests.post(url, data = json.dumps(data), headers={"Content-Type": "text/plain"})
     return res.json()
 

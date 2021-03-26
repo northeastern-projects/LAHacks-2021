@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ArticleComponent : MonoBehaviour
+public class ArticleSphere : MonoBehaviour
 {
-    [SerializeField] private string title;
-    [SerializeField] private string description;
+    public string title { get; private set; }
+    public string description { get; private set; }
 
     private ArticleSphereConfig config;
 

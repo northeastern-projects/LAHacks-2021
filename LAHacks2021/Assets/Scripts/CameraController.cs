@@ -4,21 +4,69 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public float speed;
-    public float sprintSpeed;
-    public float horizonalRotationSpeed;
-    public float verticalRotationSpeed;
+    public float speed = 5;
+    public float rotationSpeed = 3;
+    public float inertia = 5;
+    public float distance = 10f;
 
-    private ArticleComponent lastHover = null;
-    private ArticleComponent selectedArticle = null;
+    public TitleTooltip tooltip;
+
+    private ArticleSphere lastHover = null;
+    private ArticleSphere selectedArticle = null;
+
+    private bool isRotatingCamera = false;
+
+    private Vector3 anchor = new Vector3(0, 0, 0);
+    private Vector3 panVelocity;
+
+    private void Start()
+    {
+        transform.LookAt(anchor);
+    }
 
     private void Update()
     {
-        if (Input.GetMouseButton(1))
+        ProcessUserInput();
+        UpdatePosition();
+    }
+
+    private void ProcessUserInput()
+    {
+        if (Input.GetMouseButtonUp(0))
+            isRotatingCamera = false;
+        if (isRotatingCamera)
             RotateCamera();
 
-        MoveCamera();
+        if (Input.GetMouseButton(1))
+            AdjustPanVelocity();
+
+        float scroll = Input.mouseScrollDelta.y;
+        if (Mathf.Abs(scroll) > 0)
+            AdjustDistance(scroll);
+
         ProcessSphereHighlighting();
+    }
+
+    private void RotateCamera()
+    {
+        transform.RotateAround(anchor, transform.up, Input.GetAxis("Mouse X") * rotationSpeed);
+        transform.RotateAround(anchor, transform.right, -Input.GetAxis("Mouse Y") * rotationSpeed);
+    }
+
+    private void AdjustPanVelocity()
+    {
+        Vector3 v = transform.up * -Input.GetAxis("Mouse Y") + transform.right * -Input.GetAxis("Mouse X");
+        v *= speed;
+        panVelocity = v;
+    }
+
+    private void AdjustDistance(float scroll)
+    {
+        distance -= scroll;
+        if (distance < 1f)
+        {
+            distance = 1f;
+        }
     }
 
     private void ProcessSphereHighlighting()
@@ -26,18 +74,24 @@ public class CameraController : MonoBehaviour
         ClearLastHoverHighlight();
 
         Ray screenRay = GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast(screenRay, out RaycastHit hit))
+        if (!isRotatingCamera && Physics.Raycast(screenRay, out RaycastHit hit))
         {
-            ArticleComponent sphere = hit.transform.GetComponent<ArticleComponent>();
+            ArticleSphere sphere = hit.transform.GetComponent<ArticleSphere>();
+
+            tooltip.UpdateTooltip(sphere);
 
             if (Input.GetMouseButtonDown(0))
                 ClickOnArticleSphere(sphere);
             else if (sphere != selectedArticle)
                 HighlightSphere(sphere);
         }
+        else if (Input.GetMouseButtonDown(0))
+            isRotatingCamera = true;
+        else
+            tooltip.UpdateTooltip(null);
     }
 
-    private void ClickOnArticleSphere(ArticleComponent sphere)
+    private void ClickOnArticleSphere(ArticleSphere sphere)
     {
         if (selectedArticle == sphere)
         {
@@ -45,14 +99,33 @@ public class CameraController : MonoBehaviour
             selectedArticle = null;
             return;
         }
-        
+
         if (selectedArticle != null)
             selectedArticle.DefaultColor();
+        
         selectedArticle = sphere;
         sphere.Select();
+        anchor = sphere.transform.position;
+        distance = 5f;
+
+        StopCoroutine("LookAtAnchorCoroutine");
+        StartCoroutine(LookAtAnchorCoroutine(2f));
     }
 
-    private void HighlightSphere(ArticleComponent sphere)
+    private IEnumerator LookAtAnchorCoroutine(float duration)
+    {
+        float time = 0f;
+        while (time < duration)
+        {
+            Quaternion rotation = Quaternion.LookRotation(anchor - transform.position, transform.up);
+            transform.rotation = Quaternion.Slerp(transform.rotation, rotation, rotationSpeed * Time.deltaTime);
+            time += Time.deltaTime;
+            yield return null;
+        }
+        yield break;
+    }
+
+    private void HighlightSphere(ArticleSphere sphere)
     {
         sphere.Highlight();
         lastHover = sphere;
@@ -67,48 +140,29 @@ public class CameraController : MonoBehaviour
         }
     }
 
-    private void MoveCamera()
+    private void UpdatePosition()
     {
-        float sprint = 1;
-        if (Input.GetKey(KeyCode.LeftShift))
-            sprint = sprintSpeed;
-
-        MoveInDirection(transform.forward, Input.GetAxis("Vertical"), sprint);
-        MoveInDirection(transform.right, Input.GetAxis("Horizontal"), sprint);
-        MoveInDirection(transform.up, GetUpwardsMotion(), sprint);
+        PanCamera();
+        UpdateDistace();
     }
 
-    private float GetUpwardsMotion()
+    private void PanCamera()
     {
-        float upwards = 0;
-        if (Input.GetKey(KeyCode.Space))
-            upwards = 1f;
-        else if (Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.LeftCommand))
-            upwards = -1f;
-        return upwards;
+        Vector3 delta = panVelocity * Time.deltaTime;
+
+        panVelocity -= delta * inertia;
+        transform.position += delta;
+        anchor += delta;
     }
 
-    private void RotateCamera()
+    private void UpdateDistace()
     {
-        float x = transform.eulerAngles.x + Input.GetAxis("Mouse Y") * -verticalRotationSpeed;
-        float y = transform.eulerAngles.y + Input.GetAxis("Mouse X") * horizonalRotationSpeed;
-        
-        x = BoundXAxisRotation(x);
-        
-        transform.rotation = Quaternion.Euler(x, y, 0);
-    }
-
-    private float BoundXAxisRotation(float x)
-    {
-        if (x > 90 && x < 180)
-            x = 90;
-        else if (x < 270 && x >= 180)
-            x = 270;
-        return x;
-    }
-
-    private void MoveInDirection(Vector3 direction, float forward, float sprint)
-    {
-        transform.position += direction * Time.deltaTime * speed * forward * sprint;
+        float dist = Vector3.Distance(transform.position, anchor);
+        float adjustment = dist - distance;
+        if (Mathf.Abs(adjustment) > 0.1)
+        {
+            Vector3 direction = Vector3.Normalize(anchor - transform.position);
+            transform.position += direction * speed * adjustment * Time.deltaTime;
+        }
     }
 }

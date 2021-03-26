@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eb7d64c3aa83804e9725adad51a3d0a, type: 3}
   m_Name: Article Sphere Config
   m_EditorClassIdentifier: 
-  sphereColor: {r: 0.22745098, g: 0.19215687, b: 1, a: 1}
-  highlightColor: {r: 0.54407585, g: 0.5235849, b: 1, a: 1}
-  selectedColor: {r: 0.73468554, g: 0.7216981, b: 1, a: 1}
-  radius: 1
+  sphereColor: {r: 0.2547338, g: 0.22241013, b: 0.9622642, a: 0.5529412}
+  highlightColor: {r: 0.735849, g: 0.735849, b: 0.735849, a: 1}
+  selectedColor: {r: 1, g: 1, b: 1, a: 1}
+  radius: 0.5

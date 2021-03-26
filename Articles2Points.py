@@ -26,7 +26,6 @@ class Article:
         return dictionary
 
 
-
 class Articles2Points:
     def __init__(self):
         if torch.cuda.is_available():
