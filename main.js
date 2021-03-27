@@ -1,5 +1,5 @@
-const SCALE = 100;
-const MAX_DISSIMILARITY = 3;
+const SCALE = 150;
+const MAX_DISSIMILARITY = 3.3;
 const ELEM = document.getElementById('3d-graph');
 const SHOWALLNODES = true;
 const SHOWALLLINKS = false;
@@ -15,8 +15,10 @@ fileSelector.addEventListener('change', event => {
 });
 
 function generate(event) {
-    data = JSON.parse(event.target.result).Articles;
-    gData = {
+    gData = JSON.parse(event.target.result);
+    
+    //data = JSON.parse(event.target.result).Articles;
+    /* gData = {
         nodes: data.map((a, i) => ({
             id: i,
             name: a.title, 
@@ -31,7 +33,7 @@ function generate(event) {
             .filter(l => l.dissimilarity > 0.0 && l.dissimilarity <= MAX_DISSIMILARITY)
         })),
     };
-    gData.links = gData.nodes.flatMap(node => node.links)
+    gData.links = gData.nodes.flatMap(node => node.links) */
     
     console.log({gData});
 
@@ -39,31 +41,35 @@ function generate(event) {
 }
 
 function render() {
-    let hoverNode = null;
-
-    const selectedNodes = new Set();
-
+    graph = ForceGraph3D({ controlType: "orbit" });
+    
     const showNodes = new Set();
     if (SHOWALLNODES) {
         gData.nodes.forEach(node => showNodes.add(node));
     }
 
-    graph = ForceGraph3D({ controlType: "orbit" });
+    let hoverNode = null;
+    const selectedNodes = new Set();
+
     //configure forces
-    linkForce = graph.d3Force('link').distance(link => SCALE*link.dissimilarity);
-    graph.d3Force('x', d3.forceX(node=>data[node.id].position.x).strength(1));
-    graph.d3Force('y', d3.forceY(node=>data[node.id].position.y).strength(1));
-    graph.d3Force('z', d3.forceZ(node=>data[node.id].position.z).strength(1));
+    linkForce = graph.d3Force('link').distance(link => link.dissimilarity*SCALE);
+    graph.d3Force('x', d3.forceX(node=>node.px*SCALE).strength(1));
+    graph.d3Force('y', d3.forceY(node=>node.py*SCALE).strength(1));
+    graph.d3Force('z', d3.forceZ(node=>node.pz*SCALE).strength(1));
     graph.d3Force('center', null);
-    //graph.d3Force('charge', null);
+    graph.d3Force('charge', null);
 
     graph(ELEM)
         .graphData(gData)
-        .nodeLabel('name')
+        .nodeLabel('title')
+        .linkLabel('dissimilarity')
         .nodeRelSize(6)
         .nodeColor(node => selectedNodes.has(node) || node === hoverNode ? 'rgba(245,220,200,1)' : 'rgba(0,255,255,0.5)')
         .nodeVisibility(node => showNodes.has(node) ? true : false)
-        .linkVisibility(link => showNodes.has(link.source) && showNodes.has(link.target) && (link.source === hoverNode || selectedNodes.has(link.source)) ? true : SHOWALLLINKS)
+        .linkVisibility(link => 
+            showNodes.has(link.source) && showNodes.has(link.target) &&
+            link.dissimilarity <= MAX_DISSIMILARITY && 
+            (link.source === hoverNode || selectedNodes.has(link.source)) ? true : SHOWALLLINKS)
         .linkOpacity(0.2)
         .linkCurvature(0)
         .linkDirectionalParticleWidth(2)
@@ -75,14 +81,19 @@ function render() {
             update();
         })
         .onNodeRightClick(node => {
-            const dist = 200;
+            urls = node.fulltextUrls;
+            window.open(urls[urls.length-1], '_blank');
+            /* const dist = 200;
             const factor = 1 + dist / Math.hypot(node.x, node.y, node.x);
             graph.cameraPosition({ x: node.x * factor, y: node.y * factor, z: node.z * factor }, node, 1000);
+            */
         })
         .onNodeClick(node => {
             if (!selectedNodes.delete(node)) selectedNodes.add(node);
             update();
         });
+
+    setTimeout(() => graph.zoomToFit, 400, 400);
 }
 
 function update() {
