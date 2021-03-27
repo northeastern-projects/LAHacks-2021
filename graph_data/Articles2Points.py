@@ -48,6 +48,7 @@ class Articles2Points:
             article.dict["px"] = point3d[0]
             article.dict["py"] = point3d[1]
             article.dict["pz"] = point3d[2]
+            article.dict["dissimilarity"] = self.mds.dissimilarity_matrix_[i].tolist()
 
         return points
 

@@ -34,7 +34,23 @@ function generate(event) {
         })),
     };
     gData.links = gData.nodes.flatMap(node => node.links) */
-    
+    gData.nodes.forEach(node => {
+        node.neighbors = new Set();
+        node.links = node.dissimilarity.reduce((links, d, t) => {
+            if (d > 0.0 && d <= MAX_DISSIMILARITY) {
+                let link = {
+                    source: node.id,
+                    target: gData.nodes[t].id,
+                    dissimilarity: d
+                }
+                links.push(link);
+                node.neighbors.add(link.target);
+            }
+            return links;
+        }, []);
+        gData.links = [...gData.links, ...node.links];
+    });
+
     console.log({gData});
 
     render();
@@ -83,17 +99,20 @@ function render() {
         .onNodeRightClick(node => {
             urls = node.fulltextUrls;
             window.open(urls[urls.length-1], '_blank');
-            /* const dist = 200;
-            const factor = 1 + dist / Math.hypot(node.x, node.y, node.x);
-            graph.cameraPosition({ x: node.x * factor, y: node.y * factor, z: node.z * factor }, node, 1000);
-            */
         })
         .onNodeClick(node => {
-            if (!selectedNodes.delete(node)) selectedNodes.add(node);
+            if (!selectedNodes.delete(node)) {
+                selectedNodes.add(node);
+    
+                const dist = SCALE;
+                const factor = 1 + dist / Math.hypot(node.x, node.y, node.x);
+                graph.cameraPosition({ x: node.x * factor, y: node.y * factor, z: node.z * factor }, node, 0);
+                setTimeout(()=>graph.zoomToFit(300, 50, nb => node.neighbors.has(nb) || nb === node), 0);
+            }
             update();
         });
 
-    setTimeout(() => graph.zoomToFit, 400, 400);
+        setTimeout(() => graph.zoomToFit(800), 200);
 }
 
 function update() {
@@ -103,3 +122,4 @@ function update() {
         .nodeVisibility(graph.nodeVisibility())
         .linkVisibility(graph.linkVisibility())
 }
+

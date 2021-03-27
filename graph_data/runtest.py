@@ -2,12 +2,12 @@ import Articles2Points
 import json
 import os
 
-if os.path.exists("data/results.json"):
-    with open("data/results.json", 'r') as results_json:
+if os.path.exists("graph_data/results.json"):
+    with open("graph_data/results.json", 'r') as results_json:
         results = json.load(results_json)
 else:
     from SampleQuery import results
-    with open("data/results.json", 'w+') as file:
+    with open("graph_data/results.json", 'w+') as file:
         json.dump(results, file)
 
 checked = set()
@@ -30,16 +30,10 @@ print(articles[0].dict)
 nodes = Articles2Points.Articles2Nodes(articles)
 
 links = []
-matrix = a2p.mds.dissimilarity_matrix_.tolist()
 
-for i, row in enumerate(matrix):
-    for j, d in enumerate(row):
-        if i != j:
-            links.append({"source":nodes[i]["id"], "target":nodes[j]["id"], "dissimilarity": d})
-
-graph = {"nodes":nodes, "links":links, "dissimilarities": matrix}
+graph = {"nodes":nodes, "links":links}
 graph_json = json.dumps(graph)
 
-with open("data/graph.json", 'w+') as file:
+with open("graph_data/graph.json", 'w+') as file:
     file.write(graph_json)
 
