@@ -1,6 +1,6 @@
 const N = 100;
 const SCALE = 100;
-const MAX_DISSIMILARITY = 3.3;
+const MAX_DISSIMILARITY = 3;
 const ELEM = document.getElementById('3d-graph');
 const SHOWALLNODES = true;
 const SHOWALLLINKS = false;
@@ -24,30 +24,28 @@ fileSelector.addEventListener('change', event => {
 function generate(event) {
     data = JSON.parse(event.target.result).Articles;
     gData = {
-        nodes: [...Array(data.length).keys()].map(i => ({ 
+        nodes: data.map((a, i) => ({
             id: i,
-            name: data[i].title, 
-            links: [], 
-            x: data[i].position.x *= SCALE, 
-            y: data[i].position.y *= SCALE, 
-            z: data[i].position.z *= SCALE 
-        })), 
-        links: []
+            name: a.title, 
+            x: a.position.x *= SCALE, 
+            y: a.position.y *= SCALE, 
+            z: a.position.z *= SCALE,
+            links: a.dissimilarity.map((d, t) => ({
+                source: i,
+                target: t,
+                dissimilarity: d
+            }))
+            .filter(l => l.dissimilarity > 0.0 && l.dissimilarity <= MAX_DISSIMILARITY)
+        })),
     };
-    for (let i = 0; i < data.length; i++) {
-        for (let j = 0; j < data.length; j++) {
-            if (i != j && (data[i].dissimilarity[j]) <= MAX_DISSIMILARITY) {
-                gData.links.push({source: i, target: j});
-            }
-            data[i].dissimilarity[j] *= SCALE;
-        }
-    }
-    console.log(gData);
-    process();
+    gData.links = gData.nodes.flatMap(node => node.links)
+    
+    console.log({gData});
+    //process();
     render();
     
     //configure forces
-    graph.d3Force('link').distance(link => data[link.source.id].dissimilarity[link.target.id]);
+    graph.d3Force('link').distance(link => SCALE*link.dissimilarity);
     graph.d3Force('x', d3.forceX(node=>data[node.id].position.x).strength(1));
     graph.d3Force('y', d3.forceY(node=>data[node.id].position.y).strength(1));
     graph.d3Force('z', d3.forceZ(node=>data[node.id].position.z).strength(1));
@@ -80,11 +78,11 @@ function process() {
 function render() {
     let hoverNode = null;
 
-    const selectedNode = new Set();
+    const selectedNodes = new Set();
 
-    const showNode = new Set();
+    const showNodes = new Set();
     if (SHOWALLNODES) {
-        gData.nodes.forEach(node => showNode.add(node));
+        gData.nodes.forEach(node => showNodes.add(node));
     }
 
     graph = ForceGraph3D({ controlType: "orbit" });
@@ -93,27 +91,25 @@ function render() {
         .graphData(gData)
         .nodeLabel('name')
         .nodeRelSize(6)
-        .nodeColor(node => selectedNode.has(node) || node === hoverNode ? 'rgba(245,220,200,1)' : 'rgba(0,255,255,0.5)')
-        .nodeVisibility(node => showNode.has(node) ? true : false)
-        .linkVisibility(link => showNode.has(link.source) && showNode.has(link.target) && (link.source === hoverNode || selectedNode.has(link.source)) ? true : SHOWALLLINKS)
+        .nodeColor(node => selectedNodes.has(node) || node === hoverNode ? 'rgba(245,220,200,1)' : 'rgba(0,255,255,0.5)')
+        .nodeVisibility(node => showNodes.has(node) ? true : false)
+        .linkVisibility(link => showNodes.has(link.source) && showNodes.has(link.target) && (link.source === hoverNode || selectedNodes.has(link.source)) ? true : SHOWALLLINKS)
         .linkOpacity(0.2)
         .linkCurvature(0)
         .linkDirectionalParticleWidth(2)
         .linkDirectionalParticles(link => link.source === hoverNode ? 4 : 0)
         .onNodeHover(node => {
             if (node && hoverNode === node) return;
-        
             ELEM.style.cursor = node ? 'pointer' : null;
             hoverNode = node || null;
             update();
         })
         .onNodeRightClick(node => {
-            
             const dist = 200;
             const factor = 1 + dist / Math.hypot(node.x, node.y, node.x);
             graph.cameraPosition({ x: node.x * factor, y: node.y * factor, z: node.z * factor }, node, 1000);
         })
-        .onNodeClick(node => {if (!selectedNode.delete(node)) selectedNode.add(node)});
+        .onNodeClick(node => {if (!selectedNodes.delete(node)) selectedNodes.add(node)});
 
     /**
     let index = 0;
