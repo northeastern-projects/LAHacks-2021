@@ -1,17 +1,10 @@
-const N = 100;
 const SCALE = 100;
 const MAX_DISSIMILARITY = 3;
 const ELEM = document.getElementById('3d-graph');
 const SHOWALLNODES = true;
 const SHOWALLLINKS = false;
 
-var data, gData, graph;
-//var interval;
-
-document.getElementById('random').addEventListener('click', event => {
-    //clearInterval(interval);
-    generateRandom();
-});
+var data, gData, graph, linkForce;
 
 // graph using data from json file
 const fileSelector = document.getElementById("file");
@@ -41,38 +34,8 @@ function generate(event) {
     gData.links = gData.nodes.flatMap(node => node.links)
     
     console.log({gData});
-    //process();
-    render();
-    
-    //configure forces
-    graph.d3Force('link').distance(link => SCALE*link.dissimilarity);
-    graph.d3Force('x', d3.forceX(node=>data[node.id].position.x).strength(1));
-    graph.d3Force('y', d3.forceY(node=>data[node.id].position.y).strength(1));
-    graph.d3Force('z', d3.forceZ(node=>data[node.id].position.z).strength(1));
-    graph.d3Force('center', null);
-    //graph.d3Force('charge', null);
-}
 
-// Random test graph
-function generateRandom() {
-    gData = {
-        nodes: [...Array(N).keys()].map(i => ({ id: i, links: [] })),
-        links: [...Array(N).keys()]
-            .filter(id => id)
-            .map(id => ({
-                source: id,
-                target: Math.round(Math.random() * (id - 1))
-            }))
-    };
-    process();
     render();
-}
-
-function process() {
-    gData.links.forEach(link => {
-        let a = gData.nodes[link.source];
-        a.links.push(link);
-    })
 }
 
 function render() {
@@ -86,6 +49,13 @@ function render() {
     }
 
     graph = ForceGraph3D({ controlType: "orbit" });
+    //configure forces
+    linkForce = graph.d3Force('link').distance(link => SCALE*link.dissimilarity);
+    graph.d3Force('x', d3.forceX(node=>data[node.id].position.x).strength(1));
+    graph.d3Force('y', d3.forceY(node=>data[node.id].position.y).strength(1));
+    graph.d3Force('z', d3.forceZ(node=>data[node.id].position.z).strength(1));
+    graph.d3Force('center', null);
+    //graph.d3Force('charge', null);
 
     graph(ELEM)
         .graphData(gData)
@@ -109,16 +79,10 @@ function render() {
             const factor = 1 + dist / Math.hypot(node.x, node.y, node.x);
             graph.cameraPosition({ x: node.x * factor, y: node.y * factor, z: node.z * factor }, node, 1000);
         })
-        .onNodeClick(node => {if (!selectedNodes.delete(node)) selectedNodes.add(node)});
-
-    /**
-    let index = 0;
-    interval = setInterval(() => {
-        showNode.add(gData.nodes[index++]);
-        update();
-        if (index >= N) clearInterval(interval);
-    }, 50);
-     */
+        .onNodeClick(node => {
+            if (!selectedNodes.delete(node)) selectedNodes.add(node);
+            update();
+        });
 }
 
 function update() {
