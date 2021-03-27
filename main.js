@@ -48,7 +48,7 @@ function generate(event) {
             }
             return links;
         }, []);
-        gData.links = [...gData.links, ...node.links];
+        gData.links.push(...node.links);
     });
 
     console.log({gData});
@@ -107,7 +107,6 @@ function render() {
                 const dist = SCALE;
                 const factor = 1 + dist / Math.hypot(node.x, node.y, node.x);
                 graph.cameraPosition({ x: node.x * factor, y: node.y * factor, z: node.z * factor }, node, 0);
-                setTimeout(()=>graph.zoomToFit(300, 50, nb => node.neighbors.has(nb) || nb === node), 0);
             }
             update();
         });
