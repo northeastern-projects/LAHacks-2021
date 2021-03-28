@@ -1,0 +1,23 @@
+{% load static %}
+
+<!DOCTYPE html>
+<head>
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
+    <script src="https://unpkg.com/3d-force-graph/dist/3d-force-graph.min.js"></script>
+    <script src="https://unpkg.com/d3-force-3d/dist/d3-force-3d.min.js"></script>
+
+</head>
+
+<body style="background-color:#000011">
+
+    <div id="3d-graph"></div>
+
+    <input type="hidden" id="requested_data" value="{{ data }}">
+
+    <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>

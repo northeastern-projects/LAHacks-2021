@@ -1,8 +1,11 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 # Views for the whole page
 
 def home_view(request, *args, **kwargs):
-	context = {}
+	if request.POST.get("topic"):
+		request.session["topic"] = request.POST.get("topic")
+		return redirect("bert/")
 
-	return render(request, "home.html", context)
+	context = {}
+	return render(request, "index.html", context)
