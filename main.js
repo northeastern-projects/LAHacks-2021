@@ -1,4 +1,4 @@
-const SCALE = 150;
+const SCALE = 100;
 const MAX_DISSIMILARITY = 3.3;
 const ELEM = document.getElementById('3d-graph');
 const SHOWALLNODES = true;
@@ -12,28 +12,10 @@ fileSelector.addEventListener('change', event => {
     const reader = new FileReader();
     reader.onload = generate;
     reader.readAsText(event.target.files[0]);
-});
+}); 
 
 function generate(event) {
     gData = JSON.parse(event.target.result);
-    
-    //data = JSON.parse(event.target.result).Articles;
-    /* gData = {
-        nodes: data.map((a, i) => ({
-            id: i,
-            name: a.title, 
-            x: a.position.x *= SCALE, 
-            y: a.position.y *= SCALE, 
-            z: a.position.z *= SCALE,
-            links: a.dissimilarity.map((d, t) => ({
-                source: i,
-                target: t,
-                dissimilarity: d
-            }))
-            .filter(l => l.dissimilarity > 0.0 && l.dissimilarity <= MAX_DISSIMILARITY)
-        })),
-    };
-    gData.links = gData.nodes.flatMap(node => node.links) */
     gData.nodes.forEach(node => {
         node.neighbors = new Set();
         node.links = node.dissimilarity.reduce((links, d, t) => {
@@ -48,6 +30,7 @@ function generate(event) {
             }
             return links;
         }, []);
+        node.val = node.neighbors.size;
         gData.links.push(...node.links);
     });
 
@@ -81,16 +64,18 @@ function render() {
     graph(ELEM)
         .graphData(gData)
         .nodeLabel('title')
-        .nodeRelSize(6)
+        .backgroundColor('#000000')
+        .nodeOpacity(0.9)
         .nodeColor(node => 
             selectedNodes.has(node) || hoverNodes.has(node) ? 
             node === hoverNode || node === selectedNode ? 
-            'rgb(255,0,0,1)' : 'rgba(245,220,200,1)' : 'rgba(0,255,255,0.5)')
+            'gold' : 'lightyellow' : 'royalblue')
         .nodeVisibility(node => showNodes.has(node) ? true : false)
         .linkVisibility(link => 
             showNodes.has(link.source) && showNodes.has(link.target) &&
             (link.source === hoverNode || link.source === selectedNode) ? true : SHOWALLLINKS)
         .linkOpacity(0.2)
+        .linkColor((link=>'yellow'))
         .linkCurvature(0)
         .linkDirectionalParticleWidth(2)
         .linkDirectionalParticles(link => link.source === hoverNode ? 4 : 0)
@@ -116,9 +101,9 @@ function render() {
             hoverNodes.forEach(node=>selectedNodes.add(node));
             console.log({hoverNodes});
             console.log({selectedNodes});
-            /* const dist = SCALE;
-            const factor = 1 + dist / Math.hypot(node.x, node.y, node.x);
-            graph.cameraPosition({ x: node.x * factor, y: node.y * factor, z: node.z * factor }, node, 0); */
+            const dist = 8*SCALE;
+            const factor = 1 + (dist / Math.hypot(node.x, node.y, node.x));
+            graph.cameraPosition({ x: node.x * factor, y: node.y * factor, z: node.z * factor }, node, 1000); 
             update();
         })
         .onBackgroundClick(() => {
@@ -126,15 +111,16 @@ function render() {
             selectedNode = null;
             update();
         });
-
-        setTimeout(() => graph.zoomToFit(800), 200);
+    
+        setTimeout(() => graph.zoomToFit(1000), 200);
 }
 
 function update() {
     graph
         .nodeColor(graph.nodeColor())
-        .linkDirectionalParticles(graph.linkDirectionalParticles())
+        .linkColor(graph.linkColor())
         .nodeVisibility(graph.nodeVisibility())
         .linkVisibility(graph.linkVisibility())
+        .linkDirectionalParticles(graph.linkDirectionalParticles());
 }
 
