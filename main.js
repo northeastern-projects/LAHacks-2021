@@ -65,10 +65,10 @@ function render() {
     }
 
     let hoverNode = null;
-    hoverNodes = new Set();
+    const hoverNodes = new Set();
 
     let selectedNode = null;
-    selectedNodes = new Set();
+    const selectedNodes = new Set();
 
     //configure forces
     linkForce = graph.d3Force('link').distance(link => link.dissimilarity*SCALE);
