@@ -8,7 +8,7 @@ import json
 def view_raw_results(request, *args, **kwargs):
 	if "topic" in request.session:
 		query = request.session.get("topic")
-		articles_per_page = 50 # 10 to 100
+		articles_per_page = request.session.get("number_papers") if "number_papers" in request.session else 10 # 10 to 100
 		pages = 2
 		
 		params = {
@@ -37,9 +37,6 @@ def view_raw_results(request, *args, **kwargs):
 		context = {
 			"data": graph_json
 		}
-
-		""" with open("graph.json", 'w+') as file:
-			file.write(graph_json) """
 		
 		return render(request, "vis.html", context)
 
