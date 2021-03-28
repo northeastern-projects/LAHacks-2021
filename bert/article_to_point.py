@@ -3,6 +3,7 @@ import transformers as tr
 from sklearn.manifold import MDS
 from typing import List
 import json
+from langdetect import detect
 
 
 class Article:
@@ -57,7 +58,7 @@ def Data2Articles(data: List[dict], discard_duplicates: bool = True) -> List[Art
     checked = set()
     for article in data:
         id = article['title']
-        if id not in checked and "description" in article:
+        if id not in checked and "description" in article and detect(article["description"]) == 'en':
             articles.append(Article(article))
             checked.add(id)
     return articles
