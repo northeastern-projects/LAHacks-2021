@@ -236,11 +236,20 @@
                                 <div class="container">
                                     <form method="POST">
                                         {% csrf_token %}
-                                        <textarea name="topic" cols="40" rows="15" class="text"></textarea>
-                                        <input type="text" name="number_papers"/>
-                                        <input class="btn draw-border" type="submit"/>
-                                        <input class="btn draw-border"/>
+                                        <label for="name">Enter topic name</label>
+                                        <textarea id="name" name="topic" cols="40" rows="15" class="text"></textarea>
+
+                                        <label for="number_papers">Enter how many papers you want to sample</label>
+                                        <input id="number_papers" type="text" name="number_papers"/>
+
+                                        <button class="btn draw-border" type="submit">Submit</button>
                                     </form>
+                                </div>
+                                <div class='container'>
+                                  <div id='bar' class='indeterminate-progress-bar active'>
+                                    <div class='progress-block single-segment'>
+                                    </div>
+                                  </div>
                                 </div>
                             </div>
                         </div>

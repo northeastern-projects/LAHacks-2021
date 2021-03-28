@@ -6,15 +6,7 @@ const SHOWALLLINKS = false;
 
 var data, gData, graph, linkForce;
 
-// graph using data from json file
-/* const fileSelector = document.getElementById("file");
-fileSelector.addEventListener('change', event => {
-    const reader = new FileReader();
-    reader.onload = generate;
-    reader.readAsText(event.target.files[0]);
-}); */
-
-function generate() {
+function generate(event) {
     gData = JSON.parse(document.getElementById("requested_data").value);
     gData.nodes.forEach(node => {
         node.neighbors = new Set();
@@ -30,6 +22,7 @@ function generate() {
             }
             return links;
         }, []);
+        node.val = node.neighbors.size;
         gData.links.push(...node.links);
     });
 
@@ -63,19 +56,21 @@ function render() {
     graph(ELEM)
         .graphData(gData)
         .nodeLabel('title')
-        .nodeRelSize(6)
+        .backgroundColor('#000000')
+        .nodeOpacity(0.9)
         .nodeColor(node => 
             selectedNodes.has(node) || hoverNodes.has(node) ? 
             node === hoverNode || node === selectedNode ? 
-            'rgb(255,0,0,1)' : 'rgba(245,220,200,1)' : 'rgba(0,255,255,0.5)')
+            'gold' : 'lightyellow' : 'royalblue')
         .nodeVisibility(node => showNodes.has(node) ? true : false)
         .linkVisibility(link => 
             showNodes.has(link.source) && showNodes.has(link.target) &&
             (link.source === hoverNode || link.source === selectedNode) ? true : SHOWALLLINKS)
         .linkOpacity(0.2)
+        .linkColor((link=>'yellow'))
         .linkCurvature(0)
-        .linkDirectionalParticleWidth(2)
-        .linkDirectionalParticles(link => link.source === hoverNode ? 4 : 0)
+        .linkDirectionalParticleWidth(1)
+        .linkDirectionalParticles(link => link.source === hoverNode ? 8 : 0)
         .onNodeHover(node => {
             if ((!node && !hoverNodes.size) || (node && hoverNode === node)) return;
             hoverNodes.clear();
@@ -88,36 +83,39 @@ function render() {
             console.log({hoverNodes});
             update();
         })
-        .onNodeRightClick(node => {
-            urls = node.fulltextUrls;
-            window.open(urls[urls.length-1], '_blank');
-        })
         .onNodeClick(node => {
             selectedNodes.clear();
             selectedNode = node;
             hoverNodes.forEach(node=>selectedNodes.add(node));
-            console.log({hoverNodes});
-            console.log({selectedNodes});
-            /* const dist = SCALE;
-            const factor = 1 + dist / Math.hypot(node.x, node.y, node.x);
-            graph.cameraPosition({ x: node.x * factor, y: node.y * factor, z: node.z * factor }, node, 0); */
+            const dist = 800;
+            const factor = 1 + (dist / Math.hypot(node.x, node.y, node.x));
+            graph.cameraPosition({ x: node.x * factor, y: node.y * factor, z: node.z * factor }, node, 1000); 
             update();
+            writetohtml(node);
         })
         .onBackgroundClick(() => {
             selectedNodes.clear();
             selectedNode = null;
             update();
         });
-
+    
         setTimeout(() => graph.zoomToFit(800), 200);
 }
 
 function update() {
     graph
         .nodeColor(graph.nodeColor())
-        .linkDirectionalParticles(graph.linkDirectionalParticles())
+        .linkColor(graph.linkColor())
         .nodeVisibility(graph.nodeVisibility())
         .linkVisibility(graph.linkVisibility())
+        .linkDirectionalParticles(graph.linkDirectionalParticles());
 }
 
-generate();
+// title, authors, description, urls
+function writetohtml(node) {
+    document.getElementById("title").innerHTML = node.title;
+    document.getElementById("authors").innerHTML = node.authors.join(', ');
+    document.getElementById("description").innerHTML = node.description;
+}
+
+generate()
