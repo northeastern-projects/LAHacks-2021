@@ -101,7 +101,7 @@ function render() {
             hoverNodes.forEach(node=>selectedNodes.add(node));
             console.log({hoverNodes});
             console.log({selectedNodes});
-            const dist = 8*SCALE;
+            const dist = 800;
             const factor = 1 + (dist / Math.hypot(node.x, node.y, node.x));
             graph.cameraPosition({ x: node.x * factor, y: node.y * factor, z: node.z * factor }, node, 1000); 
             update();
