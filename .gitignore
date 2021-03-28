@@ -1,4 +1,4 @@
 env/
 .vscode/
 __pycache__/
-graph_data/
+graph_data/*.py
