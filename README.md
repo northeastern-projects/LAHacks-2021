@@ -17,7 +17,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Deploy dkango server
+Deploy django server
 
 `python manage.py runserver`
 
