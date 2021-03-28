@@ -116,6 +116,16 @@ function writetohtml(node) {
     document.getElementById("title").innerHTML = node.title;
     document.getElementById("authors").innerHTML = node.authors.join(', ');
     document.getElementById("description").innerHTML = node.description;
+    node.fulltextUrls.forEach(url => {
+        var a = document.createElement('a');
+        a.setAttribute('href',url);
+        a.innerHTML = url;
+
+        var br = document.createElement('br');
+
+        document.getElementById('urls').appendChild(a);
+        document.getElementById('urls').appendChild(br);
+    })
 }
 
 generate()
