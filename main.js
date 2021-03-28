@@ -44,7 +44,7 @@ function generate(event) {
                     dissimilarity: d
                 }
                 links.push(link);
-                node.neighbors.add(link.target);
+                node.neighbors.add(gData.nodes[t]);
             }
             return links;
         }, []);
@@ -65,7 +65,10 @@ function render() {
     }
 
     let hoverNode = null;
-    const selectedNodes = new Set();
+    hoverNodes = new Set();
+
+    let selectedNode = null;
+    selectedNodes = new Set();
 
     //configure forces
     linkForce = graph.d3Force('link').distance(link => link.dissimilarity*SCALE);
@@ -78,22 +81,29 @@ function render() {
     graph(ELEM)
         .graphData(gData)
         .nodeLabel('title')
-        .linkLabel('dissimilarity')
         .nodeRelSize(6)
-        .nodeColor(node => selectedNodes.has(node) || node === hoverNode ? 'rgba(245,220,200,1)' : 'rgba(0,255,255,0.5)')
+        .nodeColor(node => 
+            selectedNodes.has(node) || hoverNodes.has(node) ? 
+            node === hoverNode || node === selectedNode ? 
+            'rgb(255,0,0,1)' : 'rgba(245,220,200,1)' : 'rgba(0,255,255,0.5)')
         .nodeVisibility(node => showNodes.has(node) ? true : false)
         .linkVisibility(link => 
             showNodes.has(link.source) && showNodes.has(link.target) &&
-            link.dissimilarity <= MAX_DISSIMILARITY && 
-            (link.source === hoverNode || selectedNodes.has(link.source)) ? true : SHOWALLLINKS)
+            (link.source === hoverNode || link.source === selectedNode) ? true : SHOWALLLINKS)
         .linkOpacity(0.2)
         .linkCurvature(0)
         .linkDirectionalParticleWidth(2)
         .linkDirectionalParticles(link => link.source === hoverNode ? 4 : 0)
         .onNodeHover(node => {
-            if (node && hoverNode === node) return;
+            if ((!node && !hoverNodes.size) || (node && hoverNode === node)) return;
+            hoverNodes.clear();
+            if (node) {
+                hoverNodes.add(node);
+                node.neighbors.forEach(nb => hoverNodes.add(nb));
+            }
             ELEM.style.cursor = node ? 'pointer' : null;
             hoverNode = node || null;
+            console.log({hoverNodes});
             update();
         })
         .onNodeRightClick(node => {
@@ -101,13 +111,19 @@ function render() {
             window.open(urls[urls.length-1], '_blank');
         })
         .onNodeClick(node => {
-            if (!selectedNodes.delete(node)) {
-                selectedNodes.add(node);
-    
-                const dist = SCALE;
-                const factor = 1 + dist / Math.hypot(node.x, node.y, node.x);
-                graph.cameraPosition({ x: node.x * factor, y: node.y * factor, z: node.z * factor }, node, 0);
-            }
+            selectedNodes.clear();
+            selectedNode = node;
+            hoverNodes.forEach(node=>selectedNodes.add(node));
+            console.log({hoverNodes});
+            console.log({selectedNodes});
+            /* const dist = SCALE;
+            const factor = 1 + dist / Math.hypot(node.x, node.y, node.x);
+            graph.cameraPosition({ x: node.x * factor, y: node.y * factor, z: node.z * factor }, node, 0); */
+            update();
+        })
+        .onBackgroundClick(() => {
+            selectedNodes.clear();
+            selectedNode = null;
             update();
         });
 
