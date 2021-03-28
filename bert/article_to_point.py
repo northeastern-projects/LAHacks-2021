@@ -6,25 +6,11 @@ import json
 
 
 class Article:
+    properties = {"title", "description", "id", "authors", "fulltextUrls"}
+
     def __init__(self, metadata: dict):
-        self.title = metadata["title"]
-        if "description" in metadata: self.description = metadata["description"].replace('\n', ' ').replace('\r', '')
-        # <Insert stuff about citations, urls, etc.>
-        self.position = (0, 0, 0)
-
-
-    def get_data(self):
-        if self.description:
-            return self.description
-        else:
-            return self.title
-    
-    
-    def to_unity_json_dict(self) -> dict:
-        dictionary = self.__dict__.copy()
-        dictionary["position"] = {"x": self.position[0], "y": self.position[1], "z": self.position[2]}
-        return dictionary
-
+        self.dict = {prop:metadata[prop] for prop in self.properties}
+        self.dict["description"] = self.dict["description"].replace('\n', ' ').replace('\r', '')
 
 
 class Articles2Points:
@@ -35,13 +21,13 @@ class Articles2Points:
             self.device = torch.device("cpu")
         self.tokenizer = tr.DistilBertTokenizer.from_pretrained('distilbert-base-uncased')
         self.model = tr.DistilBertModel.from_pretrained('distilbert-base-uncased').to(self.device)
-        self.mds = MDS(n_components = 3)
+        self.mds = MDS(n_components = 3, metric = True)
 
 
     def __call__(self, articles: List[Article]):
         data = []
         for article in articles:
-            data.append(article.get_data())
+            data.append(article.dict["description"])
 
         tokenized = self.tokenizer(data, add_special_tokens=True, padding = True, truncation = True)
 
@@ -56,30 +42,22 @@ class Articles2Points:
             
         first_embed = embeddings[0][:, 0, :]
         points = self.mds.fit_transform(first_embed.cpu())
-        dissimilarity_matrix = self.mds.dissimilarity_matrix_
 
         for i, article in enumerate(articles):
             point3d = points[i]
-            article.position = point3d
-            article.dissimilarity = dissimilarity_matrix[i].tolist()
+            article.dict["px"] = point3d[0]
+            article.dict["py"] = point3d[1]
+            article.dict["pz"] = point3d[2]
+            article.dict["dissimilarity"] = self.mds.dissimilarity_matrix_[i].tolist()
 
         return points
 
-
-def Articles2UnityJson(articles: List[Article]) -> str:
-    json_list = []
-    for article in articles:
-        json_list.append(article.to_unity_json_dict())
-    json_dict = {"Articles": json_list}
-    return json.dumps(json_dict)
-
-
-def Data2Articles(data: list, discard_duplicates: bool = True) -> List[Article]:
+def Data2Articles(data: List[dict], discard_duplicates: bool = True) -> List[Article]:
     articles = []
     checked = set()
     for article in data:
         id = article['title']
-        if id not in checked:
+        if id not in checked and "description" in article:
             articles.append(Article(article))
             checked.add(id)
     return articles
