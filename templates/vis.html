@@ -2,21 +2,54 @@
 
 <!DOCTYPE html>
 <head>
-    <style>
-        body {
-            margin: 0;
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <link href="{% static 'assets/css/styles.css' %}" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/718ba200b7.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/3d-force-graph/dist/3d-force-graph.min.js"></script>
     <script src="https://unpkg.com/d3-force-3d/dist/d3-force-3d.min.js"></script>
-
 </head>
 
-<body style="background-color:#000011">
-
-    <div id="3d-graph"></div>
+<body style="background-color: #111;">
 
     <input type="hidden" id="requested_data" value="{{ data }}">
+
+    <div class="wrapper">
+        <div id="3d-graph"></div>
+    </div>
+
+    <div class="sidebar_wrapper">
+        <div class="sidebar">
+            <ul class="contents">
+                <li>
+                    <h1 id="title">Title</h1>
+                </li>
+                <li>
+                    <i class="icon fas fa-users"></i>
+                    <h1>Authors</h1>
+                    <p id="authors">auth</p>
+                </li>
+                <li>
+                    <i class="icon fas fa-search"></i>
+                    <h1>Description</h1>
+                    <p id="description">desc</p>
+                </li>
+                <li>
+                    <i class="icon fas fa-link"></i>
+                    <h1>Urls</h1>
+                    <p id="urls">urls</p>
+                </li>
+            </ul>
+        </div>
+
+        <button id="open">
+            <span class="fas fa-file-alt" style="font-size:36px;color:rgb(50, 60, 60)"></span>
+        </button>
+    </div>
+
+    <script src="{% static 'assets/js/overlay.js' %}"></script>
 
     <script src="{% static 'assets/js/main.js' %}"></script>
 
