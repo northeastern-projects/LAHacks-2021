@@ -1,4 +1,4 @@
-const SCALE = 150;
+const SCALE = 100;
 const MAX_DISSIMILARITY = 3.3;
 const ELEM = document.getElementById('3d-graph');
 const SHOWALLNODES = true;
@@ -12,28 +12,10 @@ fileSelector.addEventListener('change', event => {
     const reader = new FileReader();
     reader.onload = generate;
     reader.readAsText(event.target.files[0]);
-});
+}); 
 
 function generate(event) {
     gData = JSON.parse(event.target.result);
-    
-    //data = JSON.parse(event.target.result).Articles;
-    /* gData = {
-        nodes: data.map((a, i) => ({
-            id: i,
-            name: a.title, 
-            x: a.position.x *= SCALE, 
-            y: a.position.y *= SCALE, 
-            z: a.position.z *= SCALE,
-            links: a.dissimilarity.map((d, t) => ({
-                source: i,
-                target: t,
-                dissimilarity: d
-            }))
-            .filter(l => l.dissimilarity > 0.0 && l.dissimilarity <= MAX_DISSIMILARITY)
-        })),
-    };
-    gData.links = gData.nodes.flatMap(node => node.links) */
     gData.nodes.forEach(node => {
         node.neighbors = new Set();
         node.links = node.dissimilarity.reduce((links, d, t) => {
@@ -44,10 +26,11 @@ function generate(event) {
                     dissimilarity: d
                 }
                 links.push(link);
-                node.neighbors.add(link.target);
+                node.neighbors.add(gData.nodes[t]);
             }
             return links;
         }, []);
+        node.val = node.neighbors.size;
         gData.links.push(...node.links);
     });
 
@@ -65,6 +48,9 @@ function render() {
     }
 
     let hoverNode = null;
+    const hoverNodes = new Set();
+
+    let selectedNode = null;
     const selectedNodes = new Set();
 
     //configure forces
@@ -78,51 +64,64 @@ function render() {
     graph(ELEM)
         .graphData(gData)
         .nodeLabel('title')
-        .linkLabel('dissimilarity')
-        .nodeRelSize(6)
-        .nodeColor(node => selectedNodes.has(node) || node === hoverNode ? 'rgba(245,220,200,1)' : 'rgba(0,255,255,0.5)')
+        .backgroundColor('#000000')
+        .nodeOpacity(0.9)
+        .nodeColor(node => 
+            selectedNodes.has(node) || hoverNodes.has(node) ? 
+            node === hoverNode || node === selectedNode ? 
+            'gold' : 'lightyellow' : 'royalblue')
         .nodeVisibility(node => showNodes.has(node) ? true : false)
         .linkVisibility(link => 
             showNodes.has(link.source) && showNodes.has(link.target) &&
-            link.dissimilarity <= MAX_DISSIMILARITY && 
-            (link.source === hoverNode || selectedNodes.has(link.source)) ? true : SHOWALLLINKS)
+            (link.source === hoverNode || link.source === selectedNode) ? true : SHOWALLLINKS)
         .linkOpacity(0.2)
+        .linkColor((link=>'yellow'))
         .linkCurvature(0)
-        .linkDirectionalParticleWidth(2)
-        .linkDirectionalParticles(link => link.source === hoverNode ? 4 : 0)
+        .linkDirectionalParticleWidth(1)
+        .linkDirectionalParticles(link => link.source === hoverNode ? 8 : 0)
         .onNodeHover(node => {
-            if (node && hoverNode === node) return;
+            if ((!node && !hoverNodes.size) || (node && hoverNode === node)) return;
+            hoverNodes.clear();
+            if (node) {
+                hoverNodes.add(node);
+                node.neighbors.forEach(nb => hoverNodes.add(nb));
+            }
             ELEM.style.cursor = node ? 'pointer' : null;
             hoverNode = node || null;
+            console.log({hoverNodes});
             update();
-        })
-        .onNodeRightClick(node => {
-            urls = node.fulltextUrls;
-            window.open(urls[urls.length-1], '_blank');
         })
         .onNodeClick(node => {
-            if (!selectedNodes.delete(node)) {
-                selectedNodes.add(node);
-    
-                const dist = SCALE;
-                const factor = 1 + dist / Math.hypot(node.x, node.y, node.x);
-                graph.cameraPosition({ x: node.x * factor, y: node.y * factor, z: node.z * factor }, node, 0);
-            
-                window.open("http://gmail.com/", "mywindow", "location=1,status=1,scrollbars=1,  width=100,height=100");
-
-            alert("Text")
-            
-            }
+            selectedNodes.clear();
+            selectedNode = node;
+            hoverNodes.forEach(node=>selectedNodes.add(node));
+            const dist = 800;
+            const factor = 1 + (dist / Math.hypot(node.x, node.y, node.x));
+            graph.cameraPosition({ x: node.x * factor, y: node.y * factor, z: node.z * factor }, node, 1000); 
+            update();
+            writetohtml(node);
+        })
+        .onBackgroundClick(() => {
+            selectedNodes.clear();
+            selectedNode = null;
             update();
         });
-
+    
         setTimeout(() => graph.zoomToFit(800), 200);
 }
 
 function update() {
     graph
         .nodeColor(graph.nodeColor())
-        .linkDirectionalParticles(graph.linkDirectionalParticles())
+        .linkColor(graph.linkColor())
         .nodeVisibility(graph.nodeVisibility())
         .linkVisibility(graph.linkVisibility())
+        .linkDirectionalParticles(graph.linkDirectionalParticles());
+}
+
+// title, authors, description, urls
+function writetohtml(node) {
+    document.getElementById("title").innerHTML = node.title;
+    document.getElementById("authors").innerHTML = node.authors.join(', ');
+    document.getElementById("description").innerHTML = node.description;
 }

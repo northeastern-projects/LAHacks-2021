@@ -1,0 +1,44 @@
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/718ba200b7.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/3d-force-graph/dist/3d-force-graph.min.js"></script>
+    <script src="https://unpkg.com/d3-force-3d/dist/d3-force-3d.min.js"></script>
+</head>
+
+<body style="background-color:black">
+    <div class="wrapper">
+        <div id="3d-graph"></div>
+        <div class="sidebar">
+            <button id="open">
+                <span class="fas fa-file-alt" style="font-size:36px;color:blueviolet"></span> 
+            </button>
+            <ul class="contents" >
+                <li>
+                    <h1>title</h1>
+                    <p id="title">title</p>
+                </li>
+                <li>
+                    <h1>authors</h1>
+                    <p id="authors">auth</p>
+                </li>
+                <li>
+                    <h1>description</h1>
+                    <p id="description">desc</p>
+                </li>
+                <li>
+                    <h1>urls</h1>
+                    <p id="urls">urls</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <input type="file" name="file" id="file" accept=".json" style="position: absolute; top: 5px; right: 5px;">
+    
+    <script src="overlay.js"></script>
+        
+    <script src="main.js"></script>
+
+</body>

@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+.wrapper {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.sidebar {
+    width: 50px;
+    height: 100%;
+    background-color: rgba(112, 68, 170, 0.5);
+    transition: 0.3s;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.sidebar > ul {
+    margin: 50px 0;
+    overflow: hidden;
+    padding-left: 54px;
+}
+
+.sidebar li {
+    position:relative;
+    display:block;
+    width: 420px;
+}
+
+.sidebar li > 
+
+div#3d-graph {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+  
+.sidebar_expand {
+    width: 500px;
+}
+  
+button {
+    position: absolute;
+    border: none;
+    height: 60px;
+    width: 60px;
+    border-radius: 40%;
+    left: 100%;
+    top: 2rem;
+    transform: translateX(-50%);
+    cursor: pointer;
+    pointer-events: auto;
+}
